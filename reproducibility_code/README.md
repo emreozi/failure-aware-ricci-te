@@ -6,10 +6,9 @@ It preserves directed capacities and OD commodities, uses common candidate
 paths for every policy, and evaluates routing with independent physical-link
 failure outcomes.
 
-The DOI `10.5281/zenodo.20836716` identifies an earlier artifact snapshot. A
-new Zenodo version containing the submission-upgrade files and final result
-hashes must be minted before journal submission; do not cite the earlier
-snapshot as if it already contained these additions.
+The exact submission artifact is archived as version 3.0.0 at
+`https://doi.org/10.5281/zenodo.21375484`. The concept DOI
+`10.5281/zenodo.20836716` represents the complete version history.
 
 ## Environment
 

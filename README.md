@@ -41,7 +41,7 @@ The repository does not redistribute REPETITA benchmark data. The recorded sourc
 
 ## Manuscript and archival record
 
-The current manuscript PDF is [`manuscript/main.pdf`](manuscript/main.pdf). A versioned Zenodo archival record and DOI will be added before journal submission; the older DOI mentioned in the executable-artifact notes refers to a superseded snapshot and must not be used for this release.
+The current manuscript PDF is [`manuscript/main.pdf`](manuscript/main.pdf). The exact submission artifact is archived as version 3.0.0 at [Zenodo](https://doi.org/10.5281/zenodo.21375484). The concept DOI [`10.5281/zenodo.20836716`](https://doi.org/10.5281/zenodo.20836716) represents the complete version history.
 
 ## License
 

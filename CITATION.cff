@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or artifact, please cite the Zenodo record below."
+title: "Reproducibility Artifact for Does Discrete Ricci Curvature Improve Failure-Aware Traffic Engineering?"
+type: software
+authors:
+  - family-names: "Öztürk"
+    given-names: "Emre"
+    orcid: "https://orcid.org/0000-0001-6638-3233"
+version: 3.0.0
+date-released: 2026-07-15
+repository-code: "https://github.com/emreozi/failure-aware-ricci-te"
+doi: "10.5281/zenodo.21375484"
+license: MIT
