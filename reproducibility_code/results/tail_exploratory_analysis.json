@@ -1,0 +1,312 @@
+{
+  "exploratory_only": true,
+  "reason": "tail_robust was designed after inspecting confirmatory secondary outcomes",
+  "topologies": [
+    "Aconet",
+    "Easynet",
+    "Noel",
+    "Belnet2010",
+    "Garr200109",
+    "Fccn",
+    "Packetexchange",
+    "GtsRomania",
+    "Fatman",
+    "Nextgen"
+  ],
+  "comparisons": [
+    {
+      "candidate": "ollivier",
+      "reference": "mlu",
+      "topologies": [
+        {
+          "topology": "Aconet",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 9.697808715114498e-05,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "Easynet",
+          "mean_loss_delta": 0.003134613484429824,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.009977460429416718
+        },
+        {
+          "topology": "Noel",
+          "mean_loss_delta": 0.002695928008193016,
+          "worst_loss_delta": 0.003607137468971011,
+          "path_cost_relative_delta": 0.02247330991137808
+        },
+        {
+          "topology": "Belnet2010",
+          "mean_loss_delta": -0.0006120441954599043,
+          "worst_loss_delta": -0.17183027366863313,
+          "path_cost_relative_delta": 0.033709452367684634
+        },
+        {
+          "topology": "Garr200109",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "Fccn",
+          "mean_loss_delta": 0.022319699568345452,
+          "worst_loss_delta": -0.11415093290452716,
+          "path_cost_relative_delta": 0.008120174227183474
+        },
+        {
+          "topology": "Packetexchange",
+          "mean_loss_delta": -0.001071845217189074,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.004829017391253521
+        },
+        {
+          "topology": "GtsRomania",
+          "mean_loss_delta": -6.978273787665301e-05,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0004828587093037573
+        },
+        {
+          "topology": "Fatman",
+          "mean_loss_delta": 0.009595764585179356,
+          "worst_loss_delta": 0.004244667423519699,
+          "path_cost_relative_delta": 0.03201389995927739
+        },
+        {
+          "topology": "Nextgen",
+          "mean_loss_delta": 0.00916150487837028,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.024878351987909664
+        }
+      ],
+      "summary": {
+        "mean_loss_delta": {
+          "mean": 0.004515383837399229,
+          "bootstrap_95_ci": [
+            0.0008231895986095362,
+            0.00943594687006718
+          ],
+          "sign_flip_p_value": 0.0625,
+          "candidate_better": 3,
+          "candidate_worse": 5
+        },
+        "worst_loss_delta": {
+          "mean": -0.027803242359351842,
+          "bootstrap_95_ci": [
+            -0.06825062085818767,
+            0.0012830980357710243
+          ],
+          "sign_flip_p_value": 0.5,
+          "candidate_better": 2,
+          "candidate_worse": 3
+        },
+        "path_cost_relative_delta": {
+          "mean": 0.013648452498340725,
+          "bootstrap_95_ci": [
+            0.00602812067661958,
+            0.021777370669366736
+          ],
+          "sign_flip_p_value": 0.0078125,
+          "candidate_better": 0,
+          "candidate_worse": 8
+        }
+      }
+    },
+    {
+      "candidate": "tail_robust",
+      "reference": "mlu",
+      "topologies": [
+        {
+          "topology": "Aconet",
+          "mean_loss_delta": 0.00019424046946360518,
+          "worst_loss_delta": -0.00016701589661038962,
+          "path_cost_relative_delta": 5.536405603479011e-05
+        },
+        {
+          "topology": "Easynet",
+          "mean_loss_delta": 0.003145297556745544,
+          "worst_loss_delta": -0.06939470640654877,
+          "path_cost_relative_delta": 0.02672786757838308
+        },
+        {
+          "topology": "Noel",
+          "mean_loss_delta": -0.00019056489183461034,
+          "worst_loss_delta": -0.04866227548174007,
+          "path_cost_relative_delta": 0.02930670093058718
+        },
+        {
+          "topology": "Belnet2010",
+          "mean_loss_delta": -0.001450184010670208,
+          "worst_loss_delta": -0.1893828053552864,
+          "path_cost_relative_delta": 0.04262504113859933
+        },
+        {
+          "topology": "Garr200109",
+          "mean_loss_delta": 0.0006470211184542302,
+          "worst_loss_delta": -0.0060336485309933074,
+          "path_cost_relative_delta": 0.002231442433502595
+        },
+        {
+          "topology": "Fccn",
+          "mean_loss_delta": 0.011163126366497786,
+          "worst_loss_delta": -0.2047784356588922,
+          "path_cost_relative_delta": 0.003960822444649237
+        },
+        {
+          "topology": "Packetexchange",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "GtsRomania",
+          "mean_loss_delta": 0.00170526762210077,
+          "worst_loss_delta": -0.037194425281535604,
+          "path_cost_relative_delta": 0.012077498870512127
+        },
+        {
+          "topology": "Fatman",
+          "mean_loss_delta": -1.3877787807814457e-17,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "Nextgen",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "mean_loss_delta": {
+          "mean": 0.0015214204230757102,
+          "bootstrap_95_ci": [
+            -0.00010074303176132052,
+            0.003924230286012508
+          ],
+          "sign_flip_p_value": 0.15625,
+          "candidate_better": 3,
+          "candidate_worse": 5
+        },
+        "worst_loss_delta": {
+          "mean": -0.055561331261160675,
+          "bootstrap_95_ci": [
+            -0.10539975061275864,
+            -0.013485300803823652
+          ],
+          "sign_flip_p_value": 0.015625,
+          "candidate_better": 7,
+          "candidate_worse": 0
+        },
+        "path_cost_relative_delta": {
+          "mean": 0.011698473745226834,
+          "bootstrap_95_ci": [
+            0.003376366922742658,
+            0.021341290466633533
+          ],
+          "sign_flip_p_value": 0.015625,
+          "candidate_better": 0,
+          "candidate_worse": 7
+        }
+      }
+    },
+    {
+      "candidate": "tail_robust",
+      "reference": "ollivier",
+      "topologies": [
+        {
+          "topology": "Aconet",
+          "mean_loss_delta": 0.00019424046946360518,
+          "worst_loss_delta": -0.0002639939837615346,
+          "path_cost_relative_delta": 5.536405603479011e-05
+        },
+        {
+          "topology": "Easynet",
+          "mean_loss_delta": 1.0684072315719773e-05,
+          "worst_loss_delta": -0.06939470640654877,
+          "path_cost_relative_delta": 0.01658493164970687
+        },
+        {
+          "topology": "Noel",
+          "mean_loss_delta": -0.0028864929000276263,
+          "worst_loss_delta": -0.05226941295071108,
+          "path_cost_relative_delta": 0.0066831974516787795
+        },
+        {
+          "topology": "Belnet2010",
+          "mean_loss_delta": -0.0008381398152103037,
+          "worst_loss_delta": -0.017552531686653272,
+          "path_cost_relative_delta": 0.008624849807161716
+        },
+        {
+          "topology": "Garr200109",
+          "mean_loss_delta": 0.0006470211184542302,
+          "worst_loss_delta": -0.0060336485309933074,
+          "path_cost_relative_delta": 0.002231442433502595
+        },
+        {
+          "topology": "Fccn",
+          "mean_loss_delta": -0.011156573201847667,
+          "worst_loss_delta": -0.09062750275436504,
+          "path_cost_relative_delta": -0.004125849168451379
+        },
+        {
+          "topology": "Packetexchange",
+          "mean_loss_delta": 0.001071845217189074,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": -0.004805810050938386
+        },
+        {
+          "topology": "GtsRomania",
+          "mean_loss_delta": 0.0017750503599774231,
+          "worst_loss_delta": -0.037194425281535604,
+          "path_cost_relative_delta": 0.011589044290240436
+        },
+        {
+          "topology": "Fatman",
+          "mean_loss_delta": -0.00959576458517937,
+          "worst_loss_delta": -0.004244667423519699,
+          "path_cost_relative_delta": -0.03102080307304067
+        },
+        {
+          "topology": "Nextgen",
+          "mean_loss_delta": -0.00916150487837028,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": -0.024274443829996217
+        }
+      ],
+      "summary": {
+        "mean_loss_delta": {
+          "mean": -0.0029939634143235196,
+          "bootstrap_95_ci": [
+            -0.0061148804518074045,
+            -0.0003007547803826131
+          ],
+          "sign_flip_p_value": 0.125,
+          "candidate_better": 5,
+          "candidate_worse": 5
+        },
+        "worst_loss_delta": {
+          "mean": -0.02775808890180883,
+          "bootstrap_95_ci": [
+            -0.04830107376188923,
+            -0.009801753599899965
+          ],
+          "sign_flip_p_value": 0.0078125,
+          "candidate_better": 8,
+          "candidate_worse": 0
+        },
+        "path_cost_relative_delta": {
+          "mean": -0.0018458076434101466,
+          "bootstrap_95_ci": [
+            -0.011605553525931357,
+            0.006422461736556005
+          ],
+          "sign_flip_p_value": 0.708984375,
+          "candidate_better": 4,
+          "candidate_worse": 6
+        }
+      }
+    }
+  ]
+}

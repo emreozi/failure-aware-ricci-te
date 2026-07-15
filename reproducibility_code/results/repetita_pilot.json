@@ -1,0 +1,4600 @@
+{
+  "pilot_only": true,
+  "repetita_commit": "60e679c2f34d9b65b7f256ff6f6963938fa040f9",
+  "dataset": "2016TopologyZooUCL_inverseCapacity",
+  "results": [
+    {
+      "topology": "Abilene",
+      "nodes": 11,
+      "directed_arcs": 28,
+      "physical_links": 14,
+      "training_traffic_matrix": 0,
+      "test_traffic_matrices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "k_paths": 8,
+      "mlu_slack": 0.02,
+      "latency_slack": 0.05,
+      "curvature_seconds": {
+        "forman": 0.0003871999215334654,
+        "ollivier": 0.0014975001104176044
+      },
+      "selected_strengths": {
+        "mlu": 0.0,
+        "degree": 30.0,
+        "betweenness": 1.0,
+        "forman": 0.3,
+        "ollivier": 0.3,
+        "random_placebo": 3.0
+      },
+      "tuning_trace": {
+        "degree": [
+          {
+            "strength": 0.03,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.9173829063921735,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.1,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.9173829063921735,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.9173829063921735,
+            "feasible_latency": true
+          },
+          {
+            "strength": 1.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3774.452520292426,
+            "policy_exposure": 1.9160205471764071,
+            "feasible_latency": true
+          },
+          {
+            "strength": 3.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3791.65281820868,
+            "policy_exposure": 1.9095391278692098,
+            "feasible_latency": true
+          },
+          {
+            "strength": 10.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3795.6995950380315,
+            "policy_exposure": 1.9091971948882758,
+            "feasible_latency": true
+          },
+          {
+            "strength": 30.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3907.730748823307,
+            "policy_exposure": 1.9038524520904476,
+            "feasible_latency": true
+          }
+        ],
+        "betweenness": [
+          {
+            "strength": 0.03,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.1762349768876414,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.1,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.6002973638256,
+            "policy_exposure": 1.1741955093586687,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3780.024088995071,
+            "policy_exposure": 1.165718661514079,
+            "feasible_latency": true
+          },
+          {
+            "strength": 1.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3934.253680647829,
+            "policy_exposure": 1.0697002577234922,
+            "feasible_latency": true
+          },
+          {
+            "strength": 3.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4085.671979935264,
+            "policy_exposure": 1.0518646720917826,
+            "feasible_latency": false
+          },
+          {
+            "strength": 10.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4217.474040691964,
+            "policy_exposure": 1.0446405829947958,
+            "feasible_latency": false
+          },
+          {
+            "strength": 30.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4537.039925070763,
+            "policy_exposure": 1.0385966471562371,
+            "feasible_latency": false
+          }
+        ],
+        "forman": [
+          {
+            "strength": 0.03,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.5235429224446548,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.1,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.5235429224446548,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3804.659865453312,
+            "policy_exposure": 1.4548704365257492,
+            "feasible_latency": true
+          },
+          {
+            "strength": 1.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3964.176681510627,
+            "policy_exposure": 1.3780812562024434,
+            "feasible_latency": false
+          },
+          {
+            "strength": 3.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4099.818559630641,
+            "policy_exposure": 1.3445827425753099,
+            "feasible_latency": false
+          },
+          {
+            "strength": 10.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4099.818559630641,
+            "policy_exposure": 1.3445827425753099,
+            "feasible_latency": false
+          },
+          {
+            "strength": 30.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4099.818559630641,
+            "policy_exposure": 1.3445827425753099,
+            "feasible_latency": false
+          }
+        ],
+        "ollivier": [
+          {
+            "strength": 0.03,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 0.30939698475118066,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.1,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 0.30939698475118066,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3827.8729967452327,
+            "policy_exposure": 0.28475590506521997,
+            "feasible_latency": true
+          },
+          {
+            "strength": 1.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4066.604217757523,
+            "policy_exposure": 0.22781876443022347,
+            "feasible_latency": false
+          },
+          {
+            "strength": 3.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4066.604217757523,
+            "policy_exposure": 0.22781876443022347,
+            "feasible_latency": false
+          },
+          {
+            "strength": 10.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4066.604217757523,
+            "policy_exposure": 0.22781876443022347,
+            "feasible_latency": false
+          },
+          {
+            "strength": 30.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4066.604217757523,
+            "policy_exposure": 0.22781876443022347,
+            "feasible_latency": false
+          }
+        ],
+        "random_placebo": [
+          {
+            "strength": 0.03,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.3106929747114,
+            "policy_exposure": 1.3218297713451381,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.1,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3773.46755279576,
+            "policy_exposure": 1.3210027402501694,
+            "feasible_latency": true
+          },
+          {
+            "strength": 0.3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3776.7248967812475,
+            "policy_exposure": 1.315143841847126,
+            "feasible_latency": true
+          },
+          {
+            "strength": 1.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3840.790234041252,
+            "policy_exposure": 1.2873810736661842,
+            "feasible_latency": true
+          },
+          {
+            "strength": 3.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3949.030336258029,
+            "policy_exposure": 1.2556121377462006,
+            "feasible_latency": true
+          },
+          {
+            "strength": 10.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3998.6010798312223,
+            "policy_exposure": 1.2524729184820949,
+            "feasible_latency": false
+          },
+          {
+            "strength": 30.0,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4014.93636547391,
+            "policy_exposure": 1.2522602159478724,
+            "feasible_latency": false
+          }
+        ]
+      },
+      "method_summary": {
+        "mlu": {
+          "frozen_delivered_fraction": {
+            "mean": 0.8281981372402635,
+            "std": 0.08822398291633941,
+            "min": 0.6458268590173992,
+            "max": 0.9642477734974957,
+            "n": 56
+          },
+          "frozen_service_loss": {
+            "mean": 0.17180186275973655,
+            "std": 0.08822398291633941,
+            "min": 0.035752226502504314,
+            "max": 0.3541731409826008,
+            "n": 56
+          },
+          "nominal_mlu": {
+            "mean": 0.9557547164536766,
+            "std": 0.05605452051266063,
+            "min": 0.9179992324091435,
+            "max": 1.0366635789283893,
+            "n": 4
+          },
+          "nominal_path_cost": {
+            "mean": 3834.658962503237,
+            "std": 211.48945279935094,
+            "min": 3562.039728393303,
+            "max": 4047.607639705102,
+            "n": 4
+          }
+        },
+        "degree": {
+          "frozen_delivered_fraction": {
+            "mean": 0.8228716963853081,
+            "std": 0.07818990990065203,
+            "min": 0.6847932854359895,
+            "max": 0.9865999102223785,
+            "n": 56
+          },
+          "frozen_service_loss": {
+            "mean": 0.17712830361469187,
+            "std": 0.07818990990065203,
+            "min": 0.013400089777621527,
+            "max": 0.3152067145640105,
+            "n": 56
+          },
+          "nominal_mlu": {
+            "mean": 0.9557547164536766,
+            "std": 0.056054520512660744,
+            "min": 0.9179992324091435,
+            "max": 1.0366635789283896,
+            "n": 4
+          },
+          "nominal_path_cost": {
+            "mean": 4033.2428108969443,
+            "std": 207.6019483288336,
+            "min": 3781.2273388956855,
+            "max": 4270.550826809679,
+            "n": 4
+          }
+        },
+        "betweenness": {
+          "frozen_delivered_fraction": {
+            "mean": 0.8267244436301836,
+            "std": 0.0906856953008614,
+            "min": 0.6330446834597767,
+            "max": 0.9685480435796207,
+            "n": 56
+          },
+          "frozen_service_loss": {
+            "mean": 0.17327555636981642,
+            "std": 0.0906856953008614,
+            "min": 0.031451956420379346,
+            "max": 0.3669553165402233,
+            "n": 56
+          },
+          "nominal_mlu": {
+            "mean": 0.9557547164536766,
+            "std": 0.05605452051266063,
+            "min": 0.9179992324091435,
+            "max": 1.0366635789283893,
+            "n": 4
+          },
+          "nominal_path_cost": {
+            "mean": 4075.505126042167,
+            "std": 200.04690801327197,
+            "min": 3809.2908550760367,
+            "max": 4287.356112433711,
+            "n": 4
+          }
+        },
+        "forman": {
+          "frozen_delivered_fraction": {
+            "mean": 0.8256370376020585,
+            "std": 0.0836243793060146,
+            "min": 0.6589481978065199,
+            "max": 0.974124299633396,
+            "n": 56
+          },
+          "frozen_service_loss": {
+            "mean": 0.17436296239794144,
+            "std": 0.08362437930601462,
+            "min": 0.025875700366604026,
+            "max": 0.3410518021934801,
+            "n": 56
+          },
+          "nominal_mlu": {
+            "mean": 0.9557547164536766,
+            "std": 0.05605452051266063,
+            "min": 0.9179992324091435,
+            "max": 1.0366635789283893,
+            "n": 4
+          },
+          "nominal_path_cost": {
+            "mean": 3855.1981615565146,
+            "std": 214.44913436487616,
+            "min": 3583.6739979649465,
+            "max": 4075.817219425252,
+            "n": 4
+          }
+        },
+        "ollivier": {
+          "frozen_delivered_fraction": {
+            "mean": 0.8267284622753787,
+            "std": 0.09060332542246856,
+            "min": 0.6829609832231848,
+            "max": 0.9856881124735111,
+            "n": 56
+          },
+          "frozen_service_loss": {
+            "mean": 0.17327153772462137,
+            "std": 0.09060332542246856,
+            "min": 0.014311887526488931,
+            "max": 0.31703901677681523,
+            "n": 56
+          },
+          "nominal_mlu": {
+            "mean": 0.9557547164536766,
+            "std": 0.05605452051266063,
+            "min": 0.9179992324091435,
+            "max": 1.0366635789283893,
+            "n": 4
+          },
+          "nominal_path_cost": {
+            "mean": 3979.2955938729656,
+            "std": 180.4324244477142,
+            "min": 3757.737612572219,
+            "max": 4197.669577008092,
+            "n": 4
+          }
+        },
+        "random_placebo": {
+          "frozen_delivered_fraction": {
+            "mean": 0.8244580485827523,
+            "std": 0.09955540013952986,
+            "min": 0.651253248329197,
+            "max": 0.9903338684748426,
+            "n": 56
+          },
+          "frozen_service_loss": {
+            "mean": 0.1755419514172476,
+            "std": 0.09955540013952988,
+            "min": 0.009666131525157384,
+            "max": 0.34874675167080305,
+            "n": 56
+          },
+          "nominal_mlu": {
+            "mean": 0.9557547164536766,
+            "std": 0.05605452051266063,
+            "min": 0.9179992324091435,
+            "max": 1.0366635789283893,
+            "n": 4
+          },
+          "nominal_path_cost": {
+            "mean": 4016.796957106783,
+            "std": 185.95302797553168,
+            "min": 3776.4189056371865,
+            "max": 4208.789282371739,
+            "n": 4
+          }
+        }
+      },
+      "score_vs_adaptive_failure_impact": {
+        "degree": [
+          {
+            "traffic_matrix": 1,
+            "rho": 0.3977475644174329,
+            "p_value": 0.15901328197287481
+          },
+          {
+            "traffic_matrix": 2,
+            "rho": 0.5291511529655455,
+            "p_value": 0.05168801657198642
+          },
+          {
+            "traffic_matrix": 3,
+            "rho": 0.23249527748763854,
+            "p_value": 0.42378939075756117
+          },
+          {
+            "traffic_matrix": 4,
+            "rho": 0.3949617744371196,
+            "p_value": 0.16222199143780072
+          }
+        ],
+        "betweenness": [
+          {
+            "traffic_matrix": 1,
+            "rho": 0.33033812505417576,
+            "p_value": 0.24869479643431866
+          },
+          {
+            "traffic_matrix": 2,
+            "rho": 0.3704992543333918,
+            "p_value": 0.19222076761842827
+          },
+          {
+            "traffic_matrix": 3,
+            "rho": 0.40786619837574367,
+            "p_value": 0.147710360331818
+          },
+          {
+            "traffic_matrix": 4,
+            "rho": 0.28156582759562215,
+            "p_value": 0.329449442748563
+          }
+        ],
+        "forman": [
+          {
+            "traffic_matrix": 1,
+            "rho": 0.7423218080230882,
+            "p_value": 0.0023619745775127956
+          },
+          {
+            "traffic_matrix": 2,
+            "rho": 0.7764200244060186,
+            "p_value": 0.0010924443240897018
+          },
+          {
+            "traffic_matrix": 3,
+            "rho": 0.573043085970312,
+            "p_value": 0.032186051723167595
+          },
+          {
+            "traffic_matrix": 4,
+            "rho": 0.7808966350072853,
+            "p_value": 0.0009778071640721836
+          }
+        ],
+        "ollivier": [
+          {
+            "traffic_matrix": 1,
+            "rho": 0.4236592728681617,
+            "p_value": 0.1311566533645176
+          },
+          {
+            "traffic_matrix": 2,
+            "rho": 0.279226219376317,
+            "p_value": 0.3336550181412221
+          },
+          {
+            "traffic_matrix": 3,
+            "rho": 0.3134211993992242,
+            "p_value": 0.27519833170719243
+          },
+          {
+            "traffic_matrix": 4,
+            "rho": 0.3116712069424072,
+            "p_value": 0.2780318103174056
+          }
+        ],
+        "random_placebo": [
+          {
+            "traffic_matrix": 1,
+            "rho": 0.14435518985620446,
+            "p_value": 0.6224634768960264
+          },
+          {
+            "traffic_matrix": 2,
+            "rho": -0.020068997387969367,
+            "p_value": 0.9457090478901273
+          },
+          {
+            "traffic_matrix": 3,
+            "rho": 0.19356287729465965,
+            "p_value": 0.5073065880283145
+          },
+          {
+            "traffic_matrix": 4,
+            "rho": -0.03982388602015009,
+            "p_value": 0.8924799071579732
+          }
+        ]
+      },
+      "nominal": {
+        "mlu": [
+          {
+            "traffic_matrix": 1,
+            "mlu": 0.9179993348879245,
+            "average_path_cost": 3944.289893490903
+          },
+          {
+            "traffic_matrix": 2,
+            "mlu": 0.950356719589249,
+            "average_path_cost": 3562.039728393303
+          },
+          {
+            "traffic_matrix": 3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3784.6985884236406
+          },
+          {
+            "traffic_matrix": 4,
+            "mlu": 1.0366635789283893,
+            "average_path_cost": 4047.607639705102
+          }
+        ],
+        "degree": [
+          {
+            "traffic_matrix": 1,
+            "mlu": 0.9179993348879245,
+            "average_path_cost": 4109.009475119349
+          },
+          {
+            "traffic_matrix": 2,
+            "mlu": 0.950356719589249,
+            "average_path_cost": 3781.2273388956855
+          },
+          {
+            "traffic_matrix": 3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3972.183602763065
+          },
+          {
+            "traffic_matrix": 4,
+            "mlu": 1.0366635789283896,
+            "average_path_cost": 4270.550826809679
+          }
+        ],
+        "betweenness": [
+          {
+            "traffic_matrix": 1,
+            "mlu": 0.9179993348879245,
+            "average_path_cost": 4140.2881935753485
+          },
+          {
+            "traffic_matrix": 2,
+            "mlu": 0.950356719589249,
+            "average_path_cost": 3809.2908550760367
+          },
+          {
+            "traffic_matrix": 3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 4065.08534308357
+          },
+          {
+            "traffic_matrix": 4,
+            "mlu": 1.0366635789283893,
+            "average_path_cost": 4287.356112433711
+          }
+        ],
+        "forman": [
+          {
+            "traffic_matrix": 1,
+            "mlu": 0.9179993348879245,
+            "average_path_cost": 3965.124049519067
+          },
+          {
+            "traffic_matrix": 2,
+            "mlu": 0.950356719589249,
+            "average_path_cost": 3583.6739979649465
+          },
+          {
+            "traffic_matrix": 3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3796.1773793167936
+          },
+          {
+            "traffic_matrix": 4,
+            "mlu": 1.0366635789283893,
+            "average_path_cost": 4075.817219425252
+          }
+        ],
+        "ollivier": [
+          {
+            "traffic_matrix": 1,
+            "mlu": 0.9179993348879245,
+            "average_path_cost": 4001.951482265663
+          },
+          {
+            "traffic_matrix": 2,
+            "mlu": 0.950356719589249,
+            "average_path_cost": 3757.737612572219
+          },
+          {
+            "traffic_matrix": 3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3959.8237036458895
+          },
+          {
+            "traffic_matrix": 4,
+            "mlu": 1.0366635789283893,
+            "average_path_cost": 4197.669577008092
+          }
+        ],
+        "random_placebo": [
+          {
+            "traffic_matrix": 1,
+            "mlu": 0.9179993348879245,
+            "average_path_cost": 4103.927630786953
+          },
+          {
+            "traffic_matrix": 2,
+            "mlu": 0.950356719589249,
+            "average_path_cost": 3776.4189056371865
+          },
+          {
+            "traffic_matrix": 3,
+            "mlu": 0.9179992324091435,
+            "average_path_cost": 3978.052009631253
+          },
+          {
+            "traffic_matrix": 4,
+            "mlu": 1.0366635789283893,
+            "average_path_cost": 4208.789282371739
+          }
+        ]
+      },
+      "frozen_raw": {
+        "mlu": [
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9303537710747481,
+            "max_utilization": 0.8819993590099666,
+            "average_path_cost": 3969.481006653275
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9034532131259265,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3892.88816628333
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.823166551841972,
+            "max_utilization": 0.8182224352173356,
+            "average_path_cost": 4016.250231766153
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.781708807098011,
+            "max_utilization": 0.8488675511945086,
+            "average_path_cost": 3724.17690618326
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9027822690405919,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3601.012512888821
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9407405040340082,
+            "max_utilization": 0.8819993590099666,
+            "average_path_cost": 3871.645924253311
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8229173291418194,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3300.0853955674884
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8793061956025296,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3756.6701496871096
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7729399786063619,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3001.8630902591935
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.6965862007291896,
+            "max_utilization": 0.8819993590099666,
+            "average_path_cost": 3714.3026380184738
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9642477734974957,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3956.168661311271
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6597745073662805,
+            "max_utilization": 0.8819993590099666,
+            "average_path_cost": 3798.827171985784
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.764067297061667,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3268.0407980707523
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.6929820975535004,
+            "max_utilization": 0.7272466965663582,
+            "average_path_cost": 3966.7961399586925
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9435924500401406,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3548.857425037201
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9110885419688324,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3500.8081440247092
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8330369159562493,
+            "max_utilization": 0.8117911412070473,
+            "average_path_cost": 3580.8952127837983
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8179917229494743,
+            "max_utilization": 0.9345011363135287,
+            "average_path_cost": 3397.7195599871598
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9562849845362902,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3452.093425442966
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9134292308109793,
+            "max_utilization": 0.8589519766301441,
+            "average_path_cost": 3380.670692262347
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8383243754682753,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 2925.555192146181
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9161781914006545,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3493.362847402224
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.8179785779709211,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 2813.0477082091356
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7403871204698798,
+            "max_utilization": 0.8535975607993828,
+            "average_path_cost": 3269.588043297282
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8901093519879152,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3620.6498777841534
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6589481978065199,
+            "max_utilization": 0.8496420747780349,
+            "average_path_cost": 3490.608269809248
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7754569324775996,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 2908.925848912761
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7283100905547346,
+            "max_utilization": 0.7750003546522635,
+            "average_path_cost": 3735.784455329548
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9097876843389724,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3770.7321242387884
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9127465225757256,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3709.721444910535
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7715477309770457,
+            "max_utilization": 0.7596060394208463,
+            "average_path_cost": 3787.524550634778
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8463993246348966,
+            "max_utilization": 0.9012034223894033,
+            "average_path_cost": 3542.08667815872
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9502605407688103,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3775.1513989591244
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9055245033070168,
+            "max_utilization": 0.9016195063288965,
+            "average_path_cost": 3632.454582955195
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8406621993838683,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3515.5968665261853
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8743705254317959,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3735.036337304339
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7951623789265084,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3136.4909791350974
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.6824207472393877,
+            "max_utilization": 0.7811486263824589,
+            "average_path_cost": 3453.115629302771
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.886257093639112,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3718.925189224525
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6956430059000159,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3546.4010829817735
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7622522611898701,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3306.4947925393017
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8327015264182319,
+            "max_utilization": 0.8006846989133231,
+            "average_path_cost": 3839.7030337094816
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8536705248816173,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4085.8448373835577
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9020068007651663,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4087.188512129035
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7594274800928871,
+            "max_utilization": 0.8898842257905292,
+            "average_path_cost": 4043.916502424265
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7597974646231499,
+            "max_utilization": 0.989674258134002,
+            "average_path_cost": 3555.7863495679253
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9583314911720314,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4089.3607475755216
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.7986407617869408,
+            "max_utilization": 0.934143833301549,
+            "average_path_cost": 3518.9057582125984
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.824376841462099,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3807.235654862149
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8900364141400477,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3902.108407001767
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.8906445718886851,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3739.9526062285754
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.6458268590173992,
+            "max_utilization": 0.6601873084172898,
+            "average_path_cost": 3150.3588803094176
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.7997944785839955,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3949.3900174501796
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6729472356525209,
+            "max_utilization": 0.8473686061278293,
+            "average_path_cost": 3761.020137618386
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7829651633149715,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3589.0039537038388
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8987503731694162,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4059.1373366757457
+          }
+        ],
+        "degree": [
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.815925336170718,
+            "max_utilization": 0.8231703096915508,
+            "average_path_cost": 4033.708715877503
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.7848499737133952,
+            "max_utilization": 0.8488675511945089,
+            "average_path_cost": 3926.674481763321
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8263098509045625,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4185.307747532944
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7785655080354205,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3768.4311865254313
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9014416924481131,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3778.5103867594867
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9420810806264871,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4052.213310154485
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7849466627022303,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3302.6390612457176
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9206497327026133,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4075.0041361602453
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7278959129026444,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 2928.162105253003
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.741630266432907,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4118.097718097863
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9676294753657543,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4118.431025393521
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7072253392435199,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4200.567963084594
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7166164651844277,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3180.047338428082
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8443594490400159,
+            "max_utilization": 0.7910236203589891,
+            "average_path_cost": 4266.927828676479
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8397816372865774,
+            "max_utilization": 0.8118189712289096,
+            "average_path_cost": 3580.174770848478
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8158802144279167,
+            "max_utilization": 0.8785178885707305,
+            "average_path_cost": 3586.313072179365
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8714075347450358,
+            "max_utilization": 0.9277301552854939,
+            "average_path_cost": 3807.383836552708
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7796211041606878,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3478.7478340734524
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9256596643458082,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3555.767523034248
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9440545510014613,
+            "max_utilization": 0.9277301552854939,
+            "average_path_cost": 3711.016705563763
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8028150351572907,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 2955.8232867043184
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9210826050337175,
+            "max_utilization": 0.9277301552854939,
+            "average_path_cost": 3741.2896467547675
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.782448844147376,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 2830.664807856294
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7759168542934248,
+            "max_utilization": 0.9277301552854939,
+            "average_path_cost": 3683.437736317122
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9037973158262966,
+            "max_utilization": 0.9295160519902264,
+            "average_path_cost": 3834.2697523976185
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6847932854359895,
+            "max_utilization": 0.9277301552854939,
+            "average_path_cost": 3826.1043067851742
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.74961184484813,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 2996.648416596413
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8447468202977946,
+            "max_utilization": 0.9277301552854939,
+            "average_path_cost": 4103.055059608152
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8163133918646553,
+            "max_utilization": 0.7596060394208463,
+            "average_path_cost": 3814.4522969920076
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8192722301014087,
+            "max_utilization": 0.8006846989133231,
+            "average_path_cost": 3746.322749492519
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8006479627888928,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3969.073483578939
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8172990928230495,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3640.9585664715137
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9290263716323518,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3873.246167072071
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9267586724434752,
+            "max_utilization": 0.9047255176136187,
+            "average_path_cost": 3904.72740803344
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8199317285588191,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3620.8358784695433
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8748742237432052,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3949.972474711902
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7734245114786408,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3193.703085670228
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7041586146872554,
+            "max_utilization": 0.797782298905157,
+            "average_path_cost": 3815.5622250868096
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9010265708266658,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3976.921545017546
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.728303384346261,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3887.76981214587
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7295918827436251,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3296.8028765792824
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.9321368125300443,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4050.651948453832
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.7611361205227507,
+            "max_utilization": 0.9519174717403348,
+            "average_path_cost": 4219.729189187773
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8083367782911584,
+            "max_utilization": 0.989674258134002,
+            "average_path_cost": 4207.919550462306
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.767158623823025,
+            "max_utilization": 0.9362945815975882,
+            "average_path_cost": 4385.28645407191
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7520663208930118,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3561.651462027471
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.8833937528282667,
+            "max_utilization": 1.0366635789283896,
+            "average_path_cost": 4010.558172184476
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.8735785001307055,
+            "max_utilization": 0.9519174717403348,
+            "average_path_cost": 4093.5774707533674
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8064606508786697,
+            "max_utilization": 1.0366635789283896,
+            "average_path_cost": 3812.9804935827387
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9527954665917153,
+            "max_utilization": 1.0366635789283896,
+            "average_path_cost": 4253.231127741139
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7529477810932528,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3348.114884720366
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7835236498128316,
+            "max_utilization": 0.8821165485146605,
+            "average_path_cost": 4039.08516018484
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8223955364733291,
+            "max_utilization": 1.0366635789283896,
+            "average_path_cost": 4357.276862930975
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7187511585543679,
+            "max_utilization": 0.8821165485146605,
+            "average_path_cost": 4219.708262403848
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7371612404131246,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3503.3207215247467
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.9865999102223785,
+            "max_utilization": 1.0366635789283896,
+            "average_path_cost": 4289.511052494769
+          }
+        ],
+        "betweenness": [
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9344375751957191,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4187.768930025798
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8993694090049555,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4095.037890793392
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8272503559629429,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4248.547136326109
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7776250029770401,
+            "max_utilization": 0.8488675511945089,
+            "average_path_cost": 3912.008941342451
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.8800234027683688,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3694.3019650189053
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9634993703062315,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4100.665445947823
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7633410190872542,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3203.41935690368
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9634436492200059,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4196.096480065587
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7062902692876682,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 2842.2935814307275
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7632359100478833,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4122.016949019822
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.7651855758587425,
+            "max_utilization": 0.609667868280607,
+            "average_path_cost": 3797.329869838567
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7839756085406111,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4047.4247467279124
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6398661958873365,
+            "max_utilization": 0.8425653231946373,
+            "average_path_cost": 3143.0641545526832
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8643089201022175,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4353.701600513185
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9685480435796207,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3828.021599496683
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.934017447965706,
+            "max_utilization": 0.9477308515336934,
+            "average_path_cost": 3785.3098325906603
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8579925094957292,
+            "max_utilization": 0.9323862083654836,
+            "average_path_cost": 3885.4005535168103
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7930361294099944,
+            "max_utilization": 0.8892203906604939,
+            "average_path_cost": 3625.0258306125124
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9208823812386263,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3551.1822755017824
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9488318341086431,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3761.206456478563
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7753320100868419,
+            "max_utilization": 0.9046415794686214,
+            "average_path_cost": 2860.8475099604834
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9437883469969846,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3803.2123763000877
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7549658190769272,
+            "max_utilization": 0.9046415794686214,
+            "average_path_cost": 2737.9096191315825
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.8033998793638737,
+            "max_utilization": 0.9480280399981996,
+            "average_path_cost": 3731.4803421643937
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.7497522449319802,
+            "max_utilization": 0.7244922809318414,
+            "average_path_cost": 3671.0345252262655
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7926016269161736,
+            "max_utilization": 0.9503567195892488,
+            "average_path_cost": 3759.9578172877495
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6418035033679459,
+            "max_utilization": 0.8496420747780351,
+            "average_path_cost": 2859.319726816315
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8520970260429827,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 4070.0693482740667
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9292113724865565,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4139.896044838662
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8933228344281415,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3900.5088631613417
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7909714191246298,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4141.630197465631
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8269756364873124,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3721.1512564720433
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9153425675057337,
+            "max_utilization": 0.9083393012105838,
+            "average_path_cost": 3878.454846982966
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9404424765700934,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4060.2630310551326
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7422764701554806,
+            "max_utilization": 0.7121650350437243,
+            "average_path_cost": 3284.23740857418
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9388456780199257,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4137.973080010962
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.6957692530753022,
+            "max_utilization": 0.6495035405461035,
+            "average_path_cost": 2833.176362211768
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.781813873090594,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4061.304484957529
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.7939148913015545,
+            "max_utilization": 0.8047442652070473,
+            "average_path_cost": 3788.225790084243
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7967014768755337,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4043.250249674321
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6611937902143521,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3123.973801683213
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8760628612831522,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 4119.73388611375
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8945802588367417,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4456.973746635286
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8610970668100418,
+            "max_utilization": 0.854296774530607,
+            "average_path_cost": 4147.9681969354315
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8003372140480115,
+            "max_utilization": 1.0148861480838478,
+            "average_path_cost": 4419.24074622085
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7188877306680255,
+            "max_utilization": 0.7633347130919297,
+            "average_path_cost": 3531.2631487924828
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.8573002563355632,
+            "max_utilization": 0.8712291827417695,
+            "average_path_cost": 3838.303993428894
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.899671996623409,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4219.900482695954
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7661245511814062,
+            "max_utilization": 0.8516781402713477,
+            "average_path_cost": 3544.9129561262607
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9670380697962754,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4284.349881714223
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7126116813959892,
+            "max_utilization": 0.7633347130919297,
+            "average_path_cost": 3089.7949977127623
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.8238597495100951,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4186.20292570618
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8322478605587051,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4315.74756720077
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.8228677155077158,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4379.434727175865
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6330446834597767,
+            "max_utilization": 0.7633347130919297,
+            "average_path_cost": 3189.7672268991364
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8551543411111547,
+            "max_utilization": 0.9998378423996913,
+            "average_path_cost": 4300.049780140114
+          }
+        ],
+        "forman": [
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8717956207009924,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 3978.3568138284945
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8448950627521709,
+            "max_utilization": 0.8488675511945089,
+            "average_path_cost": 3896.738058305436
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7646084014682163,
+            "max_utilization": 0.8231703096915508,
+            "average_path_cost": 4036.1343881417774
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8402669574717667,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3760.0677887769803
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9034747771988011,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3630.774076446912
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9400479958757992,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 3892.0946776671135
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7855304500751048,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3152.150591758541
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9143786607099017,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3900.96767730089
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7355530995396473,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 2828.718698153335
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7339730797959042,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 3895.348111406991
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9653822114512607,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3979.2951039994646
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6966739185856269,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 3978.116239719534
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7271678858423207,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3109.0422482398144
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7907996111577573,
+            "max_utilization": 0.7321945710405735,
+            "average_path_cost": 4136.1339978453325
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9111726845345633,
+            "max_utilization": 0.9345011363135287,
+            "average_path_cost": 3545.993463082504
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.878668776463255,
+            "max_utilization": 0.9345011363135287,
+            "average_path_cost": 3496.0653894880375
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8006171504506719,
+            "max_utilization": 0.7388940128279321,
+            "average_path_cost": 3579.186211475676
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8504114884550517,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3445.954571307657
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9445986795200617,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3438.241351417204
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9251155358272077,
+            "max_utilization": 0.8589519766301441,
+            "average_path_cost": 3436.7400014788573
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8266380704520468,
+            "max_utilization": 0.9503567195892488,
+            "average_path_cost": 2906.014754955488
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9076493859753222,
+            "max_utilization": 0.9345011363135287,
+            "average_path_cost": 3492.359544959395
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.8062922729546926,
+            "max_utilization": 0.9503567195892488,
+            "average_path_cost": 2791.383521840352
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7520734254861082,
+            "max_utilization": 0.8496420747780351,
+            "average_path_cost": 3322.989823373738
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9103244624294758,
+            "max_utilization": 0.9503567195892488,
+            "average_path_cost": 3618.611919491343
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6589481978065199,
+            "max_utilization": 0.8496420747780351,
+            "average_path_cost": 3429.5467692336524
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7754569324775996,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3021.7061298108397
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7607298560603123,
+            "max_utilization": 0.8468391856707818,
+            "average_path_cost": 3861.8234210330093
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8745597571458995,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3742.498049491138
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8775185953826529,
+            "max_utilization": 0.8866585085472608,
+            "average_path_cost": 3679.1333007217318
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7363198037839729,
+            "max_utilization": 0.7596060394208463,
+            "average_path_cost": 3754.793089310206
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8816272518279694,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3612.4111291784275
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9483370576742219,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3782.5659293442
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9074479864016052,
+            "max_utilization": 0.9047255176136187,
+            "average_path_cost": 3647.544213226307
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.83873871628928,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3523.3850191979263
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8743705254317959,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3748.1643997896163
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7932388958319201,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3143.8065828443923
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.6843442303339761,
+            "max_utilization": 0.7881449130336934,
+            "average_path_cost": 3468.7948698748337
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8881805767337003,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3755.1258562712605
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6956430059000159,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3526.501867689981
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7622522611898701,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3343.0771890007445
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8679294536113049,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3860.007682759203
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.7960744577015285,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4085.936566491485
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8444107335850776,
+            "max_utilization": 1.0179973100573159,
+            "average_path_cost": 4087.366640585691
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7018314129127983,
+            "max_utilization": 0.9471931731927925,
+            "average_path_cost": 4040.5796839887716
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8173935318032387,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3630.7761954705197
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9321912879569766,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3989.802910454369
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.8247809650019957,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3698.1551784098815
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7959356949589486,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3670.379637820867
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8923373574281431,
+            "max_utilization": 1.0179973100573159,
+            "average_path_cost": 3943.1913941547987
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.8622034253855347,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3611.3957102421446
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.6742680055205497,
+            "max_utilization": 0.7135810372938728,
+            "average_path_cost": 3398.526247853598
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8104577658032547,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4142.229687307036
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6597712629448205,
+            "max_utilization": 0.8701639928622884,
+            "average_path_cost": 3823.6889876027963
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7961411360226719,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3591.7192978376056
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.974124299633396,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4092.747050107739
+          }
+        ],
+        "ollivier": [
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9325561817176627,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4039.8584946773203
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9012508024830119,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3945.579176696119
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8253689624848866,
+            "max_utilization": 0.8182224352173354,
+            "average_path_cost": 4075.1726859900828
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7795063964550965,
+            "max_utilization": 0.8488675511945089,
+            "average_path_cost": 3782.152463634525
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9001467080538716,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3650.719573479796
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9433760650207286,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 3941.4881278786393
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7633410190872542,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3064.146033558337
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9433203439345031,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3988.97241923876
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7062902692876682,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 2689.9368910213425
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7632359100478833,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4016.290707804895
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9397079064864875,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3932.5263332426607
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7009094139792295,
+            "max_utilization": 0.8819993590099665,
+            "average_path_cost": 4016.3694171604907
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7229323904487182,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3125.633774045994
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7319145935235345,
+            "max_utilization": 0.727246696566358,
+            "average_path_cost": 4205.617135526178
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9676052354568055,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3774.7519416211703
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9341492463837812,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3731.038706755606
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.8570497013729143,
+            "max_utilization": 0.780663962030607,
+            "average_path_cost": 3823.634198483585
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7939789375328093,
+            "max_utilization": 0.8578261166121399,
+            "average_path_cost": 3610.256881895156
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9208823812386263,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3495.19983566568
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9488318341086431,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3706.87307447073
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7334322446103153,
+            "max_utilization": 0.8805256689205248,
+            "average_path_cost": 2574.2529297567985
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9856881124735111,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3775.8394301390667
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7130660536004007,
+            "max_utilization": 0.8661787400689301,
+            "average_path_cost": 2435.6141372249404
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.8452996448404002,
+            "max_utilization": 0.9488084862430556,
+            "average_path_cost": 3756.6940331802284
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8325822230665166,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3571.959932803474
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6829609832231848,
+            "max_utilization": 0.8496420747780349,
+            "average_path_cost": 3730.904719342989
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7514441470609347,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3034.338796859736
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7283100905547348,
+            "max_utilization": 0.7714636783050411,
+            "average_path_cost": 4139.213371763292
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9180703474901569,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3997.8820345576823
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9044638594245411,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3842.865626780299
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7798303941282303,
+            "max_utilization": 0.8466020648422711,
+            "average_path_cost": 3972.1738751766484
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.838116661483712,
+            "max_utilization": 0.7910473130418595,
+            "average_path_cost": 3700.7418918971816
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9207437084811673,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3801.8837532431376
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.9350413355946599,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3926.057743068519
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7422764701554806,
+            "max_utilization": 0.8757292068544239,
+            "average_path_cost": 3170.678024416195
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9442468189953592,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4025.701319596241
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.6957692530753022,
+            "max_utilization": 0.8390982671039094,
+            "average_path_cost": 2712.7117332224802
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.781813873090594,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3991.916742816485
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8800538101389369,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3825.853349473462
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7227448191083798,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3926.31805639101
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7351504479815062,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3204.855059788896
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7902626854913023,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3971.324586323885
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.862740001862094,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4298.727862126318
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.8929373237846896,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4193.2065005687755
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7684969570733637,
+            "max_utilization": 0.9824681780153234,
+            "average_path_cost": 4234.138092872153
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.7507279876426732,
+            "max_utilization": 0.965149337768964,
+            "average_path_cost": 3673.0274511448465
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.8748920849053607,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3866.0020364335037
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.8820801680536114,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4046.724622868199
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7661245511814062,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3489.7249521425806
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9846298983660728,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4211.422470467254
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7126116813959892,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3033.1259681192682
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.8238597495100951,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4028.044944638697
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8067538668292612,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4233.6941635276535
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.6863958036814196,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4209.540904325674
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.7695165952860729,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3435.745118747141
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.8773049346756515,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4192.157267188795
+          }
+        ],
+        "random_placebo": [
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8819209352788855,
+            "max_utilization": 0.8204846462626673,
+            "average_path_cost": 3950.91611696536
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9852220450187879,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4157.205190794547
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.7413977199491107,
+            "max_utilization": 0.6955621242491637,
+            "average_path_cost": 3976.803999642715
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8301416428938737,
+            "max_utilization": 0.8488675511945089,
+            "average_path_cost": 4071.028765123715
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.8826589637550892,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3657.6312271430415
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.960863809319511,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4034.1499900226063
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.7895546175545373,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 3277.505011587182
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9398656117394429,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4130.538135609091
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.7325038677549515,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 2914.135143844278
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7370223115805999,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4101.723084874835
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.9173238918452143,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4088.241644285945
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7641160079062823,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 4134.385772600777
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6597257965216652,
+            "max_utilization": 0.9179993348879245,
+            "average_path_cost": 2990.3328327266554
+          },
+          {
+            "traffic_matrix": 1,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.651253248329197,
+            "max_utilization": 0.6379886248506305,
+            "average_path_cost": 3950.682180166405
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.9332196835662858,
+            "max_utilization": 0.8961703669403294,
+            "average_path_cost": 3664.573082210861
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9896441371089533,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3801.5884442780552
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.802365820352482,
+            "max_utilization": 0.88470418495679,
+            "average_path_cost": 3735.294794229244
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.8283644894233291,
+            "max_utilization": 0.8722933073271606,
+            "average_path_cost": 3722.666168038444
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9812778098025365,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3810.5110446239305
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.8884364055447329,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3482.6986971695874
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8383345722245555,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3211.360996304287
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9411812134231811,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3764.1193639735293
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.8179683812146409,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3102.745885409588
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.74039731722616,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3418.3180457520534
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.7791590406206469,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3400.844243706611
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7777142599571176,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 3456.6852493351407
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6566908703270018,
+            "max_utilization": 0.8588782733022119,
+            "average_path_cost": 3216.714499322852
+          },
+          {
+            "traffic_matrix": 2,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7199044189762162,
+            "max_utilization": 0.950356719589249,
+            "average_path_cost": 4002.995764916321
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8491565129787363,
+            "max_utilization": 0.856446518132716,
+            "average_path_cost": 3764.472072892083
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9903338684748426,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4010.2649975241716
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.6939603850779287,
+            "max_utilization": 0.7340532970036008,
+            "average_path_cost": 3785.235669294799
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.9070304959951326,
+            "max_utilization": 0.9019689388777649,
+            "average_path_cost": 3879.9983108479105
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9696519913362703,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 4036.7515229297237
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.8861330527395567,
+            "max_utilization": 0.9148932211244213,
+            "average_path_cost": 3762.373170798951
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8525107899852672,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3788.7224531464776
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.8829207820206757,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3928.779985929079
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.8060035729050888,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3402.231762881845
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.6715795532608074,
+            "max_utilization": 0.7793824749228395,
+            "average_path_cost": 3539.552677425322
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.8227665889316004,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3738.5729990659843
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7777693247126405,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3908.625449214384
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6801259423772454,
+            "max_utilization": 0.8819992605499615,
+            "average_path_cost": 3215.7426446197237
+          },
+          {
+            "traffic_matrix": 3,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7906629780702866,
+            "max_utilization": 0.9179992324091435,
+            "average_path_cost": 3889.599952587581
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              1
+            ],
+            "delivered_fraction": 0.8377807537170122,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4083.425987699343
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              0,
+              2
+            ],
+            "delivered_fraction": 0.9767344225562686,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4295.893117641275
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              1,
+              10
+            ],
+            "delivered_fraction": 0.6846998583017847,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4097.944823116217
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              2,
+              9
+            ],
+            "delivered_fraction": 0.775687235787755,
+            "max_utilization": 0.9837867517039609,
+            "average_path_cost": 3900.596648071803
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              4
+            ],
+            "delivered_fraction": 0.9624542287394126,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4281.12929106309
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              3,
+              6
+            ],
+            "delivered_fraction": 0.7945180242195597,
+            "max_utilization": 0.8545865282600309,
+            "average_path_cost": 3674.5244282553604
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              5
+            ],
+            "delivered_fraction": 0.8822248462465301,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4125.251135771044
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              4,
+              6
+            ],
+            "delivered_fraction": 0.9560917471350008,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4150.063156596401
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              5,
+              8
+            ],
+            "delivered_fraction": 0.828711976461113,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 3759.4730152672128
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              6,
+              7
+            ],
+            "delivered_fraction": 0.7077594544449712,
+            "max_utilization": 0.7956620330182613,
+            "average_path_cost": 3497.9855312866343
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              8
+            ],
+            "delivered_fraction": 0.7778022806364862,
+            "max_utilization": 1.0365924599729939,
+            "average_path_cost": 3954.9013506335123
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              7,
+              10
+            ],
+            "delivered_fraction": 0.7684301093900282,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4077.522132469554
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              8,
+              9
+            ],
+            "delivered_fraction": 0.6874822895774642,
+            "max_utilization": 1.0053529087898663,
+            "average_path_cost": 3504.3976091952804
+          },
+          {
+            "traffic_matrix": 4,
+            "edge": [
+              9,
+              10
+            ],
+            "delivered_fraction": 0.7804387653396799,
+            "max_utilization": 1.0366635789283893,
+            "average_path_cost": 4106.481678614095
+          }
+        ]
+      },
+      "adaptive_reference": [
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            0,
+            1
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            0,
+            2
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            1,
+            10
+          ],
+          "delivered_fraction": 0.9875056324160343,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            2,
+            9
+          ],
+          "delivered_fraction": 0.9875056324160343,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            3,
+            4
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            3,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            4,
+            5
+          ],
+          "delivered_fraction": 0.8676702697996164,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            4,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            5,
+            8
+          ],
+          "delivered_fraction": 0.8092151956942008,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            6,
+            7
+          ],
+          "delivered_fraction": 0.8092151956942008,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            7,
+            8
+          ],
+          "delivered_fraction": 0.9999999999999997,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            7,
+            10
+          ],
+          "delivered_fraction": 0.8186194795554138,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            8,
+            9
+          ],
+          "delivered_fraction": 0.8186194795554138,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 1,
+          "edge": [
+            9,
+            10
+          ],
+          "delivered_fraction": 0.9999999999999994,
+          "max_utilization": 1.0000000000000007
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            0,
+            1
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            0,
+            2
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            1,
+            10
+          ],
+          "delivered_fraction": 0.9311438540284998,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            2,
+            9
+          ],
+          "delivered_fraction": 0.9311438540284998,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            3,
+            4
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            3,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            4,
+            5
+          ],
+          "delivered_fraction": 0.9118903018157626,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            4,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999997,
+          "max_utilization": 1.0000000000000013
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            5,
+            8
+          ],
+          "delivered_fraction": 0.8863311454164345,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            6,
+            7
+          ],
+          "delivered_fraction": 0.8863311454164345,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            7,
+            8
+          ],
+          "delivered_fraction": 0.9568157092542963,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            7,
+            10
+          ],
+          "delivered_fraction": 0.8363048106487027,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            8,
+            9
+          ],
+          "delivered_fraction": 0.8363048106487027,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 2,
+          "edge": [
+            9,
+            10
+          ],
+          "delivered_fraction": 0.9982746101590939,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            0,
+            1
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            0,
+            2
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            1,
+            10
+          ],
+          "delivered_fraction": 0.9512658164013721,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            2,
+            9
+          ],
+          "delivered_fraction": 0.9512658164013721,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            3,
+            4
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            3,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            4,
+            5
+          ],
+          "delivered_fraction": 0.8931605971465104,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            4,
+            6
+          ],
+          "delivered_fraction": 1.0,
+          "max_utilization": 1.0000000000000004
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            5,
+            8
+          ],
+          "delivered_fraction": 0.846653380066332,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            6,
+            7
+          ],
+          "delivered_fraction": 0.8419308746744908,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            7,
+            8
+          ],
+          "delivered_fraction": 1.0000000000000002,
+          "max_utilization": 1.0000000000000007
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            7,
+            10
+          ],
+          "delivered_fraction": 0.8269655209903216,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            8,
+            9
+          ],
+          "delivered_fraction": 0.8269655209903217,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 3,
+          "edge": [
+            9,
+            10
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0000000000000004
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            0,
+            1
+          ],
+          "delivered_fraction": 0.9086716960109781,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            0,
+            2
+          ],
+          "delivered_fraction": 0.9753979758293214,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            1,
+            10
+          ],
+          "delivered_fraction": 0.8835548978547293,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            2,
+            9
+          ],
+          "delivered_fraction": 0.8835548978547293,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            3,
+            4
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            3,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            4,
+            5
+          ],
+          "delivered_fraction": 0.8797194607876014,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            4,
+            6
+          ],
+          "delivered_fraction": 0.9999999999999999,
+          "max_utilization": 1.0000000000000002
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            5,
+            8
+          ],
+          "delivered_fraction": 0.9056133340110447,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            6,
+            7
+          ],
+          "delivered_fraction": 0.871009655554082,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            7,
+            8
+          ],
+          "delivered_fraction": 0.8797194607876013,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            7,
+            10
+          ],
+          "delivered_fraction": 0.8250543020724529,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            8,
+            9
+          ],
+          "delivered_fraction": 0.8250543020724529,
+          "max_utilization": 1.0
+        },
+        {
+          "traffic_matrix": 4,
+          "edge": [
+            9,
+            10
+          ],
+          "delivered_fraction": 0.9999999999999998,
+          "max_utilization": 1.0
+        }
+      ]
+    }
+  ]
+}

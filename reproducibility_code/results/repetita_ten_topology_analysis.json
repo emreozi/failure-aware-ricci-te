@@ -1,0 +1,401 @@
+{
+  "preliminary_only": true,
+  "experimental_unit": "topology",
+  "multiple_comparison_correction": "Holm across five policy-vs-MLU tests",
+  "topologies": [
+    "Aarnet",
+    "Abilene",
+    "Airtel",
+    "BtEurope",
+    "Goodnet",
+    "Nsfnet",
+    "Oxford",
+    "Quest",
+    "Sprint",
+    "Uninet"
+  ],
+  "topology_level": {
+    "degree": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.005326440854955352,
+        "worst_loss_delta": -0.03896642641859027,
+        "path_cost_relative_delta": 0.05178657354813976
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": 0.0005539335886728502,
+        "worst_loss_delta": 0.00762662913308354,
+        "path_cost_relative_delta": 0.02790476865583269
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": 0.0031015364931732525,
+        "worst_loss_delta": -0.017962685761022223,
+        "path_cost_relative_delta": 0.03175009893766867
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.001921407522690487,
+        "worst_loss_delta": 0.004312132779102362,
+        "path_cost_relative_delta": 0.027689016412370426
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.005925796356860914,
+        "worst_loss_delta": 0.06417055001157945,
+        "path_cost_relative_delta": 0.004039145541105071
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.005560841154030713,
+        "worst_loss_delta": 0.006841285341208536,
+        "path_cost_relative_delta": 0.07038249586931844
+      },
+      {
+        "topology": "Oxford",
+        "mean_loss_delta": 0.0027853233065027153,
+        "worst_loss_delta": -0.02354355559513699,
+        "path_cost_relative_delta": 0.0471482444160507
+      },
+      {
+        "topology": "Uninet",
+        "mean_loss_delta": 0.0012028280952255373,
+        "worst_loss_delta": -0.02873821239212293,
+        "path_cost_relative_delta": 0.010526495250416712
+      },
+      {
+        "topology": "Goodnet",
+        "mean_loss_delta": 0.003427851190279551,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.038383010914311066
+      },
+      {
+        "topology": "Quest",
+        "mean_loss_delta": 0.0014776070057307617,
+        "worst_loss_delta": 0.0037448785237566007,
+        "path_cost_relative_delta": 0.01440595835861247
+      }
+    ],
+    "betweenness": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.0014736936100798875,
+        "worst_loss_delta": 0.01278217555762251,
+        "path_cost_relative_delta": 0.06280771403507224
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": -0.0016257244979681006,
+        "worst_loss_delta": 0.00608944639978104,
+        "path_cost_relative_delta": 0.019992349258247
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": -0.0030505757708498096,
+        "worst_loss_delta": -0.018628592493061147,
+        "path_cost_relative_delta": 0.04918433742459616
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": -0.00015229895066182968,
+        "worst_loss_delta": -0.04928986592030615,
+        "path_cost_relative_delta": 0.03506667926350082
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.00023703662140367918,
+        "worst_loss_delta": 0.06827954181730533,
+        "path_cost_relative_delta": 0.004306410713860398
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.0023381279477242946,
+        "worst_loss_delta": 0.00579301897365736,
+        "path_cost_relative_delta": 0.01729314417641592
+      },
+      {
+        "topology": "Oxford",
+        "mean_loss_delta": 0.010816112832135728,
+        "worst_loss_delta": -0.011845139744987687,
+        "path_cost_relative_delta": 0.07389200320384681
+      },
+      {
+        "topology": "Uninet",
+        "mean_loss_delta": 0.0014201665070379137,
+        "worst_loss_delta": -0.0454929448907222,
+        "path_cost_relative_delta": 0.012428522455099733
+      },
+      {
+        "topology": "Goodnet",
+        "mean_loss_delta": -0.0015668620258386427,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.02816704914428847
+      },
+      {
+        "topology": "Quest",
+        "mean_loss_delta": -0.00021077822715351123,
+        "worst_loss_delta": 0.009467004776678833,
+        "path_cost_relative_delta": 0.036169588032658906
+      }
+    ],
+    "forman": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.0025610996382049067,
+        "worst_loss_delta": -0.013121338789120696,
+        "path_cost_relative_delta": 0.005356199665763617
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": 0.0017025668537272202,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.013350334397243424
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": 0.0009887127900855444,
+        "worst_loss_delta": -0.013924130642303134,
+        "path_cost_relative_delta": 0.05474921794266985
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.00589633297339929,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.015482401683364566
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.0077523357789911216,
+        "worst_loss_delta": 0.059223525144049716,
+        "path_cost_relative_delta": 0.016781209109459683
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.001137196432280653,
+        "worst_loss_delta": -0.011239993080794597,
+        "path_cost_relative_delta": 0.024883142178818263
+      },
+      {
+        "topology": "Oxford",
+        "mean_loss_delta": 0.0069717034036403105,
+        "worst_loss_delta": -0.03054025267751448,
+        "path_cost_relative_delta": 0.016969684045797573
+      },
+      {
+        "topology": "Uninet",
+        "mean_loss_delta": 0.00031723691030888853,
+        "worst_loss_delta": -0.0454929448907222,
+        "path_cost_relative_delta": 0.0027762843608980514
+      },
+      {
+        "topology": "Goodnet",
+        "mean_loss_delta": 0.00027575409843441916,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.0664106436809333
+      },
+      {
+        "topology": "Quest",
+        "mean_loss_delta": 0.006990064698361229,
+        "worst_loss_delta": 0.0071128493336466425,
+        "path_cost_relative_delta": 0.029877706535013093
+      }
+    ],
+    "ollivier": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.0014696749648848092,
+        "worst_loss_delta": -0.037134124205785546,
+        "path_cost_relative_delta": 0.037718251553538584
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": 0.004710272956267475,
+        "worst_loss_delta": 0.00550250607989522,
+        "path_cost_relative_delta": 0.04161718016180593
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": 0.0010553043252187154,
+        "worst_loss_delta": -0.005070600663129143,
+        "path_cost_relative_delta": 0.04988133661204275
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.003184732689414725,
+        "worst_loss_delta": -0.04041639261495711,
+        "path_cost_relative_delta": 0.019377379368980208
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.007564954861121398,
+        "worst_loss_delta": 0.06227848305668682,
+        "path_cost_relative_delta": 0.00034569116706228975
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.0023483170330475278,
+        "worst_loss_delta": -0.0018398399896389916,
+        "path_cost_relative_delta": 0.015658861108341915
+      },
+      {
+        "topology": "Oxford",
+        "mean_loss_delta": 0.015632181761195376,
+        "worst_loss_delta": 0.005123693364486703,
+        "path_cost_relative_delta": 0.03468075199610099
+      },
+      {
+        "topology": "Uninet",
+        "mean_loss_delta": 0.0013319600159825233,
+        "worst_loss_delta": -0.04549294489072209,
+        "path_cost_relative_delta": 0.011656587369083704
+      },
+      {
+        "topology": "Goodnet",
+        "mean_loss_delta": 0.0011498082941740447,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.019819453388049135
+      },
+      {
+        "topology": "Quest",
+        "mean_loss_delta": 0.001716875064931266,
+        "worst_loss_delta": 0.005155276254372287,
+        "path_cost_relative_delta": 0.007992892037961052
+      }
+    ],
+    "random_placebo": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.003740088657511068,
+        "worst_loss_delta": -0.00542638931179773,
+        "path_cost_relative_delta": 0.04749783393635809
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": -0.0009087835486221829,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.012616784047782659
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": -0.0023700675377122376,
+        "worst_loss_delta": -0.013924130642303134,
+        "path_cost_relative_delta": 0.028126954591581654
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.0022743441663945654,
+        "worst_loss_delta": -0.06081635282919595,
+        "path_cost_relative_delta": 0.05733838771191846
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.006373429772057551,
+        "worst_loss_delta": 0.06157903517204577,
+        "path_cost_relative_delta": 0.025129700838932845
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.0009153688990113119,
+        "worst_loss_delta": -0.0033421565794101715,
+        "path_cost_relative_delta": 0.053832352129373096
+      },
+      {
+        "topology": "Oxford",
+        "mean_loss_delta": -0.0012386214998522532,
+        "worst_loss_delta": -0.002227500483720002,
+        "path_cost_relative_delta": 0.012289745244446815
+      },
+      {
+        "topology": "Uninet",
+        "mean_loss_delta": 4.625929269271485e-18,
+        "worst_loss_delta": 0.002260545413209858,
+        "path_cost_relative_delta": 0.0
+      },
+      {
+        "topology": "Goodnet",
+        "mean_loss_delta": -0.0009561040764092864,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.02758921938624348
+      },
+      {
+        "topology": "Quest",
+        "mean_loss_delta": -0.0012639790524563343,
+        "worst_loss_delta": 0.009467004776678833,
+        "path_cost_relative_delta": 0.03083958907640727
+      }
+    ]
+  },
+  "summary": {
+    "degree": {
+      "mean_service_loss_delta": 0.003128356556812213,
+      "cluster_bootstrap_95_ci": [
+        0.0020313803137400445,
+        0.004274594613508596
+      ],
+      "median_service_loss_delta": 0.0029434298998379837,
+      "topologies_better_than_mlu": 0,
+      "topologies_worse_than_mlu": 10,
+      "mean_worst_case_loss_delta": -0.0022515404378141922,
+      "mean_path_cost_relative_delta": 0.0324015807903826,
+      "sign_flip_p_value": 0.001953125,
+      "holm_adjusted_p_value": 0.009765625
+    },
+    "betweenness": {
+      "mean_service_loss_delta": 0.0009678898045909609,
+      "cluster_bootstrap_95_ci": [
+        -0.00088697077881023,
+        0.0034989510964658107
+      ],
+      "median_service_loss_delta": 4.236883537092475e-05,
+      "topologies_better_than_mlu": 5,
+      "topologies_worse_than_mlu": 5,
+      "mean_worst_case_loss_delta": -0.0022845355524032107,
+      "mean_path_cost_relative_delta": 0.033930779770758646,
+      "sign_flip_p_value": 0.59375,
+      "holm_adjusted_p_value": 0.953125
+    },
+    "forman": {
+      "mean_service_loss_delta": 0.0034593003577433586,
+      "cluster_bootstrap_95_ci": [
+        0.0017046572252107177,
+        0.005293617916571469
+      ],
+      "median_service_loss_delta": 0.0021318332459660636,
+      "topologies_better_than_mlu": 0,
+      "topologies_worse_than_mlu": 10,
+      "mean_worst_case_loss_delta": -0.004798228560275874,
+      "mean_path_cost_relative_delta": 0.024663682359996143,
+      "sign_flip_p_value": 0.001953125,
+      "holm_adjusted_p_value": 0.009765625
+    },
+    "ollivier": {
+      "mean_service_loss_delta": 0.004016408196623786,
+      "cluster_bootstrap_95_ci": [
+        0.0018315212571198636,
+        0.007069533510124399
+      ],
+      "median_service_loss_delta": 0.002032596048989397,
+      "topologies_better_than_mlu": 0,
+      "topologies_worse_than_mlu": 10,
+      "mean_worst_case_loss_delta": -0.005189394360879185,
+      "mean_path_cost_relative_delta": 0.023874838476296657,
+      "sign_flip_p_value": 0.001953125,
+      "holm_adjusted_p_value": 0.009765625
+    },
+    "random_placebo": {
+      "mean_service_loss_delta": 0.0006565675779922206,
+      "cluster_bootstrap_95_ci": [
+        -0.0008335298385072408,
+        0.0023775367162733483
+      ],
+      "median_service_loss_delta": -0.0004543917743110891,
+      "topologies_better_than_mlu": 5,
+      "topologies_worse_than_mlu": 5,
+      "mean_worst_case_loss_delta": -0.0012429944484492529,
+      "mean_path_cost_relative_delta": 0.029526056696304436,
+      "sign_flip_p_value": 0.4765625,
+      "holm_adjusted_p_value": 0.953125
+    }
+  }
+}

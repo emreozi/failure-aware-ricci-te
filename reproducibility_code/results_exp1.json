@@ -1,0 +1,112 @@
+{
+  "0.0": {
+    "max_util": {
+      "mean": 117.748,
+      "std": 3.324
+    },
+    "drop": {
+      "mean": 0.375,
+      "std": 0.101
+    },
+    "strong_neg_flow": {
+      "mean": 16.462,
+      "std": 4.324
+    },
+    "pos_flow": {
+      "mean": 70.818,
+      "std": 5.259
+    },
+    "path": {
+      "mean": 2.837,
+      "std": 0.217
+    }
+  },
+  "1.0": {
+    "max_util": {
+      "mean": 87.136,
+      "std": 20.349
+    },
+    "drop": {
+      "mean": 0.059,
+      "std": 0.083
+    },
+    "strong_neg_flow": {
+      "mean": 17.349,
+      "std": 3.448
+    },
+    "pos_flow": {
+      "mean": 72.703,
+      "std": 5.416
+    },
+    "path": {
+      "mean": 2.965,
+      "std": 0.227
+    }
+  },
+  "10.0": {
+    "max_util": {
+      "mean": 90.55,
+      "std": 19.573
+    },
+    "drop": {
+      "mean": 0.07,
+      "std": 0.099
+    },
+    "strong_neg_flow": {
+      "mean": 17.444,
+      "std": 4.022
+    },
+    "pos_flow": {
+      "mean": 75.682,
+      "std": 6.895
+    },
+    "path": {
+      "mean": 3.151,
+      "std": 0.233
+    }
+  },
+  "50.0": {
+    "max_util": {
+      "mean": 92.911,
+      "std": 20.864
+    },
+    "drop": {
+      "mean": 0.082,
+      "std": 0.117
+    },
+    "strong_neg_flow": {
+      "mean": 17.085,
+      "std": 3.936
+    },
+    "pos_flow": {
+      "mean": 78.48,
+      "std": 5.965
+    },
+    "path": {
+      "mean": 3.25,
+      "std": 0.262
+    }
+  },
+  "100.0": {
+    "max_util": {
+      "mean": 92.48,
+      "std": 19.055
+    },
+    "drop": {
+      "mean": 0.073,
+      "std": 0.104
+    },
+    "strong_neg_flow": {
+      "mean": 16.968,
+      "std": 3.867
+    },
+    "pos_flow": {
+      "mean": 79.096,
+      "std": 5.683
+    },
+    "path": {
+      "mean": 3.273,
+      "std": 0.271
+    }
+  }
+}

@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Frozen routing and the capacity-feasible adaptive recovery ceiling on the same 40 held-out double-failure pairs per topology and four test matrices. Values are equal-topology means. Recoverable gap is frozen mean loss minus adaptive mean loss.}
+\label{tab:adaptive}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Routing state & Mean loss (pp) & CVaR(0.90) (pp) & Maximum loss (pp) & Recoverable gap (pp) \\
+\midrule
+Adaptive capacity-feasible ceiling & 12.210 & 30.794 & 39.517 & --- \\
+Frozen minimum MLU & 20.328 & 38.245 & 45.386 & 8.117 \\
+Frozen Ollivier--Ricci & 20.332 & 38.785 & 45.747 & 8.121 \\
+Frozen single-link minimax & 20.478 & 37.593 & 44.070 & 8.267 \\
+Frozen double-failure CVaR & 20.923 & 37.536 & 44.883 & 8.713 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}

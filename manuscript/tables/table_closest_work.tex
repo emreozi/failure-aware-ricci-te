@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Closest methodological neighbors and the remaining comparison gap.}
+\label{tab:closest-work}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{p{0.18\textwidth}p{0.23\textwidth}p{0.25\textwidth}p{0.25\textwidth}}
+\toprule
+Line of work & Failure or uncertainty target & Validation and scale emphasis & Boundary relative to this study \\
+\midrule
+TeaVaR \cite{bogle2019teavar} & Probabilistic availability--utilization trade-off using a VaR formulation & WAN failure distributions and risk-aware TE & Establishes that probabilistic risk objectives are not new; does not test the incremental value of a topology-only geometric regularizer. \\
+DOTE \cite{perry2023dote} & Demand uncertainty with random multi-link faults & Stochastic optimization, learned scaling, and large-WAN evaluation & Addresses prediction-free TE quality and failure recovery, not a matched geometric-score audit. \\
+MetaOpt \cite{namyar2024metaopt} & Adversarial inputs that expose heuristic performance gaps & Solver-based analysis of production TE and other heuristics & Motivates controlled incremental-value comparisons, but does not study curvature or held-out physical-failure loss. \\
+Outcome-aware failure analysis \cite{namyar2025mitigation,schneider2025loads} & End-to-end mitigation quality and worst link loads under failures or route changes & Production incidents, large data centers, and ISP-scale verification & Optimizes or verifies operational outcomes directly; it does not compare those outcomes with curvature-aware routing under common budgets. \\
+Curvature-guided networking \cite{ni2015,chiriac2026hierarchical} & Internet structure and curvature-guided hierarchical partitioning/routing & Structural association and scalable community decomposition & Supplies the geometric motivation, but not capacity- and demand-matched tests against direct scenario-risk controls. \\
+This study & Frozen single- and double-link service loss; expected, CVaR, and worst-case risk & Four separated topology roles, held-out traffic matrices and failure pairs, topology-level inference & Estimates the residual prescriptive value of curvature after paths, MLU, latency, and failure information are controlled. \\
+\bottomrule
+\end{tabular}
+\end{table*}

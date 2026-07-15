@@ -1,0 +1,1852 @@
+{
+  "protocol_id": "submission-upgrade-v1-frozen-2026-07-14",
+  "experimental_unit": "topology",
+  "topology_count": 12,
+  "topologies": [
+    "Sago",
+    "Pacificwave",
+    "Ibm",
+    "Highwinds",
+    "Internetmci",
+    "Restena",
+    "Marnet",
+    "BtAsiaPac",
+    "Harnet",
+    "Bandcon",
+    "HiberniaUs",
+    "Azrena"
+  ],
+  "primary_contrast": {
+    "candidate": "double_cvar90",
+    "reference": "ollivier",
+    "topology_level": [
+      {
+        "topology": "Sago",
+        "cvar90_delta": 0.0,
+        "mean_loss_delta": 0.0,
+        "max_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.0,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "Pacificwave",
+        "cvar90_delta": 0.002322492615386418,
+        "mean_loss_delta": 0.010202740785136055,
+        "max_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.049999996335581054,
+        "mlu_relative_delta": 0.004858474790417233
+      },
+      {
+        "topology": "Ibm",
+        "cvar90_delta": -0.015217326799192188,
+        "mean_loss_delta": -0.002804105453963035,
+        "max_loss_delta": -0.03939827856290978,
+        "path_cost_relative_delta": 0.017177566445104153,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "Highwinds",
+        "cvar90_delta": -0.03474189557449586,
+        "mean_loss_delta": 0.0020713462252289205,
+        "max_loss_delta": -0.12741936592732683,
+        "path_cost_relative_delta": 0.028092587551383552,
+        "mlu_relative_delta": 2.220446049250313e-16
+      },
+      {
+        "topology": "Internetmci",
+        "cvar90_delta": -0.03479579419149029,
+        "mean_loss_delta": -0.0016863401341631612,
+        "max_loss_delta": -0.03463290720769152,
+        "path_cost_relative_delta": -0.000684648647861108,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "Restena",
+        "cvar90_delta": 0.00031005596066735475,
+        "mean_loss_delta": 0.0061713807118368436,
+        "max_loss_delta": 0.005509915121941322,
+        "path_cost_relative_delta": 0.01053636178104167,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "Marnet",
+        "cvar90_delta": -0.005750049346180175,
+        "mean_loss_delta": 0.0013597596896912645,
+        "max_loss_delta": 0.0394288137486849,
+        "path_cost_relative_delta": 0.0008683326698897265,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "BtAsiaPac",
+        "cvar90_delta": -0.021907269461922174,
+        "mean_loss_delta": -0.0010823390344563422,
+        "max_loss_delta": -0.03230156777275761,
+        "path_cost_relative_delta": 0.008323760147439963,
+        "mlu_relative_delta": 2.220446049250313e-16
+      },
+      {
+        "topology": "Harnet",
+        "cvar90_delta": 0.0004431127547605551,
+        "mean_loss_delta": 0.011563186665593972,
+        "max_loss_delta": 0.09059830810478031,
+        "path_cost_relative_delta": 0.04092863403402158,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "Bandcon",
+        "cvar90_delta": -0.026168485382685402,
+        "mean_loss_delta": 0.001749366282342013,
+        "max_loss_delta": -0.023430628845858892,
+        "path_cost_relative_delta": 0.033462879669402756,
+        "mlu_relative_delta": 0.0
+      },
+      {
+        "topology": "HiberniaUs",
+        "cvar90_delta": -0.020160946404328972,
+        "mean_loss_delta": 0.0061966061386749816,
+        "max_loss_delta": 0.016624018456543044,
+        "path_cost_relative_delta": 0.03971487822167963,
+        "mlu_relative_delta": -0.009628193520422546
+      },
+      {
+        "topology": "Azrena",
+        "cvar90_delta": 0.0,
+        "mean_loss_delta": 0.0,
+        "max_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.0,
+        "mlu_relative_delta": 0.0
+      }
+    ],
+    "summary": {
+      "cvar90": {
+        "mean": -0.012972175485790062,
+        "median": -0.010483688072686181,
+        "topology_cluster_bootstrap_95_ci": [
+          -0.020738087753621365,
+          -0.005540373316536888
+        ],
+        "exact_two_sided_sign_flip_p_value": 0.015625,
+        "candidate_better": 7,
+        "candidate_worse": 3,
+        "tied": 2
+      },
+      "mean_loss": {
+        "mean": 0.002811800156326793,
+        "median": 0.0015545629860166388,
+        "topology_cluster_bootstrap_95_ci": [
+          0.00044305601084649037,
+          0.005430578788011802
+        ],
+        "exact_two_sided_sign_flip_p_value": 0.06640625,
+        "candidate_better": 3,
+        "candidate_worse": 7,
+        "tied": 2
+      },
+      "max_loss": {
+        "mean": -0.008751807740382922,
+        "median": 0.0,
+        "topology_cluster_bootstrap_95_ci": [
+          -0.03771379418991399,
+          0.018812794205725764
+        ],
+        "exact_two_sided_sign_flip_p_value": 0.58984375,
+        "candidate_better": 5,
+        "candidate_worse": 4,
+        "tied": 3
+      },
+      "path_cost_relative": {
+        "mean": 0.019035029017306915,
+        "median": 0.013856964113072912,
+        "topology_cluster_bootstrap_95_ci": [
+          0.00950712294815352,
+          0.029293561282663156
+        ],
+        "exact_two_sided_sign_flip_p_value": 0.00390625,
+        "candidate_better": 1,
+        "candidate_worse": 9,
+        "tied": 2
+      },
+      "mlu_relative": {
+        "mean": -0.000397476560833739,
+        "median": 0.0,
+        "topology_cluster_bootstrap_95_ci": [
+          -0.0024070483801056,
+          0.0012146186976043267
+        ],
+        "exact_two_sided_sign_flip_p_value": 1.0,
+        "candidate_better": 1,
+        "candidate_worse": 1,
+        "tied": 10
+      }
+    }
+  },
+  "secondary_contrasts": [
+    {
+      "candidate": "single_minimax",
+      "reference": "min_mlu",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": -0.006787451483158569,
+          "mean_loss_delta": 0.0022173816066824448,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0014229870917878973,
+          "mlu_relative_delta": 0.013981019286106289
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.02155061732694058,
+          "mean_loss_delta": -0.001728583302323422,
+          "max_loss_delta": -0.04869691075333904,
+          "path_cost_relative_delta": 0.02020823241360592,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.006318703946746607,
+          "mean_loss_delta": -0.0005802443039852612,
+          "max_loss_delta": -0.030357989268657293,
+          "path_cost_relative_delta": 0.0006168035085070134,
+          "mlu_relative_delta": -1.1102230246251565e-16
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.020220971701331275,
+          "mean_loss_delta": 0.004047918065001238,
+          "max_loss_delta": -0.0526278647520807,
+          "path_cost_relative_delta": 0.022372527033430067,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": -0.02305522415279676,
+          "mean_loss_delta": 0.002433677752227026,
+          "max_loss_delta": -0.0145862910981015,
+          "path_cost_relative_delta": 0.022036979355710473,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": -0.0187006898820542,
+          "mean_loss_delta": 0.0023051135149466384,
+          "max_loss_delta": -0.026354739570751073,
+          "path_cost_relative_delta": 0.007686609734990801,
+          "mlu_relative_delta": -4.440892098500626e-16
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.013040971773761262,
+          "mean_loss_delta": 0.001224782722757528,
+          "max_loss_delta": -0.040101337702133866,
+          "path_cost_relative_delta": 0.037747656587704626,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": 0.001221974735242326,
+          "mean_loss_delta": -8.813379766670071e-05,
+          "max_loss_delta": -0.016582971598076757,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.009900988966367263
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.0029112544134802243,
+          "mean_loss_delta": 0.0016411005087629271,
+          "max_loss_delta": -0.019340683051026764,
+          "path_cost_relative_delta": 0.003518755046481914,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": -0.0009702658261429575,
+          "mean_loss_delta": -0.00019729217314992664,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0008823461397380328,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.009361181314264175,
+          "median": -0.006553077714952588,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.014513355249640151,
+            -0.004360949260890373
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.005859375,
+          "candidate_better": 9,
+          "candidate_worse": 1,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": 0.000939643382771041,
+          "median": 0.000612391361378764,
+          "topology_cluster_bootstrap_95_ci": [
+            8.456930760686958e-05,
+            0.0018382869039635194
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.08203125,
+          "candidate_better": 4,
+          "candidate_worse": 6,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": -0.020720732316180584,
+          "median": -0.01796182732455176,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.03127967147893247,
+            -0.010463466339274594
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.0078125,
+          "candidate_better": 8,
+          "candidate_worse": 0,
+          "tied": 4
+        },
+        "path_cost_relative": {
+          "mean": 0.009707741409329729,
+          "median": 0.0024708710691349056,
+          "topology_cluster_bootstrap_95_ci": [
+            0.0034181748187619094,
+            0.01695876342535483
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.00390625,
+          "candidate_better": 0,
+          "candidate_worse": 9,
+          "tied": 3
+        },
+        "mlu_relative": {
+          "mean": 0.0019901673543727127,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -1.295260195396016e-16,
+            0.004805417122609494
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.5,
+          "candidate_better": 0,
+          "candidate_worse": 2,
+          "tied": 10
+        }
+      }
+    },
+    {
+      "candidate": "double_expected",
+      "reference": "min_mlu",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": 0.00023013681545469566,
+          "mean_loss_delta": 0.00018157366684254383,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.006713740497171716,
+          "mean_loss_delta": -0.0055363906822856745,
+          "max_loss_delta": -0.008969838609558245,
+          "path_cost_relative_delta": 0.04625508521136901,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": 0.014848587729950957,
+          "mean_loss_delta": -0.00017911946773896403,
+          "max_loss_delta": 0.03375084290886643,
+          "path_cost_relative_delta": 0.01218605413226026,
+          "mlu_relative_delta": -1.1102230246251565e-16
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": 0.012984554835612255,
+          "mean_loss_delta": -0.0015820964313561503,
+          "max_loss_delta": 0.05659124492599066,
+          "path_cost_relative_delta": 0.029531459671767513,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": -0.023035240506047217,
+          "mean_loss_delta": -0.0072103320735270315,
+          "max_loss_delta": -0.029763736390520656,
+          "path_cost_relative_delta": 0.013769531826554271,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": 0.0012347305211573567,
+          "mean_loss_delta": 0.00037035861692347183,
+          "max_loss_delta": -0.0014204013943582838,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": -4.440892098500626e-16
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.0008539655280685177,
+          "mean_loss_delta": -0.0008335503736179306,
+          "max_loss_delta": -0.0005192720318833999,
+          "path_cost_relative_delta": 0.017577762205743586,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": 0.0032249658203458154,
+          "mean_loss_delta": 0.003680976201280245,
+          "max_loss_delta": 0.002742024549048372,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.009900988966367263
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.01193298116269681,
+          "mean_loss_delta": -0.007447026560144371,
+          "max_loss_delta": -0.017135245195450954,
+          "path_cost_relative_delta": 0.04311217160623948,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": 0.028677260410587657,
+          "mean_loss_delta": 0.0006737369109672819,
+          "max_loss_delta": 0.0432543426853903,
+          "path_cost_relative_delta": 0.030031483758798272,
+          "mlu_relative_delta": 0.0011393911585484418
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": 0.0015553590365937064,
+          "median": 0.00011506840772734783,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.005512449854776915,
+            0.008865409990685606
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.689453125,
+          "candidate_better": 4,
+          "candidate_worse": 6,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": -0.0014901558493880483,
+          "median": -8.955973386948202e-05,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.003447434523370542,
+            0.0002945484229939405
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.1640625,
+          "candidate_better": 6,
+          "candidate_worse": 4,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": 0.0065441634539603515,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.006338103410827988,
+            0.020843665925107016
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.3984375,
+          "candidate_better": 5,
+          "candidate_worse": 4,
+          "tied": 3
+        },
+        "path_cost_relative": {
+          "mean": 0.016038629034394365,
+          "median": 0.012977792979407266,
+          "topology_cluster_bootstrap_95_ci": [
+            0.007145907171301387,
+            0.025820098289245513
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.015625,
+          "candidate_better": 0,
+          "candidate_worse": 7,
+          "tied": 5
+        },
+        "mlu_relative": {
+          "mean": 0.000920031677076244,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -1.1102230246251565e-16,
+            0.0025701965048042143
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.5,
+          "candidate_better": 0,
+          "candidate_worse": 2,
+          "tied": 10
+        }
+      }
+    },
+    {
+      "candidate": "double_cvar90",
+      "reference": "min_mlu",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": 0.0011462244973764468,
+          "mean_loss_delta": 0.010197853803463691,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.049999996335581054,
+          "mlu_relative_delta": 0.004858474790417233
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.021711880410697604,
+          "mean_loss_delta": -0.0017644098764079685,
+          "max_loss_delta": -0.04173482591710109,
+          "path_cost_relative_delta": 0.04999999697059865,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.0009979521099371391,
+          "mean_loss_delta": 0.015343753236873592,
+          "max_loss_delta": -0.06796345668053216,
+          "path_cost_relative_delta": 0.03634149191263569,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.014257775057660238,
+          "mean_loss_delta": 0.01456186684794758,
+          "max_loss_delta": -0.026631891679400388,
+          "path_cost_relative_delta": 0.04928111891974574,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": -0.026678170120884304,
+          "mean_loss_delta": 0.0010423045146002174,
+          "max_loss_delta": -0.026575492423420832,
+          "path_cost_relative_delta": 0.04999998997663191,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": -0.015454128650750576,
+          "mean_loss_delta": 0.006165038071179338,
+          "max_loss_delta": 0.01926550913672187,
+          "path_cost_relative_delta": 0.01810152076619187,
+          "mlu_relative_delta": -4.440892098500626e-16
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.014193303432542909,
+          "mean_loss_delta": 0.004758412232836434,
+          "max_loss_delta": -0.020997353663807394,
+          "path_cost_relative_delta": 0.04999999864614657,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": 0.009567035029401594,
+          "mean_loss_delta": 0.011497975311616337,
+          "max_loss_delta": 0.0737008295945718,
+          "path_cost_relative_delta": 0.04752947662752249,
+          "mlu_relative_delta": 0.009900988966367263
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.01712890301664599,
+          "mean_loss_delta": 0.013360144903400484,
+          "max_loss_delta": -0.019340683051026764,
+          "path_cost_relative_delta": 0.04999999684246892,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": -0.00596820424753175,
+          "mean_loss_delta": 0.002543135854067957,
+          "max_loss_delta": 0.034863408905000726,
+          "path_cost_relative_delta": 0.04999999464696536,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.008806421459989373,
+          "median": -0.01008075384003733,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.01474014554384991,
+            -0.0028271401449757373
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.021484375,
+          "candidate_better": 8,
+          "candidate_worse": 2,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": 0.006475506241631472,
+          "median": 0.005461725152007886,
+          "topology_cluster_bootstrap_95_ci": [
+            0.0031999102994877625,
+            0.009923114795054326
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.005859375,
+          "candidate_better": 1,
+          "candidate_worse": 9,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": -0.0062844963149161865,
+          "median": -0.009670341525513382,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.02551058110523793,
+            0.014708807765429857
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.55859375,
+          "candidate_better": 6,
+          "candidate_worse": 3,
+          "tied": 3
+        },
+        "path_cost_relative": {
+          "mean": 0.03760446513704069,
+          "median": 0.04964055444818882,
+          "topology_cluster_bootstrap_95_ci": [
+            0.026263526706767064,
+            0.04728263242160385
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.001953125,
+          "candidate_better": 0,
+          "candidate_worse": 10,
+          "tied": 2
+        },
+        "mlu_relative": {
+          "mean": 0.0012299553130653191,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -1.1102230246251565e-16,
+            0.0032696564245336215
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.5,
+          "candidate_better": 0,
+          "candidate_worse": 2,
+          "tied": 10
+        }
+      }
+    },
+    {
+      "candidate": "double_minimax",
+      "reference": "min_mlu",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": 0.0009074071356627855,
+          "mean_loss_delta": 0.006796544142549876,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.026097493480629508,
+          "mlu_relative_delta": 0.004858474790417233
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.02215937833316106,
+          "mean_loss_delta": -0.0023719439386849783,
+          "max_loss_delta": -0.028095748747470006,
+          "path_cost_relative_delta": 0.04119573567607793,
+          "mlu_relative_delta": -1.1102230246251565e-16
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.00020165732830901284,
+          "mean_loss_delta": -3.5169057272105286e-05,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 2.220446049250313e-16,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.012951487660598976,
+          "mean_loss_delta": 0.01039725096651889,
+          "max_loss_delta": -0.03599372811912849,
+          "path_cost_relative_delta": 0.046429433022613376,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": -0.024353439643490404,
+          "mean_loss_delta": 0.002722159562009885,
+          "max_loss_delta": -0.036072004718610606,
+          "path_cost_relative_delta": 0.04886613215944924,
+          "mlu_relative_delta": -2.220446049250313e-16
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": -0.0006294574706626754,
+          "mean_loss_delta": -0.0001540091984439107,
+          "max_loss_delta": -0.0064557935112783404,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": -4.440892098500626e-16
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.015095385251767152,
+          "mean_loss_delta": 0.0030749692416564556,
+          "max_loss_delta": -0.03816790210765453,
+          "path_cost_relative_delta": 0.04756728948106104,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": 0.012319560204603841,
+          "mean_loss_delta": 0.0070694565306740065,
+          "max_loss_delta": 0.07018715218991334,
+          "path_cost_relative_delta": 0.02876042026466097,
+          "mlu_relative_delta": 0.009900988966367263
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.0009190569413440874,
+          "mean_loss_delta": -0.00032453726439513053,
+          "max_loss_delta": 1.1102230246251565e-16,
+          "path_cost_relative_delta": 0.00014399272432852328,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": -0.008045831740725096,
+          "mean_loss_delta": 0.0016714071364469785,
+          "max_loss_delta": 0.02538961119967298,
+          "path_cost_relative_delta": 0.045052984078095104,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.00592739391914932,
+          "median": -0.0007742572060033814,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.01190771696462277,
+            -0.00025126093842511475
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.076171875,
+          "candidate_better": 8,
+          "candidate_worse": 2,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": 0.0024038440100883304,
+          "median": 0.0008357035682234892,
+          "topology_cluster_bootstrap_95_ci": [
+            0.000481685298995605,
+            0.004606427871820237
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.052734375,
+          "candidate_better": 4,
+          "candidate_worse": 6,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": -0.004100701151212961,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.01909159952546489,
+            0.013650751270598232
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.59375,
+          "candidate_better": 5,
+          "candidate_worse": 2,
+          "tied": 5
+        },
+        "path_cost_relative": {
+          "mean": 0.023676123407242993,
+          "median": 0.027428956872645238,
+          "topology_cluster_bootstrap_95_ci": [
+            0.011782884912343397,
+            0.035398694264688876
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.0078125,
+          "candidate_better": 0,
+          "candidate_worse": 8,
+          "tied": 4
+        },
+        "mlu_relative": {
+          "mean": 0.00122995531306531,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -1.1102230246251565e-16,
+            0.0032696564245336124
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.5,
+          "candidate_better": 0,
+          "candidate_worse": 2,
+          "tied": 10
+        }
+      }
+    },
+    {
+      "candidate": "single_minimax",
+      "reference": "ollivier",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": -0.005611183365148598,
+          "mean_loss_delta": 0.0022222685883548088,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0014229870917878973,
+          "mlu_relative_delta": 0.013981019286106289
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.015056063715435164,
+          "mean_loss_delta": -0.0027682788798784885,
+          "max_loss_delta": -0.04636036339914773,
+          "path_cost_relative_delta": -0.011682923706912596,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.04006264741130533,
+          "mean_loss_delta": -0.013852651315629932,
+          "max_loss_delta": -0.08981389851545196,
+          "path_cost_relative_delta": -0.007347745222597291,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.040758990835161324,
+          "mean_loss_delta": -0.012200288917109503,
+          "max_loss_delta": -0.06062888028037183,
+          "path_cost_relative_delta": -0.026311879015780693,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": 0.003933001928754898,
+          "mean_loss_delta": 0.007562753949463652,
+          "max_loss_delta": 0.017499116447260654,
+          "path_cost_relative_delta": -0.0163756756352057,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": -0.008996610577483799,
+          "mean_loss_delta": -0.002500164866541435,
+          "max_loss_delta": -0.006191434958788045,
+          "path_cost_relative_delta": -0.009370287375445985,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.020754937803140527,
+          "mean_loss_delta": -0.004615968544535248,
+          "max_loss_delta": -0.05140555181108408,
+          "path_cost_relative_delta": -0.003442266167712704,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": -0.007901947539398713,
+          "mean_loss_delta": -2.2922443689066263e-05,
+          "max_loss_delta": 0.0003145069121317512,
+          "path_cost_relative_delta": -0.0063013430559988315,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.011950836779519636,
+          "mean_loss_delta": -0.009969678112295544,
+          "max_loss_delta": -0.023430628845858892,
+          "path_cost_relative_delta": -0.012286299513021182,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": -0.01516300798294018,
+          "mean_loss_delta": 0.0034561781114570977,
+          "max_loss_delta": -0.018239390448457682,
+          "path_cost_relative_delta": -0.00892164577506327,
+          "mlu_relative_delta": -0.009628193520422546
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.013526935340064864,
+          "median": -0.010473723678501717,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.021724889800448653,
+            -0.006348821346012655
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.00390625,
+          "candidate_better": 9,
+          "candidate_worse": 1,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": -0.0027240627025336382,
+          "median": -0.0012615436551152506,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.006314574947745177,
+            0.0006845089280429628
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.173828125,
+          "candidate_better": 7,
+          "candidate_worse": 3,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": -0.02318804374164732,
+          "median": -0.012215412703622863,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.04172859215720417,
+            -0.0067596720839973035
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.0234375,
+          "candidate_better": 7,
+          "candidate_worse": 2,
+          "tied": 3
+        },
+        "path_cost_relative": {
+          "mean": -0.008384756531329196,
+          "median": -0.00813469549883028,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.012922902751801479,
+            -0.004404682644169172
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.00390625,
+          "candidate_better": 9,
+          "candidate_worse": 1,
+          "tied": 2
+        },
+        "mlu_relative": {
+          "mean": 0.0003627354804736453,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.0024070483801056364,
+            0.003495254821526572
+          ],
+          "exact_two_sided_sign_flip_p_value": 1.0,
+          "candidate_better": 1,
+          "candidate_worse": 1,
+          "tied": 10
+        }
+      }
+    },
+    {
+      "candidate": "double_expected",
+      "reference": "ollivier",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": 0.0014064049334646667,
+          "mean_loss_delta": 0.00018646064851490785,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.0002191868856663004,
+          "mean_loss_delta": -0.006576086259840741,
+          "max_loss_delta": -0.006633291255366935,
+          "path_cost_relative_delta": 0.013549718596727711,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.018895355734607766,
+          "mean_loss_delta": -0.013451526479383635,
+          "max_loss_delta": -0.02570506633792824,
+          "path_cost_relative_delta": 0.004129418340402813,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.0075534642982177935,
+          "mean_loss_delta": -0.01783030341346689,
+          "max_loss_delta": 0.048590229397699525,
+          "path_cost_relative_delta": -0.019493847931649766,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": 0.003952985575504442,
+          "mean_loss_delta": -0.0020812558762904054,
+          "max_loss_delta": 0.002321671154841498,
+          "path_cost_relative_delta": -0.0243323960419507,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": 0.010938809825727758,
+          "mean_loss_delta": -0.004434919764564602,
+          "max_loss_delta": 0.018742903217604745,
+          "path_cost_relative_delta": -0.016926787500850526,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.008567931557447783,
+          "mean_loss_delta": -0.006674301640910707,
+          "max_loss_delta": -0.011823486140833617,
+          "path_cost_relative_delta": -0.022811584045064004,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": -0.005898956454295223,
+          "mean_loss_delta": 0.0037461875552578794,
+          "max_loss_delta": 0.01963950305925688,
+          "path_cost_relative_delta": -0.0063013430559988315,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.02097256352873622,
+          "mean_loss_delta": -0.01905780518120284,
+          "max_loss_delta": -0.021225190990283083,
+          "path_cost_relative_delta": 0.026683535169689243,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": 0.014484518253790435,
+          "mean_loss_delta": 0.004327207195574306,
+          "max_loss_delta": 0.02501495223693262,
+          "path_cost_relative_delta": 0.019941965867199762,
+          "mlu_relative_delta": -0.008499772640443992
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.002610394989206982,
+          "median": -0.0001095934428331502,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.008392240568918765,
+            0.0030148619605606278
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.408203125,
+          "candidate_better": 6,
+          "candidate_worse": 4,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": -0.005153861934692728,
+          "median": -0.0032580878204275035,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.009645589340484463,
+            -0.0010755097730784098
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.044921875,
+          "candidate_better": 7,
+          "candidate_worse": 3,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": 0.004076852028493616,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.006941724885674354,
+            0.01604456146418484
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.51953125,
+          "candidate_better": 4,
+          "candidate_worse": 5,
+          "tied": 3
+        },
+        "path_cost_relative": {
+          "mean": -0.002130110050124525,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.010970370278960239,
+            0.007119998743482039
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.6640625,
+          "candidate_better": 5,
+          "candidate_worse": 4,
+          "tied": 3
+        },
+        "mlu_relative": {
+          "mean": -0.0007083143867036475,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.002124943160110998,
+            5.551115123125783e-17
+          ],
+          "exact_two_sided_sign_flip_p_value": 1.0,
+          "candidate_better": 1,
+          "candidate_worse": 0,
+          "tied": 11
+        }
+      }
+    },
+    {
+      "candidate": "double_cvar90",
+      "reference": "ollivier",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": 0.002322492615386418,
+          "mean_loss_delta": 0.010202740785136055,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.049999996335581054,
+          "mlu_relative_delta": 0.004858474790417233
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.015217326799192188,
+          "mean_loss_delta": -0.002804105453963035,
+          "max_loss_delta": -0.03939827856290978,
+          "path_cost_relative_delta": 0.017177566445104153,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.03474189557449586,
+          "mean_loss_delta": 0.0020713462252289205,
+          "max_loss_delta": -0.12741936592732683,
+          "path_cost_relative_delta": 0.028092587551383552,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.03479579419149029,
+          "mean_loss_delta": -0.0016863401341631612,
+          "max_loss_delta": -0.03463290720769152,
+          "path_cost_relative_delta": -0.000684648647861108,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": 0.00031005596066735475,
+          "mean_loss_delta": 0.0061713807118368436,
+          "max_loss_delta": 0.005509915121941322,
+          "path_cost_relative_delta": 0.01053636178104167,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": -0.005750049346180175,
+          "mean_loss_delta": 0.0013597596896912645,
+          "max_loss_delta": 0.0394288137486849,
+          "path_cost_relative_delta": 0.0008683326698897265,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.021907269461922174,
+          "mean_loss_delta": -0.0010823390344563422,
+          "max_loss_delta": -0.03230156777275761,
+          "path_cost_relative_delta": 0.008323760147439963,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": 0.0004431127547605551,
+          "mean_loss_delta": 0.011563186665593972,
+          "max_loss_delta": 0.09059830810478031,
+          "path_cost_relative_delta": 0.04092863403402158,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.026168485382685402,
+          "mean_loss_delta": 0.001749366282342013,
+          "max_loss_delta": -0.023430628845858892,
+          "path_cost_relative_delta": 0.033462879669402756,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": -0.020160946404328972,
+          "mean_loss_delta": 0.0061966061386749816,
+          "max_loss_delta": 0.016624018456543044,
+          "path_cost_relative_delta": 0.03971487822167963,
+          "mlu_relative_delta": -0.009628193520422546
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.012972175485790062,
+          "median": -0.010483688072686181,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.020738087753621365,
+            -0.005540373316536888
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.015625,
+          "candidate_better": 7,
+          "candidate_worse": 3,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": 0.002811800156326793,
+          "median": 0.0015545629860166388,
+          "topology_cluster_bootstrap_95_ci": [
+            0.00044305601084649037,
+            0.005430578788011802
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.06640625,
+          "candidate_better": 3,
+          "candidate_worse": 7,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": -0.008751807740382922,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.03771379418991399,
+            0.018812794205725764
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.58984375,
+          "candidate_better": 5,
+          "candidate_worse": 4,
+          "tied": 3
+        },
+        "path_cost_relative": {
+          "mean": 0.019035029017306915,
+          "median": 0.013856964113072912,
+          "topology_cluster_bootstrap_95_ci": [
+            0.00950712294815352,
+            0.029293561282663156
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.00390625,
+          "candidate_better": 1,
+          "candidate_worse": 9,
+          "tied": 2
+        },
+        "mlu_relative": {
+          "mean": -0.000397476560833739,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.0024070483801056,
+            0.0012146186976043267
+          ],
+          "exact_two_sided_sign_flip_p_value": 1.0,
+          "candidate_better": 1,
+          "candidate_worse": 1,
+          "tied": 10
+        }
+      }
+    },
+    {
+      "candidate": "double_minimax",
+      "reference": "ollivier",
+      "topology_level": [
+        {
+          "topology": "Sago",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Pacificwave",
+          "cvar90_delta": 0.0020836752536727565,
+          "mean_loss_delta": 0.00680143112422224,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.026097493480629508,
+          "mlu_relative_delta": 0.004858474790417233
+        },
+        {
+          "topology": "Ibm",
+          "cvar90_delta": -0.015664824721655646,
+          "mean_loss_delta": -0.003411639516240045,
+          "max_loss_delta": -0.025759201393278697,
+          "path_cost_relative_delta": 0.008648521584394109,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Highwinds",
+          "cvar90_delta": -0.033945600792867736,
+          "mean_loss_delta": -0.013307576068916777,
+          "max_loss_delta": -0.05945590924679467,
+          "path_cost_relative_delta": -0.00795963919772047,
+          "mlu_relative_delta": 2.220446049250313e-16
+        },
+        {
+          "topology": "Internetmci",
+          "cvar90_delta": -0.033489506794429025,
+          "mean_loss_delta": -0.005850956015591852,
+          "max_loss_delta": -0.04399474364741962,
+          "path_cost_relative_delta": -0.003400539978463235,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Restena",
+          "cvar90_delta": 0.002634786438061254,
+          "mean_loss_delta": 0.007851235759246511,
+          "max_loss_delta": -0.003986597173248452,
+          "path_cost_relative_delta": 0.009445119338860053,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Marnet",
+          "cvar90_delta": 0.009074621833907726,
+          "mean_loss_delta": -0.004959287579931984,
+          "max_loss_delta": 0.013707511100684688,
+          "path_cost_relative_delta": -0.016926787500850526,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "BtAsiaPac",
+          "cvar90_delta": -0.022809351281146417,
+          "mean_loss_delta": -0.002765782025636321,
+          "max_loss_delta": -0.049472116216604745,
+          "path_cost_relative_delta": 0.005987609237109615,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Harnet",
+          "cvar90_delta": 0.0031956379299628024,
+          "mean_loss_delta": 0.007134667884651641,
+          "max_loss_delta": 0.08708463070012185,
+          "path_cost_relative_delta": 0.022277847934139894,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "Bandcon",
+          "cvar90_delta": -0.009958639307383499,
+          "mean_loss_delta": -0.011935315885453601,
+          "max_loss_delta": -0.004089945794832017,
+          "path_cost_relative_delta": -0.015607910558869231,
+          "mlu_relative_delta": 0.0
+        },
+        {
+          "topology": "HiberniaUs",
+          "cvar90_delta": -0.022238573897522318,
+          "mean_loss_delta": 0.005324877421054003,
+          "max_loss_delta": 0.007150220751215297,
+          "path_cost_relative_delta": 0.034816325347968746,
+          "mlu_relative_delta": -0.009628193520422546
+        },
+        {
+          "topology": "Azrena",
+          "cvar90_delta": 0.0,
+          "mean_loss_delta": 0.0,
+          "max_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "mlu_relative_delta": 0.0
+        }
+      ],
+      "summary": {
+        "cvar90": {
+          "mean": -0.010093147944950009,
+          "median": -0.0049793196536917494,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.01838337483095492,
+            -0.0022254971636342844
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.046875,
+          "candidate_better": 6,
+          "candidate_worse": 4,
+          "tied": 2
+        },
+        "mean_loss": {
+          "mean": -0.0012598620752163486,
+          "median": -0.0013828910128181604,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.005195160837159066,
+            0.0025723676720590975
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.552734375,
+          "candidate_better": 6,
+          "candidate_worse": 4,
+          "tied": 2
+        },
+        "max_loss": {
+          "mean": -0.006568012576679698,
+          "median": -0.001993298586624226,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.025882010525982352,
+            0.015671552690476143
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.578125,
+          "candidate_better": 6,
+          "candidate_worse": 3,
+          "tied": 3
+        },
+        "path_cost_relative": {
+          "mean": 0.0052815033072665385,
+          "median": 0.0029938046185548073,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.0033329545599701505,
+            0.014150165272692661
+          ],
+          "exact_two_sided_sign_flip_p_value": 0.287109375,
+          "candidate_better": 4,
+          "candidate_worse": 6,
+          "tied": 2
+        },
+        "mlu_relative": {
+          "mean": -0.000397476560833739,
+          "median": 0.0,
+          "topology_cluster_bootstrap_95_ci": [
+            -0.0024070483801055995,
+            0.0012146186976043267
+          ],
+          "exact_two_sided_sign_flip_p_value": 1.0,
+          "candidate_better": 1,
+          "candidate_worse": 1,
+          "tied": 10
+        }
+      }
+    }
+  ],
+  "holm_families": {
+    "cvar90_vs_min_mlu": {
+      "raw": {
+        "single_minimax": 0.005859375,
+        "double_expected": 0.689453125,
+        "double_cvar90": 0.021484375,
+        "double_minimax": 0.076171875
+      },
+      "adjusted": {
+        "single_minimax": 0.0234375,
+        "double_cvar90": 0.064453125,
+        "double_minimax": 0.15234375,
+        "double_expected": 0.689453125
+      }
+    },
+    "mean_loss_vs_min_mlu": {
+      "raw": {
+        "single_minimax": 0.08203125,
+        "double_expected": 0.1640625,
+        "double_cvar90": 0.005859375,
+        "double_minimax": 0.052734375
+      },
+      "adjusted": {
+        "double_cvar90": 0.0234375,
+        "double_minimax": 0.158203125,
+        "single_minimax": 0.1640625,
+        "double_expected": 0.1640625
+      }
+    },
+    "max_loss_vs_min_mlu": {
+      "raw": {
+        "single_minimax": 0.0078125,
+        "double_expected": 0.3984375,
+        "double_cvar90": 0.55859375,
+        "double_minimax": 0.59375
+      },
+      "adjusted": {
+        "single_minimax": 0.03125,
+        "double_expected": 1.0,
+        "double_cvar90": 1.0,
+        "double_minimax": 1.0
+      }
+    },
+    "cvar90_vs_ollivier": {
+      "raw": {
+        "single_minimax": 0.00390625,
+        "double_expected": 0.408203125,
+        "double_cvar90": 0.015625,
+        "double_minimax": 0.046875
+      },
+      "adjusted": {
+        "single_minimax": 0.015625,
+        "double_cvar90": 0.046875,
+        "double_minimax": 0.09375,
+        "double_expected": 0.408203125
+      }
+    },
+    "mean_loss_vs_ollivier": {
+      "raw": {
+        "single_minimax": 0.173828125,
+        "double_expected": 0.044921875,
+        "double_cvar90": 0.06640625,
+        "double_minimax": 0.552734375
+      },
+      "adjusted": {
+        "double_expected": 0.1796875,
+        "double_cvar90": 0.19921875,
+        "single_minimax": 0.34765625,
+        "double_minimax": 0.552734375
+      }
+    },
+    "max_loss_vs_ollivier": {
+      "raw": {
+        "single_minimax": 0.0234375,
+        "double_expected": 0.51953125,
+        "double_cvar90": 0.58984375,
+        "double_minimax": 0.578125
+      },
+      "adjusted": {
+        "single_minimax": 0.09375,
+        "double_expected": 1.0,
+        "double_minimax": 1.0,
+        "double_cvar90": 1.0
+      }
+    }
+  },
+  "structural_scores_vs_adaptive_double_failure_loss": {
+    "ollivier": [
+      {
+        "topology": "Sago",
+        "mean_spearman_rho": 0.12777447901954284,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Pacificwave",
+        "mean_spearman_rho": 0.7989566785316548,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Ibm",
+        "mean_spearman_rho": 0.33989904439674123,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Highwinds",
+        "mean_spearman_rho": 0.5544363995597388,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Internetmci",
+        "mean_spearman_rho": 0.5372347937184406,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Restena",
+        "mean_spearman_rho": 0.28898493543392423,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Marnet",
+        "mean_spearman_rho": 0.16655324817637357,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "BtAsiaPac",
+        "mean_spearman_rho": 0.29734160416484356,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Harnet",
+        "mean_spearman_rho": 0.5582611642155364,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Bandcon",
+        "mean_spearman_rho": 0.3406346034652587,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "HiberniaUs",
+        "mean_spearman_rho": 0.36466599222244045,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Azrena",
+        "mean_spearman_rho": 0.7638612861179805,
+        "traffic_matrices_with_defined_rho": 4
+      }
+    ],
+    "forman": [
+      {
+        "topology": "Sago",
+        "mean_spearman_rho": 0.12777447901954284,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Pacificwave",
+        "mean_spearman_rho": 0.6069332842167593,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Ibm",
+        "mean_spearman_rho": 0.02656547948705497,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Highwinds",
+        "mean_spearman_rho": 0.22220281049613846,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Internetmci",
+        "mean_spearman_rho": 0.592106411855324,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Restena",
+        "mean_spearman_rho": 0.31777399050167693,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Marnet",
+        "mean_spearman_rho": 0.2586560901916991,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "BtAsiaPac",
+        "mean_spearman_rho": 0.3501099571475349,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Harnet",
+        "mean_spearman_rho": 0.41671270213250267,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Bandcon",
+        "mean_spearman_rho": 0.14711878171835502,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "HiberniaUs",
+        "mean_spearman_rho": 0.005795466384997455,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Azrena",
+        "mean_spearman_rho": 0.5899098740292974,
+        "traffic_matrices_with_defined_rho": 4
+      }
+    ],
+    "degree": [
+      {
+        "topology": "Sago",
+        "mean_spearman_rho": 0.442659325916258,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Pacificwave",
+        "mean_spearman_rho": 0.584180736958776,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Ibm",
+        "mean_spearman_rho": -0.0041178590499157675,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Highwinds",
+        "mean_spearman_rho": -0.18483012055949444,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Internetmci",
+        "mean_spearman_rho": 0.062450931817572525,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Restena",
+        "mean_spearman_rho": 0.3215507616394824,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Marnet",
+        "mean_spearman_rho": -0.008875289830802508,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "BtAsiaPac",
+        "mean_spearman_rho": 0.14198834560303206,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Harnet",
+        "mean_spearman_rho": 0.44383946734178775,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Bandcon",
+        "mean_spearman_rho": -0.03994057959999023,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "HiberniaUs",
+        "mean_spearman_rho": -0.18249680418833275,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Azrena",
+        "mean_spearman_rho": 0.6102583650839468,
+        "traffic_matrices_with_defined_rho": 4
+      }
+    ],
+    "betweenness": [
+      {
+        "topology": "Sago",
+        "mean_spearman_rho": 0.908334319562109,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Pacificwave",
+        "mean_spearman_rho": 0.7590456082394618,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Ibm",
+        "mean_spearman_rho": 0.11529829423343887,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Highwinds",
+        "mean_spearman_rho": 0.5584324618802543,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Internetmci",
+        "mean_spearman_rho": 0.4678434874982034,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Restena",
+        "mean_spearman_rho": 0.413254143594979,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Marnet",
+        "mean_spearman_rho": 0.6684503243049545,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "BtAsiaPac",
+        "mean_spearman_rho": 0.21613530249656315,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Harnet",
+        "mean_spearman_rho": 0.5911286449876516,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Bandcon",
+        "mean_spearman_rho": 0.4966984856181588,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "HiberniaUs",
+        "mean_spearman_rho": 0.6525486456319807,
+        "traffic_matrices_with_defined_rho": 4
+      },
+      {
+        "topology": "Azrena",
+        "mean_spearman_rho": 0.7662812446939252,
+        "traffic_matrices_with_defined_rho": 4
+      }
+    ]
+  },
+  "runtime": {
+    "total_topology_wall_seconds": 1383.8826065999456,
+    "per_topology_wall_seconds": {
+      "Sago": 20.61893630004488,
+      "Pacificwave": 33.488384099910036,
+      "Ibm": 206.77925170003437,
+      "Highwinds": 79.36670830007643,
+      "Internetmci": 88.47918409993872,
+      "Restena": 40.648295499850065,
+      "Marnet": 106.52908300003037,
+      "BtAsiaPac": 128.25007229996845,
+      "Harnet": 116.92508159996942,
+      "Bandcon": 210.10362010006793,
+      "HiberniaUs": 273.7186894000042,
+      "Azrena": 78.9753002000507
+    },
+    "python_allocator_peak_bytes_max": 69331901,
+    "memory_limit": "native HiGHS allocations are not measured"
+  }
+}

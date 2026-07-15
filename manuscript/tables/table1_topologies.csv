@@ -1,0 +1,11 @@
+topology,nodes,directed_arcs,physical_links,parallel_bundles,od_pairs,failure_cases,orc_strength
+Aconet,23,62,31,0,506,124,1.0
+Easynet,19,52,26,6,342,104,0.3
+Noel,19,50,25,0,342,100,1.0
+Belnet2010,22,50,25,10,462,100,0.3
+Garr200109,22,48,24,0,462,96,0.03
+Fccn,23,50,25,4,506,100,1.0
+Packetexchange,21,54,27,0,420,108,0.3
+GtsRomania,21,48,24,0,420,96,0.3
+Fatman,17,42,21,0,272,84,1.0
+Nextgen,17,38,19,2,272,76,1.0

@@ -1,0 +1,277 @@
+{
+  "preliminary_only": true,
+  "experimental_unit": "topology",
+  "multiple_comparison_correction": "Holm across five policy-vs-MLU tests",
+  "topologies": [
+    "Aarnet",
+    "Abilene",
+    "Airtel",
+    "BtEurope",
+    "Nsfnet",
+    "Sprint"
+  ],
+  "topology_level": {
+    "degree": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.005326440854955352,
+        "worst_loss_delta": -0.03896642641859027,
+        "path_cost_relative_delta": 0.05178657354813976
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": 0.0005539335886728502,
+        "worst_loss_delta": 0.00762662913308354,
+        "path_cost_relative_delta": 0.02790476865583269
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": 0.0031015364931732525,
+        "worst_loss_delta": -0.017962685761022223,
+        "path_cost_relative_delta": 0.03175009893766867
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.001921407522690487,
+        "worst_loss_delta": 0.004312132779102362,
+        "path_cost_relative_delta": 0.027689016412370426
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.005925796356860914,
+        "worst_loss_delta": 0.06417055001157945,
+        "path_cost_relative_delta": 0.004039145541105071
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.005560841154030713,
+        "worst_loss_delta": 0.006841285341208536,
+        "path_cost_relative_delta": 0.07038249586931844
+      }
+    ],
+    "betweenness": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.0014736936100798875,
+        "worst_loss_delta": 0.01278217555762251,
+        "path_cost_relative_delta": 0.06280771403507224
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": -0.0016257244979681006,
+        "worst_loss_delta": 0.00608944639978104,
+        "path_cost_relative_delta": 0.019992349258247
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": -0.0030505757708498096,
+        "worst_loss_delta": -0.018628592493061147,
+        "path_cost_relative_delta": 0.04918433742459616
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": -0.00015229895066182968,
+        "worst_loss_delta": -0.04928986592030615,
+        "path_cost_relative_delta": 0.03506667926350082
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.00023703662140367918,
+        "worst_loss_delta": 0.06827954181730533,
+        "path_cost_relative_delta": 0.004306410713860398
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.0023381279477242946,
+        "worst_loss_delta": 0.00579301897365736,
+        "path_cost_relative_delta": 0.01729314417641592
+      }
+    ],
+    "forman": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.0025610996382049067,
+        "worst_loss_delta": -0.013121338789120696,
+        "path_cost_relative_delta": 0.005356199665763617
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": 0.0017025668537272202,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.013350334397243424
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": 0.0009887127900855444,
+        "worst_loss_delta": -0.013924130642303134,
+        "path_cost_relative_delta": 0.05474921794266985
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.00589633297339929,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.015482401683364566
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.0077523357789911216,
+        "worst_loss_delta": 0.059223525144049716,
+        "path_cost_relative_delta": 0.016781209109459683
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.001137196432280653,
+        "worst_loss_delta": -0.011239993080794597,
+        "path_cost_relative_delta": 0.024883142178818263
+      }
+    ],
+    "ollivier": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.0014696749648848092,
+        "worst_loss_delta": -0.037134124205785546,
+        "path_cost_relative_delta": 0.037718251553538584
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": 0.004710272956267475,
+        "worst_loss_delta": 0.00550250607989522,
+        "path_cost_relative_delta": 0.04161718016180593
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": 0.0010553043252187154,
+        "worst_loss_delta": -0.005070600663129143,
+        "path_cost_relative_delta": 0.04988133661204275
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.003184732689414725,
+        "worst_loss_delta": -0.04041639261495711,
+        "path_cost_relative_delta": 0.019377379368980208
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.007564954861121398,
+        "worst_loss_delta": 0.06227848305668682,
+        "path_cost_relative_delta": 0.00034569116706228975
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.0023483170330475278,
+        "worst_loss_delta": -0.0018398399896389916,
+        "path_cost_relative_delta": 0.015658861108341915
+      }
+    ],
+    "random_placebo": [
+      {
+        "topology": "Abilene",
+        "mean_loss_delta": 0.003740088657511068,
+        "worst_loss_delta": -0.00542638931179773,
+        "path_cost_relative_delta": 0.04749783393635809
+      },
+      {
+        "topology": "Nsfnet",
+        "mean_loss_delta": -0.0009087835486221829,
+        "worst_loss_delta": 0.0,
+        "path_cost_relative_delta": 0.012616784047782659
+      },
+      {
+        "topology": "Sprint",
+        "mean_loss_delta": -0.0023700675377122376,
+        "worst_loss_delta": -0.013924130642303134,
+        "path_cost_relative_delta": 0.028126954591581654
+      },
+      {
+        "topology": "Airtel",
+        "mean_loss_delta": 0.0022743441663945654,
+        "worst_loss_delta": -0.06081635282919595,
+        "path_cost_relative_delta": 0.05733838771191846
+      },
+      {
+        "topology": "Aarnet",
+        "mean_loss_delta": 0.006373429772057551,
+        "worst_loss_delta": 0.06157903517204577,
+        "path_cost_relative_delta": 0.025129700838932845
+      },
+      {
+        "topology": "BtEurope",
+        "mean_loss_delta": 0.0009153688990113119,
+        "worst_loss_delta": -0.0033421565794101715,
+        "path_cost_relative_delta": 0.053832352129373096
+      }
+    ]
+  },
+  "summary": {
+    "degree": {
+      "mean_service_loss_delta": 0.0037316593283972612,
+      "cluster_bootstrap_95_ci": [
+        0.002055647363259324,
+        0.005233542061651976
+      ],
+      "median_service_loss_delta": 0.004213988674064303,
+      "topologies_better_than_mlu": 0,
+      "topologies_worse_than_mlu": 6,
+      "mean_worst_case_loss_delta": 0.004336914180893566,
+      "mean_path_cost_relative_delta": 0.03559201649407251,
+      "sign_flip_p_value": 0.03125,
+      "holm_adjusted_p_value": 0.15625
+    },
+    "betweenness": {
+      "mean_service_loss_delta": -0.00012995684004531304,
+      "cluster_bootstrap_95_ci": [
+        -0.001584105237587339,
+        0.0012847301310583688
+      ],
+      "median_service_loss_delta": 4.236883537092475e-05,
+      "topologies_better_than_mlu": 3,
+      "topologies_worse_than_mlu": 3,
+      "mean_worst_case_loss_delta": 0.004170954055833158,
+      "mean_path_cost_relative_delta": 0.031441772478615425,
+      "sign_flip_p_value": 0.875,
+      "holm_adjusted_p_value": 0.875
+    },
+    "forman": {
+      "mean_service_loss_delta": 0.003339707411114789,
+      "cluster_bootstrap_95_ci": [
+        0.001419247489444087,
+        0.005497794782689262
+      ],
+      "median_service_loss_delta": 0.0021318332459660636,
+      "topologies_better_than_mlu": 0,
+      "topologies_worse_than_mlu": 6,
+      "mean_worst_case_loss_delta": 0.0034896771053052147,
+      "mean_path_cost_relative_delta": 0.021767084162886568,
+      "sign_flip_p_value": 0.03125,
+      "holm_adjusted_p_value": 0.15625
+    },
+    "ollivier": {
+      "mean_service_loss_delta": 0.003388876138325775,
+      "cluster_bootstrap_95_ci": [
+        0.0017708724524108039,
+        0.005274195759044185
+      ],
+      "median_service_loss_delta": 0.0027665248612311266,
+      "topologies_better_than_mlu": 0,
+      "topologies_worse_than_mlu": 6,
+      "mean_worst_case_loss_delta": -0.0027799947228214585,
+      "mean_path_cost_relative_delta": 0.027433116661961948,
+      "sign_flip_p_value": 0.03125,
+      "holm_adjusted_p_value": 0.15625
+    },
+    "random_placebo": {
+      "mean_service_loss_delta": 0.001670730068106679,
+      "cluster_bootstrap_95_ci": [
+        -0.0005613315178771606,
+        0.00403765643190935
+      ],
+      "median_service_loss_delta": 0.0015948565327029386,
+      "topologies_better_than_mlu": 2,
+      "topologies_worse_than_mlu": 4,
+      "mean_worst_case_loss_delta": -0.0036549990317768697,
+      "mean_path_cost_relative_delta": 0.037423668875991134,
+      "sign_flip_p_value": 0.28125,
+      "holm_adjusted_p_value": 0.5625
+    }
+  }
+}

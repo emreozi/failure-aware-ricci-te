@@ -1,0 +1,312 @@
+{
+  "exploratory_only": true,
+  "reason": "tail_robust was designed after inspecting confirmatory secondary outcomes",
+  "topologies": [
+    "Claranet",
+    "HiberniaUk",
+    "Nordu2010",
+    "Spiralight",
+    "Garr199901",
+    "Grena",
+    "HostwayInternational",
+    "Marwan",
+    "Peer1",
+    "Rhnet"
+  ],
+  "comparisons": [
+    {
+      "candidate": "ollivier",
+      "reference": "mlu",
+      "topologies": [
+        {
+          "topology": "Claranet",
+          "mean_loss_delta": 0.0023343159685404735,
+          "worst_loss_delta": 0.03224009453585097,
+          "path_cost_relative_delta": 0.00644644492129709
+        },
+        {
+          "topology": "HiberniaUk",
+          "mean_loss_delta": 0.008644995399163163,
+          "worst_loss_delta": 0.004325981742181573,
+          "path_cost_relative_delta": 0.028277539381903916
+        },
+        {
+          "topology": "Nordu2010",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "Spiralight",
+          "mean_loss_delta": 0.0036991380056632384,
+          "worst_loss_delta": -0.022847936290829707,
+          "path_cost_relative_delta": 0.02227603708950232
+        },
+        {
+          "topology": "Garr199901",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "Grena",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "HostwayInternational",
+          "mean_loss_delta": -0.005576100768871967,
+          "worst_loss_delta": -0.04339382233765954,
+          "path_cost_relative_delta": 0.09052044287473349
+        },
+        {
+          "topology": "Marwan",
+          "mean_loss_delta": 2.7755575615628914e-17,
+          "worst_loss_delta": 0.007938372445599806,
+          "path_cost_relative_delta": 0.00877087971172097
+        },
+        {
+          "topology": "Peer1",
+          "mean_loss_delta": 0.008541795375321293,
+          "worst_loss_delta": -0.0076052433278016585,
+          "path_cost_relative_delta": 0.019503647217211872
+        },
+        {
+          "topology": "Rhnet",
+          "mean_loss_delta": -0.006142592093784316,
+          "worst_loss_delta": -0.0003007070263607581,
+          "path_cost_relative_delta": 0.04345561995720337
+        }
+      ],
+      "summary": {
+        "mean_loss_delta": {
+          "mean": 0.0011501551886031914,
+          "bootstrap_95_ci": [
+            -0.0017405525552370343,
+            0.0040761188704662495
+          ],
+          "sign_flip_p_value": 0.5,
+          "candidate_better": 2,
+          "candidate_worse": 5
+        },
+        "worst_loss_delta": {
+          "mean": -0.002964326025901931,
+          "bootstrap_95_ci": [
+            -0.014837621246375231,
+            0.008262042333792241
+          ],
+          "sign_flip_p_value": 0.703125,
+          "candidate_better": 4,
+          "candidate_worse": 3
+        },
+        "path_cost_relative_delta": {
+          "mean": 0.021925061115357303,
+          "bootstrap_95_ci": [
+            0.007817960426040438,
+            0.04009435733853955
+          ],
+          "sign_flip_p_value": 0.015625,
+          "candidate_better": 0,
+          "candidate_worse": 7
+        }
+      }
+    },
+    {
+      "candidate": "tail_robust",
+      "reference": "mlu",
+      "topologies": [
+        {
+          "topology": "Claranet",
+          "mean_loss_delta": 0.0004697700603908811,
+          "worst_loss_delta": -0.0180438650527166,
+          "path_cost_relative_delta": 0.004224782213922751
+        },
+        {
+          "topology": "HiberniaUk",
+          "mean_loss_delta": -0.0001646692731396282,
+          "worst_loss_delta": -0.04527351942395552,
+          "path_cost_relative_delta": 0.013263117982722505
+        },
+        {
+          "topology": "Nordu2010",
+          "mean_loss_delta": 0.002440563069579932,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.00819097465580887
+        },
+        {
+          "topology": "Spiralight",
+          "mean_loss_delta": -0.0011355956751391838,
+          "worst_loss_delta": -0.04960999313491221,
+          "path_cost_relative_delta": 0.0499999999999996
+        },
+        {
+          "topology": "Garr199901",
+          "mean_loss_delta": 0.0012850962409746841,
+          "worst_loss_delta": -0.026067239541031184,
+          "path_cost_relative_delta": 0.012601946570222067
+        },
+        {
+          "topology": "Grena",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "HostwayInternational",
+          "mean_loss_delta": -0.002689918641934269,
+          "worst_loss_delta": -0.03322147423073629,
+          "path_cost_relative_delta": 0.03409396879107818
+        },
+        {
+          "topology": "Marwan",
+          "mean_loss_delta": 2.7755575615628914e-17,
+          "worst_loss_delta": -0.03975857004908823,
+          "path_cost_relative_delta": 0.003343886459127976
+        },
+        {
+          "topology": "Peer1",
+          "mean_loss_delta": 0.0009349529493951209,
+          "worst_loss_delta": -0.042003823486993275,
+          "path_cost_relative_delta": 0.0391905526907228
+        },
+        {
+          "topology": "Rhnet",
+          "mean_loss_delta": 3.54524032921133e-05,
+          "worst_loss_delta": -0.00030070702636053603,
+          "path_cost_relative_delta": 0.005314830207773902
+        }
+      ],
+      "summary": {
+        "mean_loss_delta": {
+          "mean": 0.00011756511334196779,
+          "bootstrap_95_ci": [
+            -0.0007228946432755243,
+            0.0008992000652904901
+          ],
+          "sign_flip_p_value": 0.7890625,
+          "candidate_better": 3,
+          "candidate_worse": 6
+        },
+        "worst_loss_delta": {
+          "mean": -0.025427919194579384,
+          "bootstrap_95_ci": [
+            -0.036613629707740604,
+            -0.013332843984589494
+          ],
+          "sign_flip_p_value": 0.0078125,
+          "candidate_better": 8,
+          "candidate_worse": 0
+        },
+        "path_cost_relative_delta": {
+          "mean": 0.017022405957137866,
+          "bootstrap_95_ci": [
+            0.007552573874066047,
+            0.028127126867114827
+          ],
+          "sign_flip_p_value": 0.00390625,
+          "candidate_better": 0,
+          "candidate_worse": 9
+        }
+      }
+    },
+    {
+      "candidate": "tail_robust",
+      "reference": "ollivier",
+      "topologies": [
+        {
+          "topology": "Claranet",
+          "mean_loss_delta": -0.0018645459081495924,
+          "worst_loss_delta": -0.05028395958856757,
+          "path_cost_relative_delta": -0.0022074326146068746
+        },
+        {
+          "topology": "HiberniaUk",
+          "mean_loss_delta": -0.008809664672302792,
+          "worst_loss_delta": -0.049599501166137094,
+          "path_cost_relative_delta": -0.014601526167931866
+        },
+        {
+          "topology": "Nordu2010",
+          "mean_loss_delta": 0.002440563069579932,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.00819097465580887
+        },
+        {
+          "topology": "Spiralight",
+          "mean_loss_delta": -0.004834733680802422,
+          "worst_loss_delta": -0.026762056844082505,
+          "path_cost_relative_delta": 0.02711984034119541
+        },
+        {
+          "topology": "Garr199901",
+          "mean_loss_delta": 0.0012850962409746841,
+          "worst_loss_delta": -0.026067239541031184,
+          "path_cost_relative_delta": 0.012601946570222067
+        },
+        {
+          "topology": "Grena",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0
+        },
+        {
+          "topology": "HostwayInternational",
+          "mean_loss_delta": 0.0028861821269376975,
+          "worst_loss_delta": 0.010172348106923246,
+          "path_cost_relative_delta": -0.051742701801085644
+        },
+        {
+          "topology": "Marwan",
+          "mean_loss_delta": 0.0,
+          "worst_loss_delta": -0.04769694249468803,
+          "path_cost_relative_delta": -0.005379807607197917
+        },
+        {
+          "topology": "Peer1",
+          "mean_loss_delta": -0.007606842425926172,
+          "worst_loss_delta": -0.034398580159191616,
+          "path_cost_relative_delta": 0.019310284497016994
+        },
+        {
+          "topology": "Rhnet",
+          "mean_loss_delta": 0.006178044497076429,
+          "worst_loss_delta": 2.220446049250313e-16,
+          "path_cost_relative_delta": -0.03655238327337185
+        }
+      ],
+      "summary": {
+        "mean_loss_delta": {
+          "mean": -0.0010325900752612236,
+          "bootstrap_95_ci": [
+            -0.003928649790148668,
+            0.0017101940093306488
+          ],
+          "sign_flip_p_value": 0.5078125,
+          "candidate_better": 4,
+          "candidate_worse": 4
+        },
+        "worst_loss_delta": {
+          "mean": -0.022463593168677454,
+          "bootstrap_95_ci": [
+            -0.03595512387210359,
+            -0.008712409555390143
+          ],
+          "sign_flip_p_value": 0.03125,
+          "candidate_better": 6,
+          "candidate_worse": 2
+        },
+        "path_cost_relative_delta": {
+          "mean": -0.004326080539995081,
+          "bootstrap_95_ci": [
+            -0.019512398044761108,
+            0.009413985014485881
+          ],
+          "sign_flip_p_value": 0.6015625,
+          "candidate_better": 5,
+          "candidate_worse": 4
+        }
+      }
+    }
+  ]
+}

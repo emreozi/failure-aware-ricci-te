@@ -1,0 +1,64 @@
+{
+  "seed": 1,
+  "eta": 0.3,
+  "E": 5078,
+  "S_size": 759,
+  "traj": [
+    {
+      "t": 0,
+      "mean_abs_kappa_S": 0.0796,
+      "n_crit": 759,
+      "crit_frac": 0.149,
+      "max_abs_kappa": 0.7153
+    },
+    {
+      "t": 1,
+      "mean_abs_kappa_S": 0.069,
+      "n_crit": 674,
+      "crit_frac": 0.133,
+      "max_abs_kappa": 0.6524
+    },
+    {
+      "t": 2,
+      "mean_abs_kappa_S": 0.0618,
+      "n_crit": 587,
+      "crit_frac": 0.116,
+      "max_abs_kappa": 0.6109
+    },
+    {
+      "t": 3,
+      "mean_abs_kappa_S": 0.057,
+      "n_crit": 509,
+      "crit_frac": 0.1,
+      "max_abs_kappa": 0.5846
+    },
+    {
+      "t": 4,
+      "mean_abs_kappa_S": 0.0541,
+      "n_crit": 434,
+      "crit_frac": 0.085,
+      "max_abs_kappa": 0.5634
+    },
+    {
+      "t": 5,
+      "mean_abs_kappa_S": 0.0546,
+      "n_crit": 364,
+      "crit_frac": 0.072,
+      "max_abs_kappa": 0.522
+    },
+    {
+      "t": 6,
+      "mean_abs_kappa_S": 0.0564,
+      "n_crit": 314,
+      "crit_frac": 0.062,
+      "max_abs_kappa": 0.4815
+    },
+    {
+      "t": 7,
+      "mean_abs_kappa_S": 0.0579,
+      "n_crit": 277,
+      "crit_frac": 0.055,
+      "max_abs_kappa": 0.5381
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "protocol_id": "scalability-v1-frozen-2026-07-14",
+  "repetita_commit": "60e679c2f34d9b65b7f256ff6f6963938fa040f9",
+  "complete": true,
+  "results": [
+    {
+      "topology": "GtsHungary",
+      "nodes": 30,
+      "directed_arcs": 62,
+      "physical_links": 31,
+      "commodities": 867,
+      "k_paths": 4,
+      "double_failure_design_scenarios": 160,
+      "selected_orc_strength": 3.0,
+      "tuning_trace": [
+        {
+          "strength": 0.03,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 393.7837719083377,
+          "policy_exposure": 1.2266109038565962,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.1,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 393.79478493412387,
+          "policy_exposure": 1.225713546199943,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.3,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 393.8268023015681,
+          "policy_exposure": 1.2252804610364465,
+          "feasible_latency": true
+        },
+        {
+          "strength": 1.0,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 398.5641077885686,
+          "policy_exposure": 1.2027619431736802,
+          "feasible_latency": true
+        },
+        {
+          "strength": 3.0,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 401.452659987854,
+          "policy_exposure": 1.197589999217835,
+          "feasible_latency": true
+        },
+        {
+          "strength": 10.0,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 401.452659987854,
+          "policy_exposure": 1.197589999217835,
+          "feasible_latency": true
+        },
+        {
+          "strength": 30.0,
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 401.452659987854,
+          "policy_exposure": 1.1975899992178352,
+          "feasible_latency": true
+        }
+      ],
+      "solutions": {
+        "min_mlu": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 393.7826903008826,
+          "objective_exposure": 0.0,
+          "path_variables": 1794
+        },
+        "ollivier": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 401.452659987854,
+          "objective_exposure": 1.1975899992178352,
+          "path_variables": 1794
+        },
+        "single_minimax": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 403.09212293686033,
+          "objective_exposure": 0.2412285130137192,
+          "path_variables": 1794
+        },
+        "double_cvar90": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.9179546110000001,
+          "average_path_cost": 410.13284034025486,
+          "objective_exposure": 0.3745769838664087,
+          "path_variables": 1794
+        }
+      },
+      "seconds": {
+        "parsing": 0.009327099891379476,
+        "curvature": 0.011936899973079562,
+        "curvature_internal": 0.011898000026121736,
+        "path_generation": 0.8129137000069022,
+        "min_mlu": 0.08631990011781454,
+        "orc_tuning": 0.6330403999891132,
+        "orc_final": 0.08998359995894134,
+        "single_minimax": 0.4026772999204695,
+        "double_cvar90": 4.906353499973193,
+        "total": 6.984113099984825
+      },
+      "python_tracemalloc_peak_bytes": 22232884,
+      "memory_note": "Python allocator only; native solver allocations excluded."
+    },
+    {
+      "topology": "Geant2012",
+      "nodes": 40,
+      "directed_arcs": 122,
+      "physical_links": 61,
+      "commodities": 1556,
+      "k_paths": 4,
+      "double_failure_design_scenarios": 160,
+      "selected_orc_strength": 1.0,
+      "tuning_trace": [
+        {
+          "strength": 0.03,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2852.3422242607944,
+          "policy_exposure": 1.2829566141768405,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.1,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2859.6640376204637,
+          "policy_exposure": 1.2131271460742974,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.3,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2888.94221593811,
+          "policy_exposure": 1.159051848865516,
+          "feasible_latency": true
+        },
+        {
+          "strength": 1.0,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2910.8934069518164,
+          "policy_exposure": 1.143831068079494,
+          "feasible_latency": true
+        },
+        {
+          "strength": 3.0,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 3059.777372287707,
+          "policy_exposure": 1.087476226256815,
+          "feasible_latency": false
+        },
+        {
+          "strength": 10.0,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 3067.7577817222023,
+          "policy_exposure": 1.0868335739066504,
+          "feasible_latency": false
+        },
+        {
+          "strength": 30.0,
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 3069.2699609608417,
+          "policy_exposure": 1.0867995267581512,
+          "feasible_latency": false
+        }
+      ],
+      "solutions": {
+        "min_mlu": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2851.402942734897,
+          "objective_exposure": 0.0,
+          "path_variables": 6153
+        },
+        "ollivier": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2910.8934069518164,
+          "objective_exposure": 1.143831068079494,
+          "path_variables": 6153
+        },
+        "single_minimax": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2874.4186690730685,
+          "objective_exposure": 0.19172388217914724,
+          "path_variables": 6153
+        },
+        "double_cvar90": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 1.5569176137365222,
+          "average_path_cost": 2993.973071313256,
+          "objective_exposure": 0.20055316532227094,
+          "path_variables": 6153
+        }
+      },
+      "seconds": {
+        "parsing": 0.039575399830937386,
+        "curvature": 0.07639020006172359,
+        "curvature_internal": 0.07623830018565059,
+        "path_generation": 12.823963799979538,
+        "min_mlu": 1.4328463999554515,
+        "orc_tuning": 10.884465200128034,
+        "orc_final": 1.645770400064066,
+        "single_minimax": 8.817559599876404,
+        "double_cvar90": 16.737115600146353,
+        "total": 52.60336880013347
+      },
+      "python_tracemalloc_peak_bytes": 48637488,
+      "memory_note": "Python allocator only; native solver allocations excluded."
+    },
+    {
+      "topology": "Surfnet",
+      "nodes": 50,
+      "directed_arcs": 136,
+      "physical_links": 68,
+      "commodities": 2450,
+      "k_paths": 4,
+      "double_failure_design_scenarios": 160,
+      "selected_orc_strength": 30.0,
+      "tuning_trace": [
+        {
+          "strength": 0.03,
+          "mlu": 0.9271973410000001,
+          "average_path_cost": 246.00046491946375,
+          "policy_exposure": 1.4581744901773943,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.1,
+          "mlu": 0.927197341,
+          "average_path_cost": 246.55505402403492,
+          "policy_exposure": 1.3929613193056987,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.3,
+          "mlu": 0.927197341,
+          "average_path_cost": 247.7203938547569,
+          "policy_exposure": 1.3475656583994498,
+          "feasible_latency": true
+        },
+        {
+          "strength": 1.0,
+          "mlu": 0.927197341,
+          "average_path_cost": 249.70334321007917,
+          "policy_exposure": 1.330109285892236,
+          "feasible_latency": true
+        },
+        {
+          "strength": 3.0,
+          "mlu": 0.927197341,
+          "average_path_cost": 251.4758425549346,
+          "policy_exposure": 1.3215944516325107,
+          "feasible_latency": true
+        },
+        {
+          "strength": 10.0,
+          "mlu": 0.927197341,
+          "average_path_cost": 254.8886656221612,
+          "policy_exposure": 1.3165785707491282,
+          "feasible_latency": true
+        },
+        {
+          "strength": 30.0,
+          "mlu": 0.927197341,
+          "average_path_cost": 255.29345282177354,
+          "policy_exposure": 1.3163599725651738,
+          "feasible_latency": true
+        }
+      ],
+      "solutions": {
+        "min_mlu": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.9271973410000001,
+          "average_path_cost": 245.98756290040384,
+          "objective_exposure": 0.0,
+          "path_variables": 9720
+        },
+        "ollivier": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.927197341,
+          "average_path_cost": 255.29345282177357,
+          "objective_exposure": 1.3163599725651738,
+          "path_variables": 9720
+        },
+        "single_minimax": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.927197341,
+          "average_path_cost": 247.3706761079748,
+          "objective_exposure": 0.12914605084793138,
+          "path_variables": 9720
+        },
+        "double_cvar90": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.927197341,
+          "average_path_cost": 258.28693749922246,
+          "objective_exposure": 0.18389343128881774,
+          "path_variables": 9720
+        }
+      },
+      "seconds": {
+        "parsing": 0.07505869981832802,
+        "curvature": 0.07291889982298017,
+        "curvature_internal": 0.07275399984791875,
+        "path_generation": 22.540486600017175,
+        "min_mlu": 2.23865590011701,
+        "orc_tuning": 17.307878599967808,
+        "orc_final": 1.608699700096622,
+        "single_minimax": 13.054301400203258,
+        "double_cvar90": 32.28143329988234,
+        "total": 89.40373389981687
+      },
+      "python_tracemalloc_peak_bytes": 87124421,
+      "memory_note": "Python allocator only; native solver allocations excluded."
+    },
+    {
+      "success": false,
+      "topology": "Garr201112",
+      "error_type": "ValueError",
+      "message": "parallel arcs with unequal cost are unsupported for (14, 35) in C:\\Users\\emreo\\Desktop\\Geometrik Optimizasyon\\external\\Repetita\\data\\2016TopologyZooUCL_inverseCapacity\\Garr201112.graph"
+    },
+    {
+      "success": true,
+      "topology": "Latnet",
+      "nodes": 69,
+      "directed_arcs": 148,
+      "physical_links": 74,
+      "commodities": 4683,
+      "k_paths": 4,
+      "double_failure_design_scenarios": 160,
+      "selected_orc_strength": 1.0,
+      "tuning_trace": [
+        {
+          "strength": 0.03,
+          "mlu": 0.89704,
+          "average_path_cost": 281.1941958948979,
+          "policy_exposure": 1.1725888625807943,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.1,
+          "mlu": 0.89704,
+          "average_path_cost": 281.1941958948979,
+          "policy_exposure": 1.1725888625807943,
+          "feasible_latency": true
+        },
+        {
+          "strength": 0.3,
+          "mlu": 0.89704,
+          "average_path_cost": 282.73153809831206,
+          "policy_exposure": 1.140224466423006,
+          "feasible_latency": true
+        },
+        {
+          "strength": 1.0,
+          "mlu": 0.89704,
+          "average_path_cost": 286.10145154927557,
+          "policy_exposure": 1.1178804750633564,
+          "feasible_latency": true
+        },
+        {
+          "strength": 3.0,
+          "mlu": 0.89704,
+          "average_path_cost": 313.5848321020418,
+          "policy_exposure": 1.069032270597235,
+          "feasible_latency": false
+        },
+        {
+          "strength": 10.0,
+          "mlu": 0.89704,
+          "average_path_cost": 313.5848321020418,
+          "policy_exposure": 1.069032270597235,
+          "feasible_latency": false
+        },
+        {
+          "strength": 30.0,
+          "mlu": 0.89704,
+          "average_path_cost": 313.5848321020418,
+          "policy_exposure": 1.069032270597235,
+          "feasible_latency": false
+        }
+      ],
+      "solutions": {
+        "min_mlu": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.89704,
+          "average_path_cost": 281.1941958948979,
+          "objective_exposure": 0.0,
+          "path_variables": 11026
+        },
+        "ollivier": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.89704,
+          "average_path_cost": 286.10145154927557,
+          "objective_exposure": 1.1178804750633564,
+          "path_variables": 11026
+        },
+        "single_minimax": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.89704,
+          "average_path_cost": 281.1941958948979,
+          "objective_exposure": 0.2661801271936116,
+          "path_variables": 11026
+        },
+        "double_cvar90": {
+          "success": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "mlu": 0.89704,
+          "average_path_cost": 295.2539044827244,
+          "objective_exposure": 0.22652373945279006,
+          "path_variables": 11026
+        }
+      },
+      "seconds": {
+        "parsing": 0.045323000056669116,
+        "curvature": 0.029903299873694777,
+        "curvature_internal": 0.02980880020186305,
+        "path_generation": 19.51184289995581,
+        "min_mlu": 1.667594299884513,
+        "orc_tuning": 10.317901799920946,
+        "orc_final": 0.5773118999786675,
+        "single_minimax": 5.146412199828774,
+        "double_cvar90": 10.497671500081196,
+        "total": 47.859404999995604
+      },
+      "python_tracemalloc_peak_bytes": 84432296,
+      "memory_note": "Python allocator only; native solver allocations excluded."
+    }
+  ]
+}

@@ -1,0 +1,4785 @@
+{
+  "protocol_id": "confirmatory-one-factor-sensitivity-v1-2026-07-14",
+  "repetita_commit": "60e679c2f34d9b65b7f256ff6f6963938fa040f9",
+  "results": [
+    {
+      "topology": "Aconet",
+      "nodes": 23,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179960749622644,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.99317702123744,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179960749622644,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179960749622644,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.0029917999636381865,
+          "mean_loss": {
+            "min_mlu": 0.0657353013782091,
+            "ollivier": 0.06573530137820909
+          },
+          "worst_loss": {
+            "min_mlu": 0.2605135800924001,
+            "ollivier": 0.2669720419999384
+          },
+          "mean_path_cost": {
+            "min_mlu": 543.8054023356527,
+            "ollivier": 543.8054023356527
+          },
+          "mean_mlu": {
+            "min_mlu": 0.906147121004717,
+            "ollivier": 0.9171728226367925
+          },
+          "mean_loss_delta": -1.3877787807814457e-17,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 1.5931104999035597
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179960749622645,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179960749622645,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179960749622645,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179960749622645,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179960749622642,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.0029917999636381865,
+          "mean_loss": {
+            "min_mlu": 0.06573530137820909,
+            "ollivier": 0.06573530137820909
+          },
+          "worst_loss": {
+            "min_mlu": 0.26242503696142694,
+            "ollivier": 0.2794342613066032
+          },
+          "mean_path_cost": {
+            "min_mlu": 543.8054023356527,
+            "ollivier": 543.8054023356527
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9078848889292453,
+            "ollivier": 0.9313125821991102
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 59.28969460004009
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899996151943396,
+              "average_path_cost": 507.0078768197442,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899996151943396,
+              "average_path_cost": 507.0078768197443,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.8999961519433961,
+              "average_path_cost": 507.0078768197442,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.8999961519433961,
+              "average_path_cost": 507.0078768197442,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.8999961519433961,
+              "average_path_cost": 507.0078768197442,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.8999961519433961,
+              "average_path_cost": 507.0078768197442,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.8999961519433961,
+              "average_path_cost": 507.0078768197442,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.0029917999636381865,
+          "mean_loss": {
+            "min_mlu": 0.0657483189858675,
+            "ollivier": 0.06574831898586748
+          },
+          "worst_loss": {
+            "min_mlu": 0.27432819291025645,
+            "ollivier": 0.26159483833028196
+          },
+          "mean_path_cost": {
+            "min_mlu": 543.8074200648398,
+            "ollivier": 543.8074200648398
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999968118207546,
+            "ollivier": 0.8999968123207549
+          },
+          "mean_loss_delta": -1.3877787807814457e-17,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 14.920650199986994
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.03,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.9711273234779,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.9711273234779,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.971127323478,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.9711273234779,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.9711273234779,
+              "policy_exposure": 0.9660493464995945,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.9711273234779,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9449959594905659,
+              "average_path_cost": 506.971127323478,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.0029917999636381865,
+          "mean_loss": {
+            "min_mlu": 0.0657353013782091,
+            "ollivier": 0.06573530137820909
+          },
+          "worst_loss": {
+            "min_mlu": 0.2757513069617711,
+            "ollivier": 0.29060624673611624
+          },
+          "mean_path_cost": {
+            "min_mlu": 543.8054023356527,
+            "ollivier": 543.8054023356527
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9146209577971698,
+            "ollivier": 0.9363167158443396
+          },
+          "mean_loss_delta": -1.3877787807814457e-17,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 15.756947200046852
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.99317702123767,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917996074962264,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995947,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.017737400019541383,
+          "mean_loss": {
+            "min_mlu": 0.06573530137820909,
+            "ollivier": 0.06573530137820909
+          },
+          "worst_loss": {
+            "min_mlu": 0.25973433166606563,
+            "ollivier": 0.26269122010498724
+          },
+          "mean_path_cost": {
+            "min_mlu": 543.8054023356527,
+            "ollivier": 543.8054023356527
+          },
+          "mean_mlu": {
+            "min_mlu": 0.913496766033019,
+            "ollivier": 0.9131165193679246
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 18.45090840011835
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.99317702123767,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917996074962264,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179960749622641,
+              "average_path_cost": 506.9931770212377,
+              "policy_exposure": 0.9660493464995944,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.01622080011293292,
+          "mean_loss": {
+            "min_mlu": 0.06573530137820909,
+            "ollivier": 0.06573530137820909
+          },
+          "worst_loss": {
+            "min_mlu": 0.25973433166606563,
+            "ollivier": 0.26269122010498724
+          },
+          "mean_path_cost": {
+            "min_mlu": 543.8054023356527,
+            "ollivier": 543.8054023356527
+          },
+          "mean_mlu": {
+            "min_mlu": 0.913496766033019,
+            "ollivier": 0.9131165193679246
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 18.626368100056425
+        }
+      }
+    },
+    {
+      "topology": "Easynet",
+      "nodes": 19,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.393997876243,
+              "policy_exposure": 0.9241996296593737,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.39399787624,
+              "policy_exposure": 0.9241996296593737,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.732564959504,
+              "policy_exposure": 0.8924646205476331,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.732564959497,
+              "policy_exposure": 0.8924646205476331,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 22518.297556147227,
+              "policy_exposure": 0.8353574679678741,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23203.42057247552,
+              "policy_exposure": 0.8269790817910591,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23203.420572475516,
+              "policy_exposure": 0.8269790817910591,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013363099889829755,
+          "mean_loss": {
+            "min_mlu": 0.1026462339737245,
+            "ollivier": 0.10578084745815432
+          },
+          "worst_loss": {
+            "min_mlu": 0.34327934820082273,
+            "ollivier": 0.34327934820082273
+          },
+          "mean_path_cost": {
+            "min_mlu": 21528.865439313806,
+            "ollivier": 21743.668842324798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179776884999999,
+            "ollivier": 0.9179776884999999
+          },
+          "mean_loss_delta": 0.003134613484429824,
+          "path_cost_relative_delta": 0.009977460429416718,
+          "wall_seconds": 2.5018476999830455
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.39399787624,
+              "policy_exposure": 0.924199629659374,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.39399787624,
+              "policy_exposure": 0.924199629659374,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.7325649595,
+              "policy_exposure": 0.8924646205476334,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179755210000003,
+              "average_path_cost": 19322.732564959504,
+              "policy_exposure": 0.8924646205476334,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23295.63244172956,
+              "policy_exposure": 0.805745626249194,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23537.498860144748,
+              "policy_exposure": 0.8046937221279096,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23537.498860144748,
+              "policy_exposure": 0.8046937221279096,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013363099889829755,
+          "mean_loss": {
+            "min_mlu": 0.1026462339737245,
+            "ollivier": 0.10578084745815432
+          },
+          "worst_loss": {
+            "min_mlu": 0.34327934820082273,
+            "ollivier": 0.34327934820082273
+          },
+          "mean_path_cost": {
+            "min_mlu": 21528.865439313806,
+            "ollivier": 21743.668842324798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179776884999999,
+            "ollivier": 0.9179776884999999
+          },
+          "mean_loss_delta": 0.003134613484429824,
+          "path_cost_relative_delta": 0.009977460429416718,
+          "wall_seconds": 8.151487600058317
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899976001,
+              "average_path_cost": 19212.14764648458,
+              "policy_exposure": 0.9226517413934204,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899976001,
+              "average_path_cost": 19212.14764648458,
+              "policy_exposure": 0.9226517413934204,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899976001,
+              "average_path_cost": 19342.462130901848,
+              "policy_exposure": 0.8952872403267249,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 19342.462130901848,
+              "policy_exposure": 0.8952872403267249,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 22735.135834354052,
+              "policy_exposure": 0.8210850471341508,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 23632.628897854676,
+              "policy_exposure": 0.8105397619595969,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 23632.62889785468,
+              "policy_exposure": 0.8105397619595969,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013363099889829755,
+          "mean_loss": {
+            "min_mlu": 0.10298620565678422,
+            "ollivier": 0.1058726887687807
+          },
+          "worst_loss": {
+            "min_mlu": 0.33959876938542066,
+            "ollivier": 0.33959876938542066
+          },
+          "mean_path_cost": {
+            "min_mlu": 21589.228815253326,
+            "ollivier": 21782.778484667957
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999781259999999,
+            "ollivier": 0.8999781259999999
+          },
+          "mean_loss_delta": 0.0028864831119964768,
+          "path_cost_relative_delta": 0.008965103435185418,
+          "wall_seconds": 4.699329799972475
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.944974801,
+              "average_path_cost": 19127.9533492659,
+              "policy_exposure": 0.9274832120060084,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.944974801,
+              "average_path_cost": 19127.9533492659,
+              "policy_exposure": 0.9274832120060084,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.944974801,
+              "average_path_cost": 19313.32804034815,
+              "policy_exposure": 0.8891924408267001,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 19313.32804034815,
+              "policy_exposure": 0.8891924408267001,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 23004.608511275484,
+              "policy_exposure": 0.8092994819504735,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 23830.422511269837,
+              "policy_exposure": 0.7996647192853039,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 23830.422511269837,
+              "policy_exposure": 0.7996647192853039,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013363099889829755,
+          "mean_loss": {
+            "min_mlu": 0.10217386076462619,
+            "ollivier": 0.10560078450350252
+          },
+          "worst_loss": {
+            "min_mlu": 0.3488002164239259,
+            "ollivier": 0.3488002164239259
+          },
+          "mean_path_cost": {
+            "min_mlu": 21439.751961981583,
+            "ollivier": 21682.00405428268
+          },
+          "mean_mlu": {
+            "min_mlu": 0.94497703225,
+            "ollivier": 0.94497703225
+          },
+          "mean_loss_delta": 0.0034269237388763335,
+          "path_cost_relative_delta": 0.011299202189030577,
+          "wall_seconds": 4.899132499936968
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.393997876243,
+              "policy_exposure": 0.9241996296593741,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.39399787624,
+              "policy_exposure": 0.9241996296593741,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.732564959497,
+              "policy_exposure": 0.8924646205476334,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.7325649595,
+              "policy_exposure": 0.8924646205476334,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 22834.84897540176,
+              "policy_exposure": 0.8159861210815984,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23703.670413499876,
+              "policy_exposure": 0.805805044910798,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23703.670413499876,
+              "policy_exposure": 0.805805044910798,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013402099953964353,
+          "mean_loss": {
+            "min_mlu": 0.1026462339737245,
+            "ollivier": 0.10578084745815432
+          },
+          "worst_loss": {
+            "min_mlu": 0.34327934820082273,
+            "ollivier": 0.34327934820082273
+          },
+          "mean_path_cost": {
+            "min_mlu": 21528.865439313806,
+            "ollivier": 21743.668842324798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179776884999999,
+            "ollivier": 0.9179776884999999
+          },
+          "mean_loss_delta": 0.003134613484429824,
+          "path_cost_relative_delta": 0.009977460429416718,
+          "wall_seconds": 4.769702699966729
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.39399787624,
+              "policy_exposure": 0.9241996296593747,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 19170.39399787624,
+              "policy_exposure": 0.9241996296593747,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.732564959504,
+              "policy_exposure": 0.8924646205476344,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 19322.7325649595,
+              "policy_exposure": 0.8924646205476344,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 22834.84897540176,
+              "policy_exposure": 0.8159861210816,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23703.670413499876,
+              "policy_exposure": 0.8058050449107997,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 23703.670413499876,
+              "policy_exposure": 0.8058050449107997,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.016332299914211035,
+          "mean_loss": {
+            "min_mlu": 0.1026462339737245,
+            "ollivier": 0.10578084745815432
+          },
+          "worst_loss": {
+            "min_mlu": 0.34327934820082273,
+            "ollivier": 0.34327934820082273
+          },
+          "mean_path_cost": {
+            "min_mlu": 21528.865439313806,
+            "ollivier": 21743.668842324798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179776884999999,
+            "ollivier": 0.9179776884999999
+          },
+          "mean_loss_delta": 0.003134613484429824,
+          "path_cost_relative_delta": 0.009977460429416718,
+          "wall_seconds": 4.738749400014058
+        }
+      }
+    },
+    {
+      "topology": "Noel",
+      "nodes": 19,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 10.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.40068909585455,
+              "policy_exposure": 1.102500074115458,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.7696582220951,
+              "policy_exposure": 1.0940603608787136,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 492.87785838901186,
+              "policy_exposure": 1.0706162492752715,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917981641,
+              "average_path_cost": 500.72083821524524,
+              "policy_exposure": 1.0452588508496592,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 507.22309507263043,
+              "policy_exposure": 1.036538076136622,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 507.2230950726303,
+              "policy_exposure": 1.036538076136622,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 507.2230950726303,
+              "policy_exposure": 1.036538076136622,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.005721299909055233,
+          "mean_loss": {
+            "min_mlu": 0.11022143332005119,
+            "ollivier": 0.11463117460357088
+          },
+          "worst_loss": {
+            "min_mlu": 0.2512138126159361,
+            "ollivier": 0.2548209500849071
+          },
+          "mean_path_cost": {
+            "min_mlu": 532.5070641408943,
+            "ollivier": 554.5068320575153
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179831285,
+            "ollivier": 0.9179831285
+          },
+          "mean_loss_delta": 0.004409741283519689,
+          "path_cost_relative_delta": 0.041313570087776696,
+          "wall_seconds": 2.67538859997876
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.40066181034337,
+              "policy_exposure": 1.1024891599110147,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.7697218882877,
+              "policy_exposure": 1.094047400260937,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 493.421836320599,
+              "policy_exposure": 1.065358151417483,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 511.5878889771558,
+              "policy_exposure": 1.0138824562817565,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 550.1655621606703,
+              "policy_exposure": 0.9758981526012126,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 566.3179270318916,
+              "policy_exposure": 0.968909514885333,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 566.3179270318916,
+              "policy_exposure": 0.968909514885333,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.005721299909055233,
+          "mean_loss": {
+            "min_mlu": 0.10755668624520945,
+            "ollivier": 0.1105216367554025
+          },
+          "worst_loss": {
+            "min_mlu": 0.2512138126159361,
+            "ollivier": 0.2548209500849071
+          },
+          "mean_path_cost": {
+            "min_mlu": 521.893452157733,
+            "ollivier": 536.7233526120704
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179831285,
+            "ollivier": 0.9179831285
+          },
+          "mean_loss_delta": 0.0029649505101930484,
+          "path_cost_relative_delta": 0.02841557101937986,
+          "wall_seconds": 10.025564699899405
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 491.06480095368977,
+              "policy_exposure": 1.1024926779840005,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 491.4082196531157,
+              "policy_exposure": 1.094765757246917,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 493.9107225932313,
+              "policy_exposure": 1.0672212875652602,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 504.7131084371009,
+              "policy_exposure": 1.0292096519780576,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 548.666897436886,
+              "policy_exposure": 0.9807016739355637,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 558.3873143715774,
+              "policy_exposure": 0.9760507567419314,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.8999820009999999,
+              "average_path_cost": 558.3873143715773,
+              "policy_exposure": 0.9760507567419314,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.005721299909055233,
+          "mean_loss": {
+            "min_mlu": 0.10802015560092566,
+            "ollivier": 0.11059519606554985
+          },
+          "worst_loss": {
+            "min_mlu": 0.24871556800998207,
+            "ollivier": 0.24982446087299892
+          },
+          "mean_path_cost": {
+            "min_mlu": 525.1798301526779,
+            "ollivier": 535.5935894357874
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999834593333332,
+            "ollivier": 0.8999834593333332
+          },
+          "mean_loss_delta": 0.002575040464624187,
+          "path_cost_relative_delta": 0.019828939889184216,
+          "wall_seconds": 5.5265357999596745
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.944981101,
+              "average_path_cost": 489.61662879392475,
+              "policy_exposure": 1.1002421958313717,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.944981101,
+              "average_path_cost": 490.0141245283577,
+              "policy_exposure": 1.0912985418066299,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.944981101,
+              "average_path_cost": 492.6928132002687,
+              "policy_exposure": 1.0626398568080817,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.944981101,
+              "average_path_cost": 503.5032615690906,
+              "policy_exposure": 1.0245680437863227,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.944981101,
+              "average_path_cost": 550.0972763259367,
+              "policy_exposure": 0.9751513102882536,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.944981101,
+              "average_path_cost": 561.5635133682035,
+              "policy_exposure": 0.969764767556632,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.944981101,
+              "average_path_cost": 561.5635133682035,
+              "policy_exposure": 0.969764767556632,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.005721299909055233,
+          "mean_loss": {
+            "min_mlu": 0.10762154503320598,
+            "ollivier": 0.11042542955913906
+          },
+          "worst_loss": {
+            "min_mlu": 0.2549611795248673,
+            "ollivier": 0.2623156839027694
+          },
+          "mean_path_cost": {
+            "min_mlu": 520.4341100229806,
+            "ollivier": 533.9027314271726
+          },
+          "mean_mlu": {
+            "min_mlu": 0.94498263225,
+            "ollivier": 0.94498263225
+          },
+          "mean_loss_delta": 0.0028038845259330814,
+          "path_cost_relative_delta": 0.02587959002840412,
+          "wall_seconds": 5.398296100087464
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.4006618103435,
+              "policy_exposure": 1.102489159911014,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.7697218882877,
+              "policy_exposure": 1.0940474002609362,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 493.4185118322058,
+              "policy_exposure": 1.0653887152623882,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 504.2289602010277,
+              "policy_exposure": 1.027316902240629,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 549.4316909446177,
+              "policy_exposure": 0.9783193299418302,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 559.6627846943759,
+              "policy_exposure": 0.9734240697744817,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 559.6627846943759,
+              "policy_exposure": 0.9734240697744817,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.008823700016364455,
+          "mean_loss": {
+            "min_mlu": 0.10784248336318206,
+            "ollivier": 0.11053841137137507
+          },
+          "worst_loss": {
+            "min_mlu": 0.2512138126159361,
+            "ollivier": 0.2548209500849071
+          },
+          "mean_path_cost": {
+            "min_mlu": 523.0796092952837,
+            "ollivier": 534.8349394632992
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179831285,
+            "ollivier": 0.9179831285
+          },
+          "mean_loss_delta": 0.002695928008193016,
+          "path_cost_relative_delta": 0.02247330991137808,
+          "wall_seconds": 5.485151999862865
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.40066181034337,
+              "policy_exposure": 1.102489159911013,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 490.7697218882877,
+              "policy_exposure": 1.094047400260935,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 493.41851183220575,
+              "policy_exposure": 1.0653887152623873,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 504.2289602010277,
+              "policy_exposure": 1.0273169022406279,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 549.4316909446177,
+              "policy_exposure": 0.978319329941829,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 559.6627846943757,
+              "policy_exposure": 0.9734240697744806,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179816409999999,
+              "average_path_cost": 559.6627846943758,
+              "policy_exposure": 0.9734240697744806,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.011064199963584542,
+          "mean_loss": {
+            "min_mlu": 0.10784248336318206,
+            "ollivier": 0.11053841137137507
+          },
+          "worst_loss": {
+            "min_mlu": 0.2512138126159361,
+            "ollivier": 0.2548209500849071
+          },
+          "mean_path_cost": {
+            "min_mlu": 523.0796092952837,
+            "ollivier": 534.8349394632992
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9179831285,
+            "ollivier": 0.9179831285
+          },
+          "mean_loss_delta": 0.002695928008193016,
+          "path_cost_relative_delta": 0.02247330991137808,
+          "wall_seconds": 5.285339799942449
+        }
+      }
+    },
+    {
+      "topology": "Belnet2010",
+      "nodes": 22,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.1819070226871,
+              "policy_exposure": 1.1369472523660311,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.69265714500284,
+              "policy_exposure": 1.0964612229777553,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 193.40404896439367,
+              "policy_exposure": 1.0226965504167698,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 213.49980130310368,
+              "policy_exposure": 0.868723685029061,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 225.08954875086658,
+              "policy_exposure": 0.8258928707735226,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 237.63445756359434,
+              "policy_exposure": 0.8123052919408374,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179755210000003,
+              "average_path_cost": 237.63445756359434,
+              "policy_exposure": 0.8123052919408374,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.0025279999244958162,
+          "mean_loss": {
+            "min_mlu": 0.13392504338667596,
+            "ollivier": 0.13139672461743682
+          },
+          "worst_loss": {
+            "min_mlu": 0.4394933797798164,
+            "ollivier": 0.31091111593491405
+          },
+          "mean_path_cost": {
+            "min_mlu": 191.5382222168574,
+            "ollivier": 195.67489170343669
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9366703359999999,
+            "ollivier": 0.9366703359999999
+          },
+          "mean_loss_delta": -0.0025283187692391462,
+          "path_cost_relative_delta": 0.021597096593575893,
+          "wall_seconds": 4.288777400040999
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.1819070226871,
+              "policy_exposure": 1.136947252366031,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.83719063961166,
+              "policy_exposure": 1.0897949246126104,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 196.22065554270904,
+              "policy_exposure": 0.9811735194755188,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 222.24157787307414,
+              "policy_exposure": 0.8307551631800847,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 252.76436438326263,
+              "policy_exposure": 0.7788195940519532,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 255.82610105337224,
+              "policy_exposure": 0.7757004173585742,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 255.82610105337224,
+              "policy_exposure": 0.7757004173585742,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.0025279999244958162,
+          "mean_loss": {
+            "min_mlu": 0.1341711848988825,
+            "ollivier": 0.1335591407034226
+          },
+          "worst_loss": {
+            "min_mlu": 0.4394933797798164,
+            "ollivier": 0.26766310611118327
+          },
+          "mean_path_cost": {
+            "min_mlu": 193.72237686850337,
+            "ollivier": 200.25265210410686
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917974756,
+            "ollivier": 0.917974756
+          },
+          "mean_loss_delta": -0.0006120441954599043,
+          "path_cost_relative_delta": 0.033709452367684634,
+          "wall_seconds": 8.523173799971119
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899976001,
+              "average_path_cost": 191.3772026666226,
+              "policy_exposure": 1.1319034400837962,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.8999760010000002,
+              "average_path_cost": 192.03757355531556,
+              "policy_exposure": 1.0853340803511928,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899976001,
+              "average_path_cost": 197.5329821623624,
+              "policy_exposure": 0.9741874344637187,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 222.93438709545447,
+              "policy_exposure": 0.8297846177276792,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 251.9476492611739,
+              "policy_exposure": 0.7835664007012203,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 255.7187851193202,
+              "policy_exposure": 0.7797354671843619,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899976001,
+              "average_path_cost": 255.7187851193202,
+              "policy_exposure": 0.7797354671843619,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.0025279999244958162,
+          "mean_loss": {
+            "min_mlu": 0.1343867013468295,
+            "ollivier": 0.13395296780913019
+          },
+          "worst_loss": {
+            "min_mlu": 0.43167244874021193,
+            "ollivier": 0.25971381838548735
+          },
+          "mean_path_cost": {
+            "min_mlu": 196.2162737678438,
+            "ollivier": 202.9471512716306
+          },
+          "mean_mlu": {
+            "min_mlu": 0.899975251,
+            "ollivier": 0.899975251
+          },
+          "mean_loss_delta": -0.0004337335376993212,
+          "path_cost_relative_delta": 0.03430336013694024,
+          "wall_seconds": 8.095485500060022
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.944974801,
+              "average_path_cost": 188.48846737435107,
+              "policy_exposure": 1.1500085752699767,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.944974801,
+              "average_path_cost": 189.0937986596552,
+              "policy_exposure": 1.1016684539518478,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.944974801,
+              "average_path_cost": 194.60910927710714,
+              "policy_exposure": 0.9907747898775828,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 219.5111888441067,
+              "policy_exposure": 0.8382944287646192,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 253.11915854960185,
+              "policy_exposure": 0.7727670193132716,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 256.1542201431977,
+              "policy_exposure": 0.7696478426198927,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.944974801,
+              "average_path_cost": 256.1542201431977,
+              "policy_exposure": 0.7696478426198927,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.0025279999244958162,
+          "mean_loss": {
+            "min_mlu": 0.1344276396101254,
+            "ollivier": 0.13344466373804564
+          },
+          "worst_loss": {
+            "min_mlu": 0.4467685513167009,
+            "ollivier": 0.2811418166077083
+          },
+          "mean_path_cost": {
+            "min_mlu": 190.9527038201067,
+            "ollivier": 197.25839370660577
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9449740135,
+            "ollivier": 0.9449740135
+          },
+          "mean_loss_delta": -0.0009829758720797666,
+          "path_cost_relative_delta": 0.03302226027885702,
+          "wall_seconds": 7.753349400125444
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.1819070226871,
+              "policy_exposure": 1.1369472523660313,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.83719063961166,
+              "policy_exposure": 1.0897949246126108,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 196.22065554270904,
+              "policy_exposure": 0.9811735194755192,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 222.24157787307414,
+              "policy_exposure": 0.8307551631800852,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 252.76436438326263,
+              "policy_exposure": 0.7788195940519537,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 255.82610105337224,
+              "policy_exposure": 0.7757004173585748,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 255.82610105337224,
+              "policy_exposure": 0.7757004173585748,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.010235799942165613,
+          "mean_loss": {
+            "min_mlu": 0.1341711848988825,
+            "ollivier": 0.1335591407034226
+          },
+          "worst_loss": {
+            "min_mlu": 0.4394933797798164,
+            "ollivier": 0.26766310611118327
+          },
+          "mean_path_cost": {
+            "min_mlu": 193.72237686850337,
+            "ollivier": 200.25265210410686
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917974756,
+            "ollivier": 0.917974756
+          },
+          "mean_loss_delta": -0.0006120441954599043,
+          "path_cost_relative_delta": 0.033709452367684634,
+          "wall_seconds": 8.375431600026786
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.1819070226871,
+              "policy_exposure": 1.13694725236603,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917975521,
+              "average_path_cost": 190.83719063961166,
+              "policy_exposure": 1.0897949246126095,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917975521,
+              "average_path_cost": 196.22065554270904,
+              "policy_exposure": 0.981173519475518,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 222.24157787307414,
+              "policy_exposure": 0.8307551631800839,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 252.76436438326263,
+              "policy_exposure": 0.7788195940519522,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 255.82610105337224,
+              "policy_exposure": 0.7757004173585734,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917975521,
+              "average_path_cost": 255.82610105337224,
+              "policy_exposure": 0.7757004173585734,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.011700500035658479,
+          "mean_loss": {
+            "min_mlu": 0.1341711848988825,
+            "ollivier": 0.1335591407034226
+          },
+          "worst_loss": {
+            "min_mlu": 0.4394933797798164,
+            "ollivier": 0.26766310611118327
+          },
+          "mean_path_cost": {
+            "min_mlu": 193.72237686850337,
+            "ollivier": 200.25265210410686
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917974756,
+            "ollivier": 0.917974756
+          },
+          "mean_loss_delta": -0.0006120441954599043,
+          "path_cost_relative_delta": 0.033709452367684634,
+          "wall_seconds": 8.175810599932447
+        }
+      }
+    },
+    {
+      "topology": "Garr200109",
+      "nodes": 22,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802145,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802145,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802145,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802145,
+              "policy_exposure": 0.6813262128604987,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.009367699967697263,
+          "mean_loss": {
+            "min_mlu": 0.07246245479374541,
+            "ollivier": 0.07246245479374541
+          },
+          "worst_loss": {
+            "min_mlu": 0.20231316964186752,
+            "ollivier": 0.20231316964186752
+          },
+          "mean_path_cost": {
+            "min_mlu": 832.38571538495,
+            "ollivier": 832.38571538495
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9178842913225806,
+            "ollivier": 0.9178842913225806
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 2.642273699864745
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.03,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604988,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604989,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604988,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604989,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604989,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604989,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604989,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.009367699967697263,
+          "mean_loss": {
+            "min_mlu": 0.07246245479374541,
+            "ollivier": 0.07246245479374541
+          },
+          "worst_loss": {
+            "min_mlu": 0.20231316964186752,
+            "ollivier": 0.20231316964186752
+          },
+          "mean_path_cost": {
+            "min_mlu": 832.38571538495,
+            "ollivier": 832.38571538495
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9178842913225806,
+            "ollivier": 0.9178842913225806
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 3.6674749001394957
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.03,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.8998838719677419,
+              "average_path_cost": 802.911181777383,
+              "policy_exposure": 0.6826497031650585,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.009367699967697263,
+          "mean_loss": {
+            "min_mlu": 0.07261630957417446,
+            "ollivier": 0.07261630957417446
+          },
+          "worst_loss": {
+            "min_mlu": 0.19887789627065466,
+            "ollivier": 0.19887789627065466
+          },
+          "mean_path_cost": {
+            "min_mlu": 835.8917962859038,
+            "ollivier": 835.8917962859038
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8998865601397849,
+            "ollivier": 0.8998865601397849
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 3.365684299962595
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.03,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.944878065516129,
+              "average_path_cost": 801.5013519080868,
+              "policy_exposure": 0.6800547366969735,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9448780655161292,
+              "average_path_cost": 801.5013519080868,
+              "policy_exposure": 0.6800547366969736,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.944878065516129,
+              "average_path_cost": 801.5013519080868,
+              "policy_exposure": 0.6800547366969736,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.944878065516129,
+              "average_path_cost": 801.501351908087,
+              "policy_exposure": 0.6800547366969736,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.944878065516129,
+              "average_path_cost": 801.501351908087,
+              "policy_exposure": 0.6800547366969736,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.944878065516129,
+              "average_path_cost": 801.501351908087,
+              "policy_exposure": 0.6800547366969736,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.944878065516129,
+              "average_path_cost": 801.501351908087,
+              "policy_exposure": 0.6800547366969736,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.009367699967697263,
+          "mean_loss": {
+            "min_mlu": 0.07223167262310186,
+            "ollivier": 0.07223167262310186
+          },
+          "worst_loss": {
+            "min_mlu": 0.20746607969868702,
+            "ollivier": 0.20746607969868702
+          },
+          "mean_path_cost": {
+            "min_mlu": 827.2647975885737,
+            "ollivier": 827.2647975885737
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9448808880967743,
+            "ollivier": 0.9448808880967743
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 3.457000899827108
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 0.03,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604991,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.007969199912622571,
+          "mean_loss": {
+            "min_mlu": 0.07246245479374541,
+            "ollivier": 0.07246245479374541
+          },
+          "worst_loss": {
+            "min_mlu": 0.20231316964186752,
+            "ollivier": 0.20231316964186752
+          },
+          "mean_path_cost": {
+            "min_mlu": 832.38571538495,
+            "ollivier": 832.38571538495
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9178842913225806,
+            "ollivier": 0.9178842913225806
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 3.4715265000704676
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 0.03,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604982,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604982,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604982,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604983,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604983,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604983,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9178815493870968,
+              "average_path_cost": 801.6368594802146,
+              "policy_exposure": 0.6813262128604983,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.013640500139445066,
+          "mean_loss": {
+            "min_mlu": 0.07246245479374541,
+            "ollivier": 0.07246245479374541
+          },
+          "worst_loss": {
+            "min_mlu": 0.20231316964186752,
+            "ollivier": 0.20231316964186752
+          },
+          "mean_path_cost": {
+            "min_mlu": 832.38571538495,
+            "ollivier": 832.38571538495
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9178842913225806,
+            "ollivier": 0.9178842913225806
+          },
+          "mean_loss_delta": 0.0,
+          "path_cost_relative_delta": 0.0,
+          "wall_seconds": 3.445530400145799
+        }
+      }
+    },
+    {
+      "topology": "Fccn",
+      "nodes": 23,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 10.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.6473694896923,
+              "policy_exposure": 0.4062037545201025,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.7499119180825,
+              "policy_exposure": 0.4048965998535443,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.7499119180824,
+              "policy_exposure": 0.4048965998535443,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.7499119180825,
+              "policy_exposure": 0.4048965998535442,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.7499119180824,
+              "policy_exposure": 0.4048965998535443,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.7499119180824,
+              "policy_exposure": 0.4048965998535442,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 512.7499119180824,
+              "policy_exposure": 0.4048965998535442,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.003943300107493997,
+          "mean_loss": {
+            "min_mlu": 0.08667256094591083,
+            "ollivier": 0.10574621979406773
+          },
+          "worst_loss": {
+            "min_mlu": 0.47212025653479706,
+            "ollivier": 0.3579693236302699
+          },
+          "mean_path_cost": {
+            "min_mlu": 572.4188542944828,
+            "ollivier": 576.3674855410027
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917968381,
+            "ollivier": 0.917968381
+          },
+          "mean_loss_delta": 0.0190736588481569,
+          "path_cost_relative_delta": 0.006898150221460897,
+          "wall_seconds": 2.600937500130385
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.1201989073118,
+              "policy_exposure": 0.37494101999987023,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331194,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.373633865333312,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357018,
+              "policy_exposure": 0.37363386533331194,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331194,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331194,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331194,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.003943300107493997,
+          "mean_loss": {
+            "min_mlu": 0.08667256094591083,
+            "ollivier": 0.10899226051425628
+          },
+          "worst_loss": {
+            "min_mlu": 0.47212025653479706,
+            "ollivier": 0.3579693236302699
+          },
+          "mean_path_cost": {
+            "min_mlu": 572.4188542944828,
+            "ollivier": 577.0669951222787
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917968381,
+            "ollivier": 0.917968381
+          },
+          "mean_loss_delta": 0.022319699568345452,
+          "path_cost_relative_delta": 0.008120174227183474,
+          "wall_seconds": 3.688623599940911
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.1,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.03550324283,
+              "policy_exposure": 0.3811728378391113,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.13804567122,
+              "policy_exposure": 0.37986568317255304,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.1380456712201,
+              "policy_exposure": 0.37986568317255304,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.1380456712201,
+              "policy_exposure": 0.37986568317255304,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.1380456712201,
+              "policy_exposure": 0.37986568317255304,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.1380456712201,
+              "policy_exposure": 0.37986568317255304,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899968001,
+              "average_path_cost": 513.1380456712201,
+              "policy_exposure": 0.37986568317255304,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.003943300107493997,
+          "mean_loss": {
+            "min_mlu": 0.08687873640736153,
+            "ollivier": 0.10856686507222739
+          },
+          "worst_loss": {
+            "min_mlu": 0.4689227840964927,
+            "ollivier": 0.3539216475598532
+          },
+          "mean_path_cost": {
+            "min_mlu": 572.4600893867729,
+            "ollivier": 576.9807661857396
+          },
+          "mean_mlu": {
+            "min_mlu": 0.899969001,
+            "ollivier": 0.899969001
+          },
+          "mean_loss_delta": 0.021688128664865858,
+          "path_cost_relative_delta": 0.007896929205683856,
+          "wall_seconds": 3.6871297999750823
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.1,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.2472424040345,
+              "policy_exposure": 0.36559329324100864,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.3497848324246,
+              "policy_exposure": 0.36428613857445036,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.3497848324246,
+              "policy_exposure": 0.3642861385744504,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.3497848324246,
+              "policy_exposure": 0.36428613857445036,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.3497848324246,
+              "policy_exposure": 0.3642861385744504,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.3497848324246,
+              "policy_exposure": 0.3642861385744504,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.944966401,
+              "average_path_cost": 513.3497848324246,
+              "policy_exposure": 0.3642861385744504,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.003943300107493997,
+          "mean_loss": {
+            "min_mlu": 0.0863632977537348,
+            "ollivier": 0.10963035367729962
+          },
+          "worst_loss": {
+            "min_mlu": 0.479297960370776,
+            "ollivier": 0.3640408377358949
+          },
+          "mean_path_cost": {
+            "min_mlu": 572.3570016560476,
+            "ollivier": 577.1963385270874
+          },
+          "mean_mlu": {
+            "min_mlu": 0.944967451,
+            "ollivier": 0.944967451
+          },
+          "mean_loss_delta": 0.023267055923564817,
+          "path_cost_relative_delta": 0.008455102072723486,
+          "wall_seconds": 3.5774111000355333
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 0.1,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.1201989073118,
+              "policy_exposure": 0.3749410199998703,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331194,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357018,
+              "policy_exposure": 0.373633865333312,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357018,
+              "policy_exposure": 0.373633865333312,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.373633865333312,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.373633865333312,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.373633865333312,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.012257000198587775,
+          "mean_loss": {
+            "min_mlu": 0.08667256094591083,
+            "ollivier": 0.10899226051425628
+          },
+          "worst_loss": {
+            "min_mlu": 0.47212025653479706,
+            "ollivier": 0.3579693236302699
+          },
+          "mean_path_cost": {
+            "min_mlu": 572.4188542944828,
+            "ollivier": 577.0669951222787
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917968381,
+            "ollivier": 0.917968381
+          },
+          "mean_loss_delta": 0.022319699568345452,
+          "path_cost_relative_delta": 0.008120174227183474,
+          "wall_seconds": 3.797388199949637
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 0.1,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.1201989073118,
+              "policy_exposure": 0.3749410199998698,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.3736338653333115,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.3736338653333115,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357018,
+              "policy_exposure": 0.37363386533331155,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331155,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331155,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917967361,
+              "average_path_cost": 513.2227413357019,
+              "policy_exposure": 0.37363386533331155,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.012165899854153395,
+          "mean_loss": {
+            "min_mlu": 0.08667256094591083,
+            "ollivier": 0.10899226051425628
+          },
+          "worst_loss": {
+            "min_mlu": 0.47212025653479706,
+            "ollivier": 0.3579693236302699
+          },
+          "mean_path_cost": {
+            "min_mlu": 572.4188542944828,
+            "ollivier": 577.0669951222787
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917968381,
+            "ollivier": 0.917968381
+          },
+          "mean_loss_delta": 0.022319699568345452,
+          "path_cost_relative_delta": 0.008120174227183474,
+          "wall_seconds": 3.8449385000858456
+        }
+      }
+    },
+    {
+      "topology": "Packetexchange",
+      "nodes": 21,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899956,
+              "average_path_cost": 13312.482300038952,
+              "policy_exposure": 1.1772547008529626,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899956,
+              "average_path_cost": 13328.175490883055,
+              "policy_exposure": 1.1569935389650345,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899956,
+              "average_path_cost": 13364.011477413836,
+              "policy_exposure": 1.1440772151139202,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899956,
+              "average_path_cost": 13798.649743867203,
+              "policy_exposure": 1.071845122289808,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899956,
+              "average_path_cost": 14676.940201356889,
+              "policy_exposure": 1.0196440430437346,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.911655,
+              "average_path_cost": 15032.342289675667,
+              "policy_exposure": 1.0112756145509059,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.911655,
+              "average_path_cost": 15032.342289675667,
+              "policy_exposure": 1.0112756145509059,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013060299912467599,
+          "mean_loss": {
+            "min_mlu": 0.1251975559225606,
+            "ollivier": 0.1347825405292838
+          },
+          "worst_loss": {
+            "min_mlu": 0.4700502214575504,
+            "ollivier": 0.4700502214575504
+          },
+          "mean_path_cost": {
+            "min_mlu": 12664.854594218305,
+            "ollivier": 13245.203390120683
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999532499999999,
+            "ollivier": 0.8999532499999999
+          },
+          "mean_loss_delta": 0.00958498460672319,
+          "path_cost_relative_delta": 0.0458235656465662,
+          "wall_seconds": 3.496107100043446
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899956,
+              "average_path_cost": 13312.482300038952,
+              "policy_exposure": 1.1772547008529624,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899956,
+              "average_path_cost": 13332.918865855978,
+              "policy_exposure": 1.1508694632957688,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899956,
+              "average_path_cost": 13464.277938916624,
+              "policy_exposure": 1.1128851526372474,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899956,
+              "average_path_cost": 14601.176479666503,
+              "policy_exposure": 0.970793716737569,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16297.258548342843,
+              "policy_exposure": 0.899685555066263,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16447.443269820673,
+              "policy_exposure": 0.8972799051947616,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16447.443269820673,
+              "policy_exposure": 0.8972799051947616,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013060299912467599,
+          "mean_loss": {
+            "min_mlu": 0.1251975559225606,
+            "ollivier": 0.12389883413662985
+          },
+          "worst_loss": {
+            "min_mlu": 0.4700502214575504,
+            "ollivier": 0.4700502214575504
+          },
+          "mean_path_cost": {
+            "min_mlu": 12664.854594218305,
+            "ollivier": 12892.849414562686
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999532499999999,
+            "ollivier": 0.8999532499999999
+          },
+          "mean_loss_delta": -0.0012987217859307537,
+          "path_cost_relative_delta": 0.018002166440068246,
+          "wall_seconds": 12.54255050001666
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899956,
+              "average_path_cost": 13312.482300038952,
+              "policy_exposure": 1.1772547008529626,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899956,
+              "average_path_cost": 13332.918865855978,
+              "policy_exposure": 1.1508694632957688,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899956,
+              "average_path_cost": 13368.754852386759,
+              "policy_exposure": 1.1379531394446543,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899956,
+              "average_path_cost": 14565.758179774,
+              "policy_exposure": 0.974259772658625,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899956,
+              "average_path_cost": 15766.589525455136,
+              "policy_exposure": 0.9289613375247514,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899956001,
+              "average_path_cost": 16182.16971166678,
+              "policy_exposure": 0.9196329322094747,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899956001,
+              "average_path_cost": 16182.16971166678,
+              "policy_exposure": 0.9196329322094747,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013060299912467599,
+          "mean_loss": {
+            "min_mlu": 0.1251975559225606,
+            "ollivier": 0.12412571070537153
+          },
+          "worst_loss": {
+            "min_mlu": 0.4700502214575504,
+            "ollivier": 0.4700502214575504
+          },
+          "mean_path_cost": {
+            "min_mlu": 12664.854594218305,
+            "ollivier": 12726.01339731148
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999532499999999,
+            "ollivier": 0.8999532499999999
+          },
+          "mean_loss_delta": -0.001071845217189074,
+          "path_cost_relative_delta": 0.004829017391253521,
+          "wall_seconds": 7.582312800223008
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899956,
+              "average_path_cost": 13312.482300038952,
+              "policy_exposure": 1.1772547008529626,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899956,
+              "average_path_cost": 13332.918865855978,
+              "policy_exposure": 1.1508694632957688,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899956,
+              "average_path_cost": 13368.754852386759,
+              "policy_exposure": 1.1379531394446543,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899956,
+              "average_path_cost": 14565.758179774,
+              "policy_exposure": 0.974259772658625,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899956,
+              "average_path_cost": 15766.589525455136,
+              "policy_exposure": 0.9289613375247514,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.925787,
+              "average_path_cost": 16228.844330042642,
+              "policy_exposure": 0.9184475871039653,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.925787,
+              "average_path_cost": 16228.844330042642,
+              "policy_exposure": 0.9184475871039653,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.013060299912467599,
+          "mean_loss": {
+            "min_mlu": 0.1251975559225606,
+            "ollivier": 0.12412571070537153
+          },
+          "worst_loss": {
+            "min_mlu": 0.4700502214575504,
+            "ollivier": 0.4700502214575504
+          },
+          "mean_path_cost": {
+            "min_mlu": 12664.854594218305,
+            "ollivier": 12726.01339731148
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999532499999999,
+            "ollivier": 0.8999532499999999
+          },
+          "mean_loss_delta": -0.001071845217189074,
+          "path_cost_relative_delta": 0.004829017391253521,
+          "wall_seconds": 7.265598800033331
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899956,
+              "average_path_cost": 13312.482300038952,
+              "policy_exposure": 1.1772547008529626,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899956,
+              "average_path_cost": 13332.918865855978,
+              "policy_exposure": 1.1508694632957688,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899956,
+              "average_path_cost": 13368.754852386759,
+              "policy_exposure": 1.137953139444654,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899956,
+              "average_path_cost": 14565.758179774,
+              "policy_exposure": 0.974259772658625,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899956,
+              "average_path_cost": 15766.589525455136,
+              "policy_exposure": 0.9289613375247513,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16217.27908770349,
+              "policy_exposure": 0.9187176721459525,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16217.27908770349,
+              "policy_exposure": 0.9187176721459525,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.01034510019235313,
+          "mean_loss": {
+            "min_mlu": 0.1251975559225606,
+            "ollivier": 0.12412571070537153
+          },
+          "worst_loss": {
+            "min_mlu": 0.4700502214575504,
+            "ollivier": 0.4700502214575504
+          },
+          "mean_path_cost": {
+            "min_mlu": 12664.854594218305,
+            "ollivier": 12726.01339731148
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999532499999999,
+            "ollivier": 0.8999532499999999
+          },
+          "mean_loss_delta": -0.001071845217189074,
+          "path_cost_relative_delta": 0.004829017391253521,
+          "wall_seconds": 8.438682800158858
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899956,
+              "average_path_cost": 13312.482300038952,
+              "policy_exposure": 1.1772547008529635,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899956,
+              "average_path_cost": 13332.918865855978,
+              "policy_exposure": 1.1508694632957697,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899956,
+              "average_path_cost": 13368.754852386759,
+              "policy_exposure": 1.137953139444655,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899956,
+              "average_path_cost": 14565.758179774,
+              "policy_exposure": 0.9742597726586254,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899956,
+              "average_path_cost": 15766.589525455136,
+              "policy_exposure": 0.9289613375247519,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16217.27908770349,
+              "policy_exposure": 0.918717672145953,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179551210000001,
+              "average_path_cost": 16217.27908770349,
+              "policy_exposure": 0.918717672145953,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.00974910007789731,
+          "mean_loss": {
+            "min_mlu": 0.1251975559225606,
+            "ollivier": 0.12412571070537153
+          },
+          "worst_loss": {
+            "min_mlu": 0.4700502214575504,
+            "ollivier": 0.4700502214575504
+          },
+          "mean_path_cost": {
+            "min_mlu": 12664.854594218305,
+            "ollivier": 12726.01339731148
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999532499999999,
+            "ollivier": 0.8999532499999999
+          },
+          "mean_loss_delta": -0.001071845217189074,
+          "path_cost_relative_delta": 0.004829017391253521,
+          "wall_seconds": 11.127158500021324
+        }
+      }
+    },
+    {
+      "topology": "GtsRomania",
+      "nodes": 21,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.8594898659683277,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.8594898659683277,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917980111,
+              "average_path_cost": 703.7960715011096,
+              "policy_exposure": 0.8548593249528785,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 770.9156111020274,
+              "policy_exposure": 0.7200022520912212,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 784.0613944855676,
+              "policy_exposure": 0.7133740136905273,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 834.3991918567252,
+              "policy_exposure": 0.6977177330772399,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 834.3991918567252,
+              "policy_exposure": 0.69771773307724,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.025780700147151947,
+          "mean_loss": {
+            "min_mlu": 0.0861420101308561,
+            "ollivier": 0.08588487252044787
+          },
+          "worst_loss": {
+            "min_mlu": 0.28581449728641295,
+            "ollivier": 0.28581449728641295
+          },
+          "mean_path_cost": {
+            "min_mlu": 660.121659633823,
+            "ollivier": 660.2208883912858
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917980111,
+            "ollivier": 0.917980111
+          },
+          "mean_loss_delta": -0.00025713761040822847,
+          "path_cost_relative_delta": 0.00015031889351702077,
+          "wall_seconds": 4.291369199985638
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.8594898659683278,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.8594898659683278,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917980111,
+              "average_path_cost": 703.9415695855123,
+              "policy_exposure": 0.8543888411108908,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 805.1652239219645,
+              "policy_exposure": 0.6799544547236798,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 905.5402358523393,
+              "policy_exposure": 0.6457112226892627,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 985.3495443826749,
+              "policy_exposure": 0.6249030528140662,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 985.6503516679184,
+              "policy_exposure": 0.6248837596598118,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.025780700147151947,
+          "mean_loss": {
+            "min_mlu": 0.08605516658391581,
+            "ollivier": 0.08598538384603915
+          },
+          "worst_loss": {
+            "min_mlu": 0.28581449728641295,
+            "ollivier": 0.28581449728641295
+          },
+          "mean_path_cost": {
+            "min_mlu": 660.1216596338231,
+            "ollivier": 660.4404051263773
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917980111,
+            "ollivier": 0.917980111
+          },
+          "mean_loss_delta": -6.978273787665301e-05,
+          "path_cost_relative_delta": 0.0004828587093037573,
+          "wall_seconds": 5.941891599912196
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 704.2379842581379,
+              "policy_exposure": 0.859715279381396,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 704.2379842581379,
+              "policy_exposure": 0.8597152793813961,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 705.2773164329059,
+              "policy_exposure": 0.8549656342560953,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 807.7888594933536,
+              "policy_exposure": 0.6796075032547998,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 901.8960302417113,
+              "policy_exposure": 0.6471366310366075,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 979.1724080282343,
+              "policy_exposure": 0.6271439273322176,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.8999805009999999,
+              "average_path_cost": 979.4732153134778,
+              "policy_exposure": 0.627124634177963,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.025780700147151947,
+          "mean_loss": {
+            "min_mlu": 0.08618758376290697,
+            "ollivier": 0.08624112850880268
+          },
+          "worst_loss": {
+            "min_mlu": 0.28224015413730175,
+            "ollivier": 0.28224015413730175
+          },
+          "mean_path_cost": {
+            "min_mlu": 660.7709726868328,
+            "ollivier": 660.9865006629642
+          },
+          "mean_mlu": {
+            "min_mlu": 0.899980501,
+            "ollivier": 0.899980501
+          },
+          "mean_loss_delta": 5.35447458957089e-05,
+          "path_cost_relative_delta": 0.00032617651961164285,
+          "wall_seconds": 5.170506400056183
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 700.9886830577872,
+              "policy_exposure": 0.8591517458487251,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 700.9886830577872,
+              "policy_exposure": 0.8591517458487249,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 701.9712034246729,
+              "policy_exposure": 0.8538479921813258,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 800.7442167756565,
+              "policy_exposure": 0.6816220834027092,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 911.006544268281,
+              "policy_exposure": 0.6435731101682456,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 992.1858815390427,
+              "policy_exposure": 0.6221914291266466,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9449795260000001,
+              "average_path_cost": 992.4866888242864,
+              "policy_exposure": 0.6221721359723921,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.025780700147151947,
+          "mean_loss": {
+            "min_mlu": 0.0858668126454653,
+            "ollivier": 0.08573964259350626
+          },
+          "worst_loss": {
+            "min_mlu": 0.2911760120100799,
+            "ollivier": 0.2911760120100799
+          },
+          "mean_path_cost": {
+            "min_mlu": 659.2856870484112,
+            "ollivier": 659.9227577598084
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9449795260000001,
+            "ollivier": 0.944979526
+          },
+          "mean_loss_delta": -0.00012717005195904407,
+          "path_cost_relative_delta": 0.0009663044775767293,
+          "wall_seconds": 5.043624000158161
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.8594898659683284,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.8594898659683284,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917980111,
+              "average_path_cost": 703.9415695855123,
+              "policy_exposure": 0.8543888411108913,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 805.1652239219645,
+              "policy_exposure": 0.6799544547236808,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 905.5402358523393,
+              "policy_exposure": 0.6457112226892636,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 985.3495443826749,
+              "policy_exposure": 0.6249030528140673,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 985.6503516679184,
+              "policy_exposure": 0.6248837596598128,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.012205699924379587,
+          "mean_loss": {
+            "min_mlu": 0.08605516658391581,
+            "ollivier": 0.08598538384603915
+          },
+          "worst_loss": {
+            "min_mlu": 0.28581449728641295,
+            "ollivier": 0.28581449728641295
+          },
+          "mean_path_cost": {
+            "min_mlu": 660.1216596338231,
+            "ollivier": 660.4404051263773
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917980111,
+            "ollivier": 0.917980111
+          },
+          "mean_loss_delta": -6.978273787665301e-05,
+          "path_cost_relative_delta": 0.0004828587093037573,
+          "wall_seconds": 6.2127670999616385
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 0.3,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.859489865968328,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.917980111,
+              "average_path_cost": 702.9382637779976,
+              "policy_exposure": 0.859489865968328,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.917980111,
+              "average_path_cost": 703.9415695855123,
+              "policy_exposure": 0.854388841110891,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 805.1652239219645,
+              "policy_exposure": 0.6799544547236802,
+              "feasible_latency": false
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 905.5402358523393,
+              "policy_exposure": 0.645711222689263,
+              "feasible_latency": false
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 985.3495443826748,
+              "policy_exposure": 0.6249030528140667,
+              "feasible_latency": false
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.917980111,
+              "average_path_cost": 985.6503516679185,
+              "policy_exposure": 0.6248837596598121,
+              "feasible_latency": false
+            }
+          ],
+          "curvature_seconds": 0.012784600025042892,
+          "mean_loss": {
+            "min_mlu": 0.08605516658391581,
+            "ollivier": 0.08598538384603915
+          },
+          "worst_loss": {
+            "min_mlu": 0.28581449728641295,
+            "ollivier": 0.28581449728641295
+          },
+          "mean_path_cost": {
+            "min_mlu": 660.1216596338231,
+            "ollivier": 660.4404051263773
+          },
+          "mean_mlu": {
+            "min_mlu": 0.917980111,
+            "ollivier": 0.917980111
+          },
+          "mean_loss_delta": -6.978273787665301e-05,
+          "path_cost_relative_delta": 0.0004828587093037573,
+          "wall_seconds": 5.941114699933678
+        }
+      }
+    },
+    {
+      "topology": "Fatman",
+      "nodes": 17,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488901,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488903,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.78301411054889,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731713,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.01894400012679398,
+          "mean_loss": {
+            "min_mlu": 0.09383456447496016,
+            "ollivier": 0.10343032906013956
+          },
+          "worst_loss": {
+            "min_mlu": 0.3874055083908762,
+            "ollivier": 0.3916501758143961
+          },
+          "mean_path_cost": {
+            "min_mlu": 564.3505046567491,
+            "ollivier": 582.417565254798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.90447336525,
+            "ollivier": 0.917972971
+          },
+          "mean_loss_delta": 0.009595764585179398,
+          "path_cost_relative_delta": 0.03201389995927739,
+          "wall_seconds": 2.655299900099635
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488899,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.7205974707549,
+              "policy_exposure": 0.7830141105488901,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.78301411054889,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731712,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.01894400012679398,
+          "mean_loss": {
+            "min_mlu": 0.09383456447496016,
+            "ollivier": 0.10343032906013958
+          },
+          "worst_loss": {
+            "min_mlu": 0.3874055083908762,
+            "ollivier": 0.3916501758143961
+          },
+          "mean_path_cost": {
+            "min_mlu": 564.3505046567491,
+            "ollivier": 582.417565254798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9044733652500001,
+            "ollivier": 0.917972971
+          },
+          "mean_loss_delta": 0.009595764585179412,
+          "path_cost_relative_delta": 0.03201389995927739,
+          "wall_seconds": 5.722598300082609
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 618.7002939802966,
+              "policy_exposure": 0.7838262501672247,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 618.7002939802966,
+              "policy_exposure": 0.7838262501672247,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 618.7002939802966,
+              "policy_exposure": 0.7838262501672247,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 632.7325807335018,
+              "policy_exposure": 0.7630526998098406,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 632.7325807335018,
+              "policy_exposure": 0.7630526998098406,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 632.7325807335018,
+              "policy_exposure": 0.7630526998098406,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.8999780009999999,
+              "average_path_cost": 632.7325807335018,
+              "policy_exposure": 0.7630526998098406,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.01894400012679398,
+          "mean_loss": {
+            "min_mlu": 0.09383456447496016,
+            "ollivier": 0.10314161298943555
+          },
+          "worst_loss": {
+            "min_mlu": 0.3874055083908762,
+            "ollivier": 0.3874055083908762
+          },
+          "mean_path_cost": {
+            "min_mlu": 564.4793847830938,
+            "ollivier": 582.0777850579724
+          },
+          "mean_mlu": {
+            "min_mlu": 0.89997350025,
+            "ollivier": 0.8999735010000001
+          },
+          "mean_loss_delta": 0.009307048514475391,
+          "path_cost_relative_delta": 0.03117633832038158,
+          "wall_seconds": 3.833571700146422
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.944976901,
+              "average_path_cost": 618.7510527064425,
+              "policy_exposure": 0.7817959011213881,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.944976901,
+              "average_path_cost": 618.7510527064425,
+              "policy_exposure": 0.7817959011213881,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.944976901,
+              "average_path_cost": 618.7510527064425,
+              "policy_exposure": 0.7817959011213881,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.944976901,
+              "average_path_cost": 634.1436733203583,
+              "policy_exposure": 0.7589920017181672,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.944976901,
+              "average_path_cost": 634.1436733203583,
+              "policy_exposure": 0.7589920017181672,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.944976901,
+              "average_path_cost": 634.1436733203583,
+              "policy_exposure": 0.7589920017181672,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.944976901,
+              "average_path_cost": 634.1436733203584,
+              "policy_exposure": 0.7589920017181672,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.01894400012679398,
+          "mean_loss": {
+            "min_mlu": 0.09383456447496018,
+            "ollivier": 0.10386340316619555
+          },
+          "worst_loss": {
+            "min_mlu": 0.3874055083908762,
+            "ollivier": 0.39881845690078144
+          },
+          "mean_path_cost": {
+            "min_mlu": 564.1571844672319,
+            "ollivier": 582.9272355500366
+          },
+          "mean_mlu": {
+            "min_mlu": 0.91122316275,
+            "ollivier": 0.9449721759999999
+          },
+          "mean_loss_delta": 0.010028838691235373,
+          "path_cost_relative_delta": 0.03327095993739837,
+          "wall_seconds": 2.7148320998530835
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488911,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488913,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488911,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731725,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731725,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731725,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731725,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.007115599932149053,
+          "mean_loss": {
+            "min_mlu": 0.09383456447496018,
+            "ollivier": 0.10343032906013958
+          },
+          "worst_loss": {
+            "min_mlu": 0.3874055083908762,
+            "ollivier": 0.3916501758143961
+          },
+          "mean_path_cost": {
+            "min_mlu": 564.3505046567491,
+            "ollivier": 582.417565254798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9044733652500001,
+            "ollivier": 0.917972971
+          },
+          "mean_loss_delta": 0.009595764585179398,
+          "path_cost_relative_delta": 0.03201389995927739,
+          "wall_seconds": 2.8381626000627875
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488907,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488907,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 618.720597470755,
+              "policy_exposure": 0.7830141105488907,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.761428420573172,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731721,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.7614284205731721,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.9179775609999999,
+              "average_path_cost": 633.2970177682445,
+              "policy_exposure": 0.761428420573172,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.008889999939128757,
+          "mean_loss": {
+            "min_mlu": 0.09383456447496018,
+            "ollivier": 0.10343032906013958
+          },
+          "worst_loss": {
+            "min_mlu": 0.3874055083908762,
+            "ollivier": 0.3916501758143961
+          },
+          "mean_path_cost": {
+            "min_mlu": 564.3505046567491,
+            "ollivier": 582.417565254798
+          },
+          "mean_mlu": {
+            "min_mlu": 0.9044733652500001,
+            "ollivier": 0.917972971
+          },
+          "mean_loss_delta": 0.009595764585179398,
+          "path_cost_relative_delta": 0.03201389995927739,
+          "wall_seconds": 2.800937599968165
+        }
+      }
+    },
+    {
+      "topology": "Nextgen",
+      "nodes": 17,
+      "conditions": {
+        "k4": {
+          "k_paths": 4,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899974,
+              "average_path_cost": 2423.8457688966887,
+              "policy_exposure": 1.4333437888111995,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899974,
+              "average_path_cost": 2425.7767497263376,
+              "policy_exposure": 1.410252315655533,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899974,
+              "average_path_cost": 2431.826059791788,
+              "policy_exposure": 1.392667111976898,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.011306900065392256,
+          "mean_loss": {
+            "min_mlu": 0.196875744077033,
+            "ollivier": 0.2060372489554033
+          },
+          "worst_loss": {
+            "min_mlu": 0.5174155719387649,
+            "ollivier": 0.5174155719387649
+          },
+          "mean_path_cost": {
+            "min_mlu": 2348.1032892107937,
+            "ollivier": 2406.5202293437483
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999704999999999,
+            "ollivier": 0.8999704999999999
+          },
+          "mean_loss_delta": 0.00916150487837028,
+          "path_cost_relative_delta": 0.024878351987909664,
+          "wall_seconds": 1.932459200033918
+        },
+        "k16": {
+          "k_paths": 16,
+          "mlu_slack": 0.02,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899974,
+              "average_path_cost": 2423.8457688966887,
+              "policy_exposure": 1.4333437888111995,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899974,
+              "average_path_cost": 2425.5073466663957,
+              "policy_exposure": 1.4116152316417472,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899974,
+              "average_path_cost": 2431.826059791788,
+              "policy_exposure": 1.392667111976898,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.011306900065392256,
+          "mean_loss": {
+            "min_mlu": 0.196875744077033,
+            "ollivier": 0.2060372489554033
+          },
+          "worst_loss": {
+            "min_mlu": 0.5174155719387649,
+            "ollivier": 0.5174155719387649
+          },
+          "mean_path_cost": {
+            "min_mlu": 2348.1032892107937,
+            "ollivier": 2406.5202293437483
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999704999999999,
+            "ollivier": 0.8999704999999999
+          },
+          "mean_loss_delta": 0.00916150487837028,
+          "path_cost_relative_delta": 0.024878351987909664,
+          "wall_seconds": 2.485706700012088
+        },
+        "mlu0": {
+          "k_paths": 8,
+          "mlu_slack": 0.0,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899974,
+              "average_path_cost": 2423.8457688966887,
+              "policy_exposure": 1.4333437888111995,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899974,
+              "average_path_cost": 2425.5073466663957,
+              "policy_exposure": 1.4116152316417472,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899974,
+              "average_path_cost": 2431.826059791788,
+              "policy_exposure": 1.392667111976898,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.011306900065392256,
+          "mean_loss": {
+            "min_mlu": 0.196875744077033,
+            "ollivier": 0.2060372489554033
+          },
+          "worst_loss": {
+            "min_mlu": 0.5174155719387649,
+            "ollivier": 0.5174155719387649
+          },
+          "mean_path_cost": {
+            "min_mlu": 2348.1032892107937,
+            "ollivier": 2406.5202293437483
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999704999999999,
+            "ollivier": 0.8999704999999999
+          },
+          "mean_loss_delta": 0.00916150487837028,
+          "path_cost_relative_delta": 0.024878351987909664,
+          "wall_seconds": 2.3879713998176157
+        },
+        "mlu5": {
+          "k_paths": 8,
+          "mlu_slack": 0.05,
+          "alpha": 0.5,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899974,
+              "average_path_cost": 2423.8457688966887,
+              "policy_exposure": 1.4333437888111995,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899974,
+              "average_path_cost": 2425.5073466663957,
+              "policy_exposure": 1.4116152316417472,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899974,
+              "average_path_cost": 2431.826059791788,
+              "policy_exposure": 1.392667111976898,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.011306900065392256,
+          "mean_loss": {
+            "min_mlu": 0.196875744077033,
+            "ollivier": 0.2060372489554033
+          },
+          "worst_loss": {
+            "min_mlu": 0.5174155719387649,
+            "ollivier": 0.5174155719387649
+          },
+          "mean_path_cost": {
+            "min_mlu": 2348.1032892107937,
+            "ollivier": 2406.5202293437483
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999704999999999,
+            "ollivier": 0.8999704999999999
+          },
+          "mean_loss_delta": 0.00916150487837028,
+          "path_cost_relative_delta": 0.024878351987909664,
+          "wall_seconds": 2.531639800174162
+        },
+        "alpha25": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.25,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899974,
+              "average_path_cost": 2423.8457688966887,
+              "policy_exposure": 1.4333437888111995,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899974,
+              "average_path_cost": 2425.5073466663957,
+              "policy_exposure": 1.4116152316417472,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899974,
+              "average_path_cost": 2431.826059791788,
+              "policy_exposure": 1.392667111976898,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355896,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.007405199808999896,
+          "mean_loss": {
+            "min_mlu": 0.196875744077033,
+            "ollivier": 0.2060372489554033
+          },
+          "worst_loss": {
+            "min_mlu": 0.5174155719387649,
+            "ollivier": 0.5174155719387649
+          },
+          "mean_path_cost": {
+            "min_mlu": 2348.1032892107937,
+            "ollivier": 2406.5202293437483
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999704999999999,
+            "ollivier": 0.8999704999999999
+          },
+          "mean_loss_delta": 0.00916150487837028,
+          "path_cost_relative_delta": 0.024878351987909664,
+          "wall_seconds": 2.593343999935314
+        },
+        "alpha75": {
+          "k_paths": 8,
+          "mlu_slack": 0.02,
+          "alpha": 0.75,
+          "selected_strength": 1.0,
+          "tuning_trace": [
+            {
+              "strength": 0.03,
+              "mlu": 0.899974,
+              "average_path_cost": 2423.8457688966887,
+              "policy_exposure": 1.433343788811197,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.1,
+              "mlu": 0.899974,
+              "average_path_cost": 2425.5073466663957,
+              "policy_exposure": 1.4116152316417447,
+              "feasible_latency": true
+            },
+            {
+              "strength": 0.3,
+              "mlu": 0.899974,
+              "average_path_cost": 2431.826059791788,
+              "policy_exposure": 1.3926671119768956,
+              "feasible_latency": true
+            },
+            {
+              "strength": 1.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355895977,
+              "feasible_latency": true
+            },
+            {
+              "strength": 3.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355895977,
+              "feasible_latency": true
+            },
+            {
+              "strength": 10.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355895977,
+              "feasible_latency": true
+            },
+            {
+              "strength": 30.0,
+              "mlu": 0.899974,
+              "average_path_cost": 2479.584122044634,
+              "policy_exposure": 1.3461184355895977,
+              "feasible_latency": true
+            }
+          ],
+          "curvature_seconds": 0.0060668999794870615,
+          "mean_loss": {
+            "min_mlu": 0.196875744077033,
+            "ollivier": 0.2060372489554033
+          },
+          "worst_loss": {
+            "min_mlu": 0.5174155719387649,
+            "ollivier": 0.5174155719387649
+          },
+          "mean_path_cost": {
+            "min_mlu": 2348.1032892107937,
+            "ollivier": 2406.5202293437483
+          },
+          "mean_mlu": {
+            "min_mlu": 0.8999704999999999,
+            "ollivier": 0.8999704999999999
+          },
+          "mean_loss_delta": 0.00916150487837028,
+          "path_cost_relative_delta": 0.024878351987909664,
+          "wall_seconds": 2.6719663001131266
+        }
+      }
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "k4": {
+      "k_paths": 4,
+      "mlu_slack": 0.02,
+      "alpha": 0.5,
+      "mean_loss_delta": 0.005217481130673189,
+      "median_loss_delta": 0.0037721773839747563,
+      "topology_cluster_bootstrap_95_ci": [
+        0.001550176942588317,
+        0.009422733855407407
+      ],
+      "descriptive_sign_flip_p_value": 0.03125,
+      "orc_better": 2,
+      "orc_worse": 6,
+      "tied": 2,
+      "mean_path_cost_relative_delta": 0.01826524138195005
+    },
+    "k16": {
+      "k_paths": 16,
+      "mlu_slack": 0.02,
+      "alpha": 0.5,
+      "mean_loss_delta": 0.004519598430725071,
+      "median_loss_delta": 0.0014824752550965242,
+      "topology_cluster_bootstrap_95_ci": [
+        0.0007940306350256235,
+        0.009408649670339672
+      ],
+      "descriptive_sign_flip_p_value": 0.0625,
+      "orc_better": 3,
+      "orc_worse": 5,
+      "tied": 2,
+      "mean_path_cost_relative_delta": 0.015559993514022374
+    },
+    "mlu0": {
+      "k_paths": 8,
+      "mlu_slack": 0.0,
+      "alpha": 0.5,
+      "mean_loss_delta": 0.004416617162533949,
+      "median_loss_delta": 0.001314292605259948,
+      "topology_cluster_bootstrap_95_ci": [
+        0.0008072074755192296,
+        0.008943332873451884
+      ],
+      "descriptive_sign_flip_p_value": 0.0546875,
+      "orc_better": 2,
+      "orc_worse": 6,
+      "tied": 2,
+      "mean_path_cost_relative_delta": 0.013220421688615014
+    },
+    "mlu5": {
+      "k_paths": 8,
+      "mlu_slack": 0.05,
+      "alpha": 0.5,
+      "mean_loss_delta": 0.004650621661675199,
+      "median_loss_delta": 0.0014019422629665407,
+      "topology_cluster_bootstrap_95_ci": [
+        0.0007473827838744088,
+        0.009679991928982255
+      ],
+      "descriptive_sign_flip_p_value": 0.0625,
+      "orc_better": 3,
+      "orc_worse": 5,
+      "tied": 2,
+      "mean_path_cost_relative_delta": 0.01426007883631535
+    },
+    "alpha25": {
+      "k_paths": 8,
+      "mlu_slack": 0.02,
+      "alpha": 0.25,
+      "mean_loss_delta": 0.004515383837399234,
+      "median_loss_delta": 0.001347964004096508,
+      "topology_cluster_bootstrap_95_ci": [
+        0.0008029214506663168,
+        0.009301932405803438
+      ],
+      "descriptive_sign_flip_p_value": 0.0625,
+      "orc_better": 3,
+      "orc_worse": 5,
+      "tied": 2,
+      "mean_path_cost_relative_delta": 0.013648452498340725
+    },
+    "alpha75": {
+      "k_paths": 8,
+      "mlu_slack": 0.02,
+      "alpha": 0.75,
+      "mean_loss_delta": 0.004515383837399234,
+      "median_loss_delta": 0.001347964004096508,
+      "topology_cluster_bootstrap_95_ci": [
+        0.0008232110718506283,
+        0.009373441634620349
+      ],
+      "descriptive_sign_flip_p_value": 0.0625,
+      "orc_better": 3,
+      "orc_worse": 5,
+      "tied": 2,
+      "mean_path_cost_relative_delta": 0.013648452498340725
+    }
+  }
+}
